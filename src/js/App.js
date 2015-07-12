@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <h1>Welcome PHPConf 2015.</h1>
+      <h1>Hi, Welcome PHPConf 2015.</h1>
     );
   }
 }

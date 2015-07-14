@@ -1,4 +1,3 @@
-// import css
 import '!style!css!less!./App.less';
 import React, { Component } from 'react';
 

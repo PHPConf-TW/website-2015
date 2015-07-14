@@ -1,4 +1,3 @@
-// import react
 import React from 'react/addons';
 import App from './components/App/App';
 

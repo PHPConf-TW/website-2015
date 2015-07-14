@@ -30,6 +30,7 @@
     "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {
+    "normalize.css": "^3.0.3",
     "react": "^0.13.0"
   }
 }

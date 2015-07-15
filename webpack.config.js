@@ -9,7 +9,7 @@ module.exports = {
     './src/app'
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'build/assets'),
     filename: 'bundle.js',
     publicPath: '/assets/'
   },

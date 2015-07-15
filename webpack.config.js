@@ -28,6 +28,18 @@ module.exports = {
     }, {
       test: /\.less$/,
       loader: ['style!css!less']
+    }, {
+      test: /\.gif/,
+      loader: 'url-loader?limit=10000&mimetype=image/gif'
+    }, {
+      test: /\.jpg/,
+      loader: 'url-loader?limit=10000&mimetype=image/jpg'
+    }, {
+      test: /\.png/,
+      loader: 'url-loader?limit=10000&mimetype=image/png'
+    }, {
+      test: /\.svg/,
+      loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
     }]
   }
 };

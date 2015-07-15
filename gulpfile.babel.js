@@ -51,7 +51,7 @@ gulp.task('webpack', cb => {
 });
 
 gulp.task('revision', cb => {
-  return gulp.src(['build/assets/**/*'])
+  return gulp.src(['build/assets/**/*.js'])
     .pipe($.rev())
     .pipe(gulp.dest('build/assets'))
     .pipe($.rev.manifest())

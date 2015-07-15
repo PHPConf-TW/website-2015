@@ -51,14 +51,11 @@ gulp.task('webpack', cb => {
 });
 
 gulp.task('revision', cb => {
-  // by default, gulp would pick `assets/css` as the base,
-  // so we need to set it explicitly:
   return gulp.src(['build/assets/**/*'])
-    .pipe(gulp.dest('build/assets'))  // copy original assets to build dir
     .pipe($.rev())
-    .pipe(gulp.dest('build/assets'))  // write rev'd assets to build dir
+    .pipe(gulp.dest('build/assets'))
     .pipe($.rev.manifest())
-    .pipe(gulp.dest('build')); // write manifest to build dir
+    .pipe(gulp.dest('build'));
 });
 
 gulp.task('revreplace', ['revision'], cb => {

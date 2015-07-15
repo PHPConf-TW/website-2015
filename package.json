@@ -4,6 +4,7 @@
   "description": "website for PHPConf Taiwan 2015",
   "scripts": {
     "start": "node src/server.js",
+    "build": "gulp build",
     "lint": "eslint src"
   },
   "repository": {

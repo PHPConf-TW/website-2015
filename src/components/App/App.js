@@ -9,10 +9,10 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Nav/>
-        <Banner/>
-        <About/>
-        <Footer/>
+        <Nav />
+        <Banner />
+        <About />
+        <Footer />
       </div>
     );
   }

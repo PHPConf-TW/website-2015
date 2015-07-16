@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Nav from '../Nav/Nav';
 import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
+import About from '../About/About';
 
 export default class App extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class App extends Component {
       <div>
         <Nav/>
         <Banner/>
+        <About/>
         <Footer/>
       </div>
     );

@@ -1,5 +1,7 @@
 import '!style!css!less!./About.less';
 import React, { Component } from 'react';
+import AndroidIcon from './android-icon.png';
+import AppleIcon from './apple-icon.png';
 
 export default class About extends Component {
   render() {
@@ -159,7 +161,7 @@ export default class About extends Component {
             <li><span className="icon facebook-icon"></span> <a href="https://www.facebook.com/groups/551533458209944/" target="_blank">PHPConf Taiwan Facebook 社團</a></li>
           </ul>
           <div className="app-link">
-            <a href="https://play.google.com/store/apps/details?id=biz.mosil.phpconf2014" target="_blank"><img src={ require('./android-icon.png') } /></a><a href="https://itunes.apple.com/us/app/phpconf-taiwan-2014/id918190667" target="_blank"><img src={ require('./apple-icon.png') } /></a>
+            <a href="https://play.google.com/store/apps/details?id=biz.mosil.phpconf2014" target="_blank"><img src={AndroidIcon} /></a><a href="https://itunes.apple.com/us/app/phpconf-taiwan-2014/id918190667" target="_blank"><img src={AppleIcon} /></a>
           </div>
         </div>
       </section>

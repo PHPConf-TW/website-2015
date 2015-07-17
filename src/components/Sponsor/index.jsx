@@ -72,6 +72,20 @@ class Sponsor extends Component {
       ]
     };
 
+    var SponsorList=React.createClass({
+      render: function(){
+        var sponsors = this.props.data.map(function(sponsor){
+          return <img src={sponsor.logo} className={sponsor.classname} alt={sponsor.name}/>
+        });
+        return (
+            <div className="sponsor">
+              <h4>{this.props.type}</h4>
+              {sponsors}
+            </div>
+          )
+      }
+    });
+
     return (
       <section id="sponsors">
         <h3>贊助</h3>

@@ -80,31 +80,13 @@ class Sponsor extends Component {
     return (
       <section id="sponsors">
         <h3>贊助</h3>
-
-        <div className="sponsor">
-            <h4>鑽石級贊助</h4>
-            <img src={microsoft} />
-        </div>
+        <SponsorList type="鑽石級贊助" data={sponsorsData.diamondSponsor} />
         <hr />
-        <div className="sponsor">
-            <h4>黃金級贊助</h4>
-            <img src={kkbox} />
-            <img src={pumo} />
-        </div>
+        <SponsorList type="黃金級贊助" data={sponsorsData.goldSponsor} />
         <hr />
-        <div className="sponsor">
-            <h4>特別感謝</h4>
-            <img src={ossf} />
-            <img src={imfju} className="imfju" />
-            <img src={tronice} className="tronice" alt="創時系統" />
-        </div>
+        <SponsorList type="特別感謝" data={sponsorsData.speicialAppreciate} />
         <hr />
-        <div className="sponsor">
-            <h4>合作媒體</h4>
-            <img src={sina} />
-            <img src={weibo} />
-            <img src={technews} />
-        </div>
+        <SponsorList type="合作媒體" data={sponsorsData.cooperantMedia} />
     </section>
     );
   };

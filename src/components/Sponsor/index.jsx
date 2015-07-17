@@ -1,14 +1,5 @@
 import '!style!css!less!./Sponsor.less';
 import React, { Component } from 'react';
-import imfju from './appreciate/imfju.png';
-import tronice from './appreciate/Tronice.png';
-import ossf from './appreciate/ossf.png';
-import microsoft from './diamond/microsoft.jpg';
-import kkbox from './gold/kkbox.png';
-import pumo from './gold/pumo.png';
-import sina from './cooperate/sina.jpg';
-import weibo from './cooperate/weibo.jpg';
-import technews from './cooperate/Technews.logo.png';
 
 class Sponsor extends Component {
 

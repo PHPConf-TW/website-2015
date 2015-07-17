@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import AndroidIcon from './android-icon.png';
 import AppleIcon from './apple-icon.png';
 
-export default class About extends Component {
+class About extends Component {
   render() {
     return (
       <section id="about">
@@ -168,3 +168,5 @@ export default class About extends Component {
     );
   }
 }
+
+export default About;

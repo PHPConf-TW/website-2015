@@ -1,7 +1,7 @@
 import '!style!css!less!./Footer.less';
 import React, { Component } from 'react';
 
-export default class Footer extends Component {
+class Footer extends Component {
   render() {
     return (
       <footer>
@@ -11,5 +11,7 @@ export default class Footer extends Component {
         <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a>
       </footer>
     );
-  }
-}
+  };
+};
+
+export default Footer;

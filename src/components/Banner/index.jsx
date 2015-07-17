@@ -2,7 +2,7 @@ import '!style!css!less!./Banner.less';
 import React, { Component } from 'react';
 import BannerImage from './banner.jpg';
 
-export default class Banner extends Component {
+class Banner extends Component {
   render() {
     return (
       <section id="banner" style={{backgroundImage: `url('${BannerImage}')`}}>
@@ -10,5 +10,7 @@ export default class Banner extends Component {
         <h2>10月18日 輔仁大學國璽樓</h2>
       </section>
     );
-  }
-}
+  };
+};
+
+export default Banner;

@@ -1,11 +1,11 @@
 import '!style!css!less!./App.less';
 import React, { Component } from 'react';
-import Nav from '../Nav/Nav';
-import Banner from '../Banner/Banner';
-import Footer from '../Footer/Footer';
-import About from '../About/About';
+import Nav from '../Nav';
+import Banner from '../Banner';
+import Footer from '../Footer';
+import About from '../About';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div>
@@ -15,5 +15,7 @@ export default class App extends Component {
         <Footer />
       </div>
     );
-  }
-}
+  };
+};
+
+export default App;

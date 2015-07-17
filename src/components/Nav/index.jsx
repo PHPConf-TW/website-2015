@@ -2,7 +2,7 @@ import '!style!css!less!./Nav.less';
 import React, { Component } from 'react';
 import Logo from './logo.png';
 
-export default class Nav extends Component {
+class Nav extends Component {
   render() {
     return (
       <nav>
@@ -21,3 +21,5 @@ export default class Nav extends Component {
     );
   }
 }
+
+export default Nav;

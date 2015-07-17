@@ -17,25 +17,25 @@ class Sponsor extends Component {
       <section id="sponsors">
         <h3>贊助</h3>
 
-        <div class="sponsor">
+        <div className="sponsor">
             <h4>鑽石級贊助</h4>
             <img src={microsoft} />
         </div>
         <hr />
-        <div class="sponsor">
+        <div className="sponsor">
             <h4>黃金級贊助</h4>
             <img src={kkbox} />
             <img src={pumo} />
         </div>
         <hr />
-        <div class="sponsor">
+        <div className="sponsor">
             <h4>特別感謝</h4>
             <img src={ossf} />
-            <img src={imfju} class="imfju" />
-            <img src={tronice} class="tronice" alt="創時系統" />
+            <img src={imfju} className="imfju" />
+            <img src={tronice} className="tronice" alt="創時系統" />
         </div>
         <hr />
-        <div class="sponsor">
+        <div className="sponsor">
             <h4>合作媒體</h4>
             <img src={sina} />
             <img src={weibo} />

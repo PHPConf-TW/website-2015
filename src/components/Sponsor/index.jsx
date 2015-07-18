@@ -73,7 +73,7 @@ class Sponsor extends Component {
               <h4>{this.props.type}</h4>
               {sponsors}
             </div>
-          )
+        );
       }
     });
 
@@ -87,7 +87,7 @@ class Sponsor extends Component {
         <SponsorList type="特別感謝" data={sponsorsData.speicialAppreciate} />
         <hr />
         <SponsorList type="合作媒體" data={sponsorsData.cooperantMedia} />
-    </section>
+      </section>
     );
   };
 };

@@ -1,0 +1,180 @@
+body {
+    background-color: #fff !important;
+}
+
+h3 {
+    color: #999;
+}
+
+h4 {
+    font-size: 13px;
+    color: #999;
+    margin: 5px auto;
+    text-align: left;
+}
+
+hr {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    height: inherit;
+       
+}
+
+/* homeNav*/
+#homeNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px 0;
+}
+
+#homeNav span {
+    margin-left: 50px;
+    float: right;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #EC21AC;
+}
+
+#homeLogo {
+    display: none;
+    float: left;
+}
+
+#homeLogo span {
+    margin-left: 0;
+}
+
+/* Main */
+
+.section {
+    height: 100vh;
+}
+
+.title{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.article{
+    float: left;
+    width: 50%;
+    margin: 10px 0 0 80px;
+    padding: 0 10px 0 10px;
+    font-size: 1.2em;
+
+}
+
+.right,
+.left,
+.center {
+    float: left;
+    width: 50%;
+    min-height: 100vh;
+}
+
+.center {
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 40vh;
+}
+
+#homeFooter {
+    bottom: 0;
+    padding: 20px 0;
+    background-color: #EC21AC;
+    color: #fff;
+    text-align: center;
+    clear: both;
+}
+
+
+/* Sections */
+#prospect {
+    z-index: 4;
+    color: #fff;
+    background-image: url(../photos/2.jpg);
+    background-position: 0% 50%
+    
+}
+
+#landing .content {
+    z-index: 2;
+    position: fixed;
+}
+
+#landing {
+    z-index: -2;
+}
+
+#joinUs {
+    background-color: #fff;
+}
+
+/* button */
+button {
+    height: 40px;
+    padding: 10px;
+    border: none;
+    background-color: #666;
+    color: #fff !important;
+    min-width: 100px;
+}
+
+
+    button.main {
+        background-color: #EC21AC;
+        color: #ffffff;
+    }
+
+
+
+/* Form Style */
+
+input[type="text"], input[type="password"], input[type="email"] {
+    height: 40px;
+    padding: 10px;
+}
+
+table {
+    width: 400px;
+    margin: 0 auto;
+}
+
+textarea {
+    min-height: 80px;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 100%;
+}
+tr {
+    margin: 10px;   
+    padding: 10px;
+    max-width: 10px;
+}
+th {
+    font-size: 14px;
+    text-align: right !important;
+    padding-right: 15px !important;
+    width: 30%;
+    color: #999;
+}
+td {
+    height: 60px;
+}
+
+table input[type="text"], table input[type="password"], table input[type="email"] {
+    width: 250px;
+}

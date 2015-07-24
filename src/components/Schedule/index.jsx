@@ -17,15 +17,15 @@ class Schedule extends Component {
                     </thead>
                     <tbody>
                     <tr>
-                        <td class="time">09:00 ~ 09:20</td>
-                        <td colspan="2" class="time">報到</td>
+                        <td className="time">09:00 ~ 09:20</td>
+                        <td colSpan="2" className="time">報到</td>
                     </tr>
                     <tr>
-                        <td class="time">09:20 ~ 09:30</td>
-                        <td colspan="2" class="time">開幕</td>
+                        <td className="time">09:20 ~ 09:30</td>
+                        <td colSpan="2" className="time">開幕</td>
                     </tr>
                     <tr>
-                        <td class="time">09:30 ~ 10:40</td>
+                        <td className="time">09:30 ~ 10:40</td>
                         <td>
                             <p><strong>微博 LAMP 優化之路 (Laruence)</strong></p>
 
@@ -33,7 +33,7 @@ class Schedule extends Component {
                                 兩年來，微博一直在做性能優化和系統改進工作，到目前為止，LAMP系統得到很大的性能提升，首屏時間從2012年初的3秒降低到現在的1.2秒，LAMP服務器數目卻一直在降低。
                                 這其中的到底做了那些優化工作，作為領導這些優化的作者，將為大家一一道來。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XT0FXeWU4bzlPY2s">投影片</a> | <a
                                 href="https://www.youtube.com/watch?v=CSIiF-DQVRc&index=8&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv"
                                 target="_blank">Youtube</a></p>
@@ -46,18 +46,18 @@ class Schedule extends Component {
                                 本議程將介紹如何運用 Microsoft Azure 提供的服務來部屬或重新建置 PHP 網路應用程式，包含資料庫建制與專屬的 API 的使用，使得由 PHP
                                 建制的雲端服務也有絕佳的執行效能以及高度延展性。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XeEJ0WkVWWkdtSFk">投影片</a> | <a
                                 href="https://www.youtube.com/watch?v=eJtDD72wSXY&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=14"
                                 target="_blank">Youtube</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td class="time">10:40 ~ 10:50</td>
-                        <td colspan="2" class="time">休息</td>
+                        <td className="time">10:40 ~ 10:50</td>
+                        <td colSpan="2" className="time">休息</td>
                     </tr>
                     <tr>
-                        <td class="time">10:50 ~ 11:30</td>
+                        <td className="time">10:50 ~ 11:30</td>
                         <td>
                             <strong>創意與專案管理的冰與火之爭 (Joe)</strong><br/><br/>
 
@@ -66,7 +66,7 @@ class Schedule extends Component {
                                 但實際上，好的專案管理其實是對於創意開發的一項助力，好的專案管理也應該能幫忙案子收斂並提供商業上多面向的協助。
                                 這場內容我們將來探討如何讓冰與火融合，來讓案子更順利的管理要素。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XSDdIZ19UNkkyMVk">投影片</a> | <a
                                 href="https://www.youtube.com/watch?v=6HWpLFHuBwQ&index=1&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv"
                                 target="_blank">Youtube</a></p>
@@ -79,25 +79,25 @@ class Schedule extends Component {
                             <p><a href="http://k.olc.tw/elections/" target="_blank">選舉黃頁</a><br/>
                                 <a href="https://github.com/kiang/elections" target="_blank">Github</a></p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XMGd4WnJWQjhZQVE">投影片</a> | <a
                                 href="https://www.youtube.com/watch?v=nyhyVonIGoc&index=9&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv"
                                 target="_blank">Youtube</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td class="time">11:30 ~ 12:30</td>
-                        <td colspan="2" class="time">午餐</td>
+                        <td className="time">11:30 ~ 12:30</td>
+                        <td colSpan="2" className="time">午餐</td>
                     </tr>
                     <tr>
-                        <td class="time">12:30 ~ 13:20</td>
+                        <td className="time">12:30 ~ 13:20</td>
                         <td>
                             <p><strong>whoscall 的 MongoDB 使用經驗 (ReinySong)</strong></p>
 
                             <p>MongoDB 從前年年底開始陪伴 whoscall 到現在，過程有血有淚，除了分享 MongoDB 的使用經驗外也會分享採用 MongoDB
                                 的重點。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XamJ6X0NySXhZdnM">投影片</a> |
                                 <a href="https://www.youtube.com/watch?v=Ws0vDk2q078&index=3&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv"
                                    target="_blank">Youtube</a></p>
@@ -110,18 +110,18 @@ class Schedule extends Component {
 
                             <p>這場演講將會分享怎麼運用 Pux, idiorm/pairs, twig 等套件，組合出 MVC 的架構，卻能夠在需要的時候隨時置換對應各種情況。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XUENJVmdBV0dqbE0">投影片</a> |
                                 <a href="https://www.youtube.com/watch?v=aVQf1VS7H3I&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=7"
                                    target="_blank">Youtube</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td class="time">13:20 ~ 13:30</td>
-                        <td colspan="2" class="time">休息</td>
+                        <td className="time">13:20 ~ 13:30</td>
+                        <td colSpan="2" className="time">休息</td>
                     </tr>
                     <tr>
-                        <td style={{'text-align':'center'}}>13:30 ~ 14:10</td>
+                        <td style={{'textAlign':'center'}}>13:30 ~ 14:10</td>
                         <td>
                             <strong>PHP Extension 開發實務 - 補齊 PHP 遺失的 $_PUT 與 $_DELETE
                                 (FirchTsai)</strong><br/><br/>
@@ -134,7 +134,7 @@ class Schedule extends Component {
                                 (<a href="https://github.com/tronice/epv" target="_blank">github</a>)
                             </p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8Xc0tKUGxOejFibzg">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=C7e2S4rhAb8&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=6"
@@ -147,7 +147,7 @@ class Schedule extends Component {
                             <p>Drupal 本來僅針對 Single Server Hosting ，如何在現今擴展性的需求不斷提高下，逐步調適演進？本主題將由
                                 Drupal 的演進陣痛，談談 PHP 專案開發時如何為 Scalibility 預做準備。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XMkNNWDJmR1J6MDQ">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=-M9Z0mRETNc&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=12"
@@ -155,11 +155,11 @@ class Schedule extends Component {
                         </td>
                     </tr>
                     <tr>
-                        <td class="time">14:10 ~ 14:20</td>
-                        <td colspan="2" class="time">休息</td>
+                        <td className="time">14:10 ~ 14:20</td>
+                        <td colSpan="2" className="time">休息</td>
                     </tr>
                     <tr>
-                        <td class="time">14:20 ~ 15:00</td>
+                        <td className="time">14:20 ~ 15:00</td>
                         <td>
                             <strong>Phalcon 進行式 (SDpower)</strong><br/><br/>
 
@@ -167,7 +167,7 @@ class Schedule extends Component {
                                 內容包含使用方式ORM, Template Engine (Volt),DI ,Events Management
                                 ,Encryption ,HTTP Request ,Response ,Cookies。 </p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XRGt3a0JTblVIMmc">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=MhBX0gHs9zU&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=5"
@@ -181,7 +181,7 @@ class Schedule extends Component {
                                 hub平台，讓我們能夠快速部署伺服器環境與專案。而這個連Google、Red
                                 Hat都很是重視的LXC管理工具，該如何運用在PHP的專案上呢？就讓我們一探究竟吧！</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XUElYbG9GTDBsTWc">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=Y5Gvk0mutZ4&index=13&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv"
@@ -189,11 +189,11 @@ class Schedule extends Component {
                         </td>
                     </tr>
                     <tr>
-                        <td class="time">15:00 ~ 15:30</td>
-                        <td colspan="2" class="time">下午茶</td>
+                        <td className="time">15:00 ~ 15:30</td>
+                        <td colSpan="2" className="time">下午茶</td>
                     </tr>
                     <tr>
-                        <td class="time">15:30 ~ 16:00</td>
+                        <td className="time">15:30 ~ 16:00</td>
                         <td>
                             <strong>Building Powerful command-line application
                                 with PHP (c9s)</strong><br/><br/>
@@ -202,7 +202,7 @@ class Schedule extends Component {
                                 framework, for building flexiable, simple
                                 command-line applications.</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://drive.google.com/file/d/0B-59_4gDCY8XWkFOVExhUFlQbms/view?usp=sharing">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=_wAaMIw3ip4&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=2"
@@ -215,7 +215,7 @@ class Schedule extends Component {
                             <p>在大型網站上，透過 Varnish 機制加速網頁伺服器回應速度的實際應用場景，包含
                                 cache 應用，多 domain 轉址及手機來源判斷機制等相關應用</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8Xc1c5S1BxSDhWSGc/view?usp=sharing">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=-HUn54RF-tI&index=11&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv"
@@ -223,11 +223,11 @@ class Schedule extends Component {
                         </td>
                     </tr>
                     <tr>
-                        <td class="time">16:00 ~ 16:10</td>
-                        <td colspan="2" class="time">休息</td>
+                        <td className="time">16:00 ~ 16:10</td>
+                        <td colSpan="2" className="time">休息</td>
                     </tr>
                     <tr>
-                        <td style={{'text-align':'center'}}>16:10 ~
+                        <td style={{'textAlign':'center'}}>16:10 ~
                             16:50
                         </td>
                         <td>
@@ -244,7 +244,7 @@ class Schedule extends Component {
                             <p>在效能以及開發速度上取得平衡，撰寫出屬於自己的 HHVM
                                 Extension。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://drive.google.com/file/d/0B-59_4gDCY8XVlZzTnZDTUdUUTQ/view?usp=sharing">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=MdSRbgQgPCk&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=4"
@@ -268,7 +268,7 @@ class Schedule extends Component {
                             <p>Percona XtraDB Cluster
                                 是改程式之前的最後救贖。</p>
 
-                            <p class="slide"><a
+                            <p className="slide"><a
                                 href="https://docs.google.com/file/d/0B-59_4gDCY8XNTlKaGpTMWppMUk/view?usp=sharing">投影片</a>
                                 | <a
                                     href="https://www.youtube.com/watch?v=IComMUapZZU&list=PLI5n7xV4X5qUlAlVnu9aajJeoFDc3mYzv&index=10"
@@ -277,13 +277,13 @@ class Schedule extends Component {
                         </td>
                     </tr>
                     <tr>
-                        <td class="time">16:50 ~ 17:00</td>
-                        <td colspan="2" class="time">閉幕</td>
+                        <td className="time">16:50 ~ 17:00</td>
+                        <td colSpan="2" className="time">閉幕</td>
                     </tr>
                     </tbody>
                 </table>
 
-                <div class="notice">
+                <div className="notice">
                     <p>若因不可預測之突發因素，主辦單位保留議程及講師的變更權利。</p>
                 </div>
             </section>

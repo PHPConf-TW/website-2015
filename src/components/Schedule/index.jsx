@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Schedule extends Component {
     render() {
         return (
-            <section >
+            <section id="schedule">
                 <h3>議程</h3>
 
                 <table>

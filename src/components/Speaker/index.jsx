@@ -5,7 +5,7 @@ class Speaker extends Component {
   	render() {
   		var speakers=[
   			{
-  				avatar:'assets/images/speakers/feng.jpg',
+  				avatar:'http://fakeimg.pl/120x120',
   				name:'Brian',
   				title:'SBACE.co 軟體開發總監',
   				info:[
@@ -15,7 +15,7 @@ class Speaker extends Component {
   				]
   			},
   			{
-  				avatar:'assets/images/speakers/Joe.jpg',
+  				avatar:'http://fakeimg.pl/120x120',
   				name:'Joe',
   				title:'ProjectUp',
   				info:[

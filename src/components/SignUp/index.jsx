@@ -4,7 +4,9 @@ import React, { Component } from 'react';
 class SignUp extends Component {
   render() {
     return (
-      <section />
+      <section id="signup">
+        <h3>報名</h3>
+      </section>
     );
   };
 };

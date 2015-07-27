@@ -1,6 +1,6 @@
 import '!style!css!less!./Nav.less';
 import React, { Component } from 'react';
-import Logo from './logo-2015.png';
+import Logo from './logo.png';
 
 class Nav extends Component {
   render() {

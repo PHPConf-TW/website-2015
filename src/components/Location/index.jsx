@@ -31,9 +31,7 @@ class Location extends Component {
             </div>
           </div>
           <div class="venue-map">
-              <a href="https://www.google.com/maps/place/242台灣新北市新莊區輔仁大學中正路510號" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?center=242台灣新北市新莊區輔仁大學中正路510號&zoom=15&size=400x600&maptype=roadmap
-&markers=color:blue%7C25.042299,121.6166612&markers=color:green%7Clabel:G%7C40.711614,-74.012318
-&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&sensor=false" /></a>
+              <a href="https://www.google.com/maps/place/242台灣新北市新莊區輔仁大學中正路510號" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?center=242台灣新北市新莊區輔仁大學中正路510號&zoom=15&size=400x600&maptype=roadmap&markers=color:blue%7C25.042299,121.6166612&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&sensor=false" /></a>
           </div>
           <br clear="both" />
         </div>

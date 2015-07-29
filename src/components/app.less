@@ -11,7 +11,7 @@ body, h1, h2, h2, h4, h5, ul, li, div, p {
 
 body {
   font: 16px/18px 'Arial', 'Helvetica Neue', 'Lucida Grande', 'Lucida Sans Unicode', 'Hiragino Sans GB', 'STXihei', '華文細黑體', 'Microsoft JhengHei', '微軟正黑體', 'Heiti TC', '黑體', 'SimSun', '宋體', sans-serif;
-  line-height: 22px;
+  line-height: 1.42857143;
   background: #07131F;
   color: #6488a3;
 }
@@ -66,19 +66,77 @@ h2 {
 }
 
 h3 {
-  padding-top: 50px;
-  margin-bottom: 80px;
+  margin: 50px 0 35px;
   text-align: center;
-  font-size: 50px;
+  font-size: 46px;
 }
 
 section {
   position: relative;
   padding-top: 10px;
   padding-bottom: 30px;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 section:nth-child(odd) {
   background: #000;
+}
+
+.row {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-button {
+  background-color: #f49d00;
+  border-color: 1px solid #FF8915;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 40px;
+  margin: 0;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+}
+
+.main-button-hover, .main-button:hover, .main-button:focus {
+  background-color: #F4B900;
+  border-color: #F4B900;
+  color: #FFF;
+}
+
+@media (min-width: 768px) {
+  .row {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .row {
+    width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .row {
+    width: 1280px;
+  }  
 }

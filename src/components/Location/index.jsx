@@ -6,11 +6,11 @@ class Location extends Component {
     return (
       <section id="venue">
         <h3>地點</h3>
-        <div class="venue-info">
-          <div class="venue-text">
-            <div class="trans">
+        <div className="venue-info">
+          <div className="venue-text">
+            <div className="trans">
               <h4>輔仁大學國璽樓</h4>
-              <p class="address"><strong>地址：</strong>新北市新莊區中正路510號 (<a href="https://www.google.com/maps/place/輔仁大學" target="_blank">地圖</a>)</p>
+              <p className="address"><strong>地址：</strong>新北市新莊區中正路510號 (<a href="https://www.google.com/maps/place/輔仁大學" target="_blank">地圖</a>)</p>
               <br />
               <h5>捷運站及公車轉乘班次資訊</h5>
               <p>台北車站捷運站: 513</p>
@@ -30,7 +30,7 @@ class Location extends Component {
               <a href="http://www.fju.edu.tw/aboutFju.jsp?labelID=9" target="_blank">官網資訊</a>
             </div>
           </div>
-          <div class="venue-map">
+          <div className="venue-map">
               <a href="https://www.google.com/maps/place/242台灣新北市新莊區輔仁大學中正路510號" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?center=242台灣新北市新莊區輔仁大學中正路510號&zoom=15&size=400x600&maptype=roadmap&markers=color:blue%7C25.042299,121.6166612&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&sensor=false" /></a>
           </div>
           <br clear="both" />

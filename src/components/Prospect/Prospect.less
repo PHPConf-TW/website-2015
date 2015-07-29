@@ -1,7 +1,9 @@
 #prospect {
   article {
     padding-bottom: 10px;
+    position: relative;
     img {
+      float: right;
       width: 300px;
       height: 300px;
       margin: 0 25px 15px;
@@ -10,6 +12,31 @@
       padding: 0 25px 15px;
       height: 250px;
       overflow: hidden;
+    }
+    .more-btn {
+      margin-left: 25px;
+      text-decoration: underline;
+      position: absolute;
+      bottom: 25px;
+    }
+  }
+  @media (max-width: 768px) {
+    article {
+      img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 25px;
+      }
+      .post {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .more-btn {
+        display: block;
+        bottom: -30px;
+        right: 10px;
+      }
     }
   }
 }

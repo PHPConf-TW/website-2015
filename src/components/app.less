@@ -30,15 +30,6 @@ a:hover {
   color: #3f5a6e;
 }
 
-article {
-  width: 800px;
-  margin: 0 auto;
-}
-
-article p {
-  line-height: 26px;
-}
-
 hr {
   width: 30%;
   margin-top: 50px;
@@ -74,7 +65,7 @@ h3 {
 section {
   position: relative;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   min-height: 300px;
 }
 
@@ -123,6 +114,29 @@ section:nth-child(odd) {
   color: #FFF;
 }
 
+.pull-left {
+  float: left;
+  _display: inline;
+}
+
+.pull-right {
+  float: right;
+  _display: inline;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+  overflow: hidden;
+}
+
 @media (min-width: 768px) {
   .row {
     width: 768px;
@@ -133,10 +147,4 @@ section:nth-child(odd) {
   .row {
     width: 1024px;
   }
-}
-
-@media (min-width: 1280px) {
-  .row {
-    width: 1280px;
-  }  
 }

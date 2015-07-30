@@ -9,7 +9,16 @@ class Prospect extends Component {
         <div className="row">
           <h3>展望</h3>
           <article className="clearfix">
-            <img alt='PHPConf Taiwan' title='PHPConf Taiwan' src={Img} />
+            <div className="carousel">
+              <img alt='PHPConf Taiwan' title='PHPConf Taiwan' src={Img} />
+              <div className="carousel-btn">
+                <ul>
+                  <li className="active"></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
             <div className="post">
               <p>歷經三屆的 PHPConf Taiwan ，在每位 PHP 開發者的參與下，主題從  2011 年以 PHP 開發相關工具的介紹來初試啼聲，到 2012 年著重 PHP Framework 的推廣，乃至去年以 PHP  實戰經驗為主的分享，使得我們相信在這三年不斷地挑戰下，各位 PHP 開發者都有很大的成長。</p>
               <p>因此今年我們希望讓將議程廣度擴大，挑戰許多 PHP  開發者平常難以接觸的主題，例如專案管理、 NoSQL 應用與資料庫擴展以及 PHP 網站服務開發心得，讓與會者能得到專案開發與架構上的借鏡。但我們依然會維持過去議程的深度，加入更多  PHP 進階技術，例如官方 PHP 與 Facebook HHVM 兩種引擎在 Extension 上的開發經驗， Framework  的應用技巧等議題。</p>

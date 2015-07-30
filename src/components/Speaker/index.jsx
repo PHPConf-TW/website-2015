@@ -12,7 +12,7 @@ class Speaker extends Component {
         });
 
         return (
-          <div className="pure-u-1 pure-u-md-1-3 speaker">
+          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <img className="avatar" src={this.props.speaker.avatar} />
             <div className="speaker-info">
               <h5>{this.props.speaker.title}</h5>

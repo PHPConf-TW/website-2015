@@ -17,7 +17,7 @@ class Prospect extends Component {
               <p>身為台灣最大型的 PHP 研討會，除了議程分享外， PHPConf Taiwan 2014 同時也是企業尋找 PHP 人才的最佳管道；當全台灣 PHP 界的各路英雄好漢都齊聚一堂時，就是各企業秀出手上最棒職務的機會！</p>
               <p>最後感謝每一家贊助單位的支持，為 PHPConf Taiwan 2014 提供舉辦時所需要的資源與場地。我們將會盡我們一切的努力，來讓今年的 PHPConf Taiwan 更為精采可期！</p>
             </div>
-            <a className="more-btn">看更多</a>
+            <a className="more-btn">看更多 <i className="fa fa-caret-right"></i></a>
           </article>
         </div>
       </section>

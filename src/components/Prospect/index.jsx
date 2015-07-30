@@ -20,7 +20,7 @@ class Prospect extends Component {
 
   render() {
     let hideClass = classnames({hide: this.state.hide});
-    let buttonClass = classnames('more-btn', {hide: !this.state.hide});
+    let buttonClass = classnames('text-btn', {hide: !this.state.hide});
 
     return (
       <section id="prospect">

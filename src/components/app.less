@@ -10,7 +10,7 @@ body, h1, h2, h2, h4, h5, ul, li, div, p {
 }
 
 body {
-  font: 16px/18px 'Arial', 'Helvetica Neue', 'Lucida Grande', 'Lucida Sans Unicode', 'Hiragino Sans GB', 'STXihei', '華文細黑體', 'Microsoft JhengHei', '微軟正黑體', 'Heiti TC', '黑體', 'SimSun', '宋體', sans-serif;
+  font: 15px 'Arial', 'Helvetica Neue', 'Lucida Grande', 'Lucida Sans Unicode', 'Hiragino Sans GB', 'STXihei', '華文細黑體', 'Microsoft JhengHei', '微軟正黑體', 'Heiti TC', '黑體', 'SimSun', '宋體', sans-serif;
   line-height: 1.42857143;
   background: #fcfcfc;
   color: #343434;
@@ -18,6 +18,7 @@ body {
 
 p {
   margin-bottom: 26px;
+  line-height: 1.7;
 }
 
 a {
@@ -77,13 +78,6 @@ section:nth-child(odd) {
   background: #E4E4E4;
 }
 
-.row {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .text-center {
   text-align: center;
 }
@@ -118,6 +112,15 @@ section:nth-child(odd) {
   color: #FFF;
 }
 
+.text-btn {
+  cursor: pointer;
+  color: rgba(36, 127, 164, 1);
+}
+
+.text-btn:hover {
+  color: rgba(36, 127, 164, 0.6);
+}
+
 .pull-left {
   float: left;
   _display: inline;
@@ -144,6 +147,21 @@ section:nth-child(odd) {
 .hide {
   display: none;
 }
+
+.row {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width:767px) {
+  .row {
+    padding: 0;
+    margin: 0 15px;
+  }
+}
+
 @media (min-width: 768px) {
   .row {
     width: 768px;

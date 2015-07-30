@@ -50,20 +50,6 @@ class App extends Component {
         });
       }).trigger('hashchange');
     });
-
-    $w.scroll(function(event) {
-      let scroll = $w.scrollTop();
-      // Do something
-      if (scroll > 400) {
-        $g.addClass('show');
-        $('nav img').hide();
-        $('#banner').css('margin-top', '400px');
-      } else {
-        $g.removeClass('show');
-        $('nav img').show();
-        $('#banner').css('margin-top', '0');
-      }
-    });
   }
 
   render() {

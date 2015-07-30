@@ -1,31 +1,43 @@
-diamondSponsor:
+sponsors:
   -
     name: 'Microsoft'
     classname: 'microsoft'
+    categoryclass: 'diamond'
+    categoryname: '鑽石級贊助'
+    iconclass: 'fa fa-star'
     logo: 'assets/images/sponsor/diamond/microsoft.jpg'
-
-goldSponsor:
   -
     name: 'KKBox'
     classname: 'kkbox'
+    categoryclass: 'gold'
+    categoryname: '黃金級贊助'
+    iconclass: 'fa fa-star-o'
     logo: 'assets/images/sponsor/gold/kkbox.png'
   -
     name: '捕夢網'
     classname: 'pumo'
+    categoryclass: 'gold'
+    categoryname: '黃金級贊助'
+    iconclass: 'fa fa-star-o'
     logo: 'assets/images/sponsor/gold/pumo.png'
-
-speicialAppreciate:
   -
     name: '輔仁大學資訊管理學系'
     classname: 'imfju'
+    categoryclass: 'speicial'
+    categoryname: '特別感謝'
+    iconclass: ''
     logo: 'assets/images/sponsor/appreciate/imfju.png'
-
-cooperantMedia:
   -
     name: '新浪'
     classname: 'sina'
+    categoryclass: 'cooperant'
+    categoryname: '合作媒體'
+    iconclass: ''
     logo: 'assets/images/sponsor/cooperate/sina.jpg'
   -
     name: '微博'
     classname: 'weibo'
+    categoryclass: 'cooperant'
+    categoryname: '合作媒體'
+    iconclass: ''
     logo: 'assets/images/sponsor/cooperate/weibo.jpg'

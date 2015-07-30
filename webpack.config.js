@@ -27,6 +27,9 @@ module.exports = {
       exclude: /node_modules/,
       include: path.join(__dirname, 'src')
     }, {
+      test: /\.yaml$/,
+      loader: ['json!yaml']
+    }, {
       test: /\.less$/,
       loader: ['style!css!less']
     }, {

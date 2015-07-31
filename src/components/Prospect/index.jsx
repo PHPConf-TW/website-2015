@@ -28,7 +28,9 @@ class Prospect extends Component {
           <h3>展望</h3>
           <article className="clearfix">
             <div className="carousel">
-              <img alt='PHPConf Taiwan' title='PHPConf Taiwan' src={Img} />
+              <div className="box">
+                <img alt='PHPConf Taiwan' title='PHPConf Taiwan' src={Img} />  
+              </div>
               <div className="carousel-btn">
                 <ul>
                   <li className="active"></li>

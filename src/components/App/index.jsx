@@ -62,8 +62,8 @@ class App extends Component {
         <Speaker />
         <Schedule />
         <Location />
-        <Sponsor />
         <About />
+        <Sponsor />
         <Footer />
       </div>
     );

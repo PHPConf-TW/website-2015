@@ -125,6 +125,17 @@
         width: 100%;
         height: auto;
         margin: 0 0 25px;
+        .box {
+          height: auto;
+        }
+        .box:before, .box:after {
+          width: 98%;
+          left: 1%;
+          bottom: 43px;
+        }
+        img {
+          display: block;
+        }
       }
       .post {
         padding-left: 0;
@@ -134,6 +145,15 @@
         display: block;
         bottom: -30px;
         right: 10px;
+      }
+    }
+  }
+  @media (max-width: 490px) {
+    article {
+      .carousel {
+        .box:before, .box:after {
+          bottom: 35px;
+        }
       }
     }
   }

@@ -1,10 +1,11 @@
 var path = require('path');
 var webpack = require('webpack');
+var port = process.env.PORT || 3000;
 
 module.exports = {
   devtool: 'eval',
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://0.0.0.0:' + port,
     'webpack/hot/only-dev-server',
     './src/app'
   ],
@@ -15,7 +16,10 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+    })
   ],
   resolve: {
     extensions: ['', '.js', '.jsx']
@@ -44,6 +48,10 @@ module.exports = {
     }, {
       test: /\.svg/,
       loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
-    }]
-  }
+    }],
+    preLoaders: [
+      {test: /\.jsx?$/, loader: 'eslint', exclude: /build|data|node_modules/},
+    ]
+  },
+  eslint: {configFile: '.eslintrc'}
 };

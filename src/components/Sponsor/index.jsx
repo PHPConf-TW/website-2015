@@ -14,7 +14,7 @@ class Sponsor extends Component {
         </div>
       </section>
     );
-  };
-};
+  }
+}
 
 export default Sponsor;

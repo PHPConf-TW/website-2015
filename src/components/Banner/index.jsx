@@ -11,7 +11,7 @@ class Banner extends Component {
         <div className="mask"></div>
       </section>
     );
-  };
-};
+  }
+}
 
 export default Banner;

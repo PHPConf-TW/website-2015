@@ -21,7 +21,7 @@ class Location extends Component {
         </div>
       </section>
     );
-  };
-};
+  }
+}
 
 export default Location;

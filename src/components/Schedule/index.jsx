@@ -121,7 +121,7 @@ class Schedule extends Component {
             <td colSpan="2" className="time">休息</td>
           </tr>
           <tr>
-            <td style={{'textAlign':'center'}}>13:30 ~ 14:10</td>
+            <td style={{'textAlign': 'center'}}>13:30 ~ 14:10</td>
             <td>
               <strong>PHP Extension 開發實務 - 補齊 PHP 遺失的 $_PUT 與 $_DELETE
                 (FirchTsai)</strong><br/><br/>
@@ -227,7 +227,7 @@ class Schedule extends Component {
             <td colSpan="2" className="time">休息</td>
           </tr>
           <tr>
-            <td style={{'textAlign':'center'}}>16:10 ~
+            <td style={{'textAlign': 'center'}}>16:10 ~
               16:50
             </td>
             <td>
@@ -289,6 +289,6 @@ class Schedule extends Component {
       </section>
     );
   }
-};
+}
 
 export default Schedule;

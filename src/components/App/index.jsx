@@ -22,11 +22,11 @@ class App extends Component {
       $('html,body');
 
     $(function() {
-      $g.on('click', function(e) {
+      $g.on('click', function() {
         $(window).trigger('hashchange');
       });
 
-      $w.on('hashchange', function (e) {
+      $w.on('hashchange', function () {
         let hash = window.location.hash || '#top-section',
           $link = $('a[href="' + hash + '"]'),
           pageId = hash.replace('-section', ''),
@@ -67,7 +67,7 @@ class App extends Component {
         <Footer />
       </div>
     );
-  };
-};
+  }
+}
 
 export default App;

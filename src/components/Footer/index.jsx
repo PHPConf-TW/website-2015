@@ -11,7 +11,7 @@ class Footer extends Component {
         <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a>
       </footer>
     );
-  };
-};
+  }
+}
 
 export default Footer;

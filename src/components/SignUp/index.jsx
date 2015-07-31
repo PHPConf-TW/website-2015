@@ -20,7 +20,7 @@ class SignUp extends Component {
         </div>
       </section>
     );
-  };
-};
+  }
+}
 
 export default SignUp;

@@ -17,5 +17,9 @@
   },
   "plugins": [
     "react"
-  ]
+  ],
+  "globals": {
+    "$": true,
+    "ga": true
+  }
 }

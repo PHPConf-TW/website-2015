@@ -55,7 +55,7 @@ class Prospect extends Component {
         </div>
       </section>
     );
-  };
-};
+  }
+}
 
 export default Prospect;

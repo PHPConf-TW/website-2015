@@ -8,7 +8,7 @@ class Speaker extends Component {
     let ASpeaker = React.createClass({
       render() {
         let info = this.props.speaker.info.map((content) => {
-          return <p>{content}</p>
+          return <p>{content}</p>;
         });
 
         return (
@@ -22,7 +22,7 @@ class Speaker extends Component {
               {info}
             </div>
           </div>
-        )
+        );
       }
     });
 
@@ -36,7 +36,7 @@ class Speaker extends Component {
           <div>
             {speakers}
           </div>
-        )
+        );
       }
     });
 
@@ -48,7 +48,7 @@ class Speaker extends Component {
         </div>
       </section>
     );
-  };
-};
+  }
+}
 
 export default Speaker;

@@ -13,8 +13,8 @@ class Nav extends Component {
             <li><a href='#speakers-section'>講師</a></li>
             <li><a href='#schedule-section'>議程</a></li>
             <li><a href='#venue-section'>地點</a></li>
-            <li><a href='#sponsors-section'>贊助</a></li>
             <li><a href='#about-section'>關於</a></li>
+            <li><a href='#sponsors-section'>贊助</a></li>
           </ul>
         </div>
       </nav>

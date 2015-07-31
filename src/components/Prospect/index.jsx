@@ -19,7 +19,11 @@ class Prospect extends Component {
   }
 
   render() {
-    let hideClass = classnames({hide: this.state.hide});
+    let hideClass = classnames({
+      hide: this.state.hide,
+      animated: !this.state.hide,
+      fadeInLeft: !this.state.hide
+    });
     let buttonClass = classnames('text-btn', {hide: !this.state.hide});
 
     return (
@@ -29,7 +33,7 @@ class Prospect extends Component {
           <article className="clearfix">
             <div className="carousel">
               <div className="box">
-                <img alt='PHPConf Taiwan' title='PHPConf Taiwan' src={Img} />  
+                <img alt='PHPConf Taiwan' title='PHPConf Taiwan' src={Img} />
               </div>
               <div className="carousel-btn">
                 <ul>

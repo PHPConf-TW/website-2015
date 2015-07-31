@@ -8,6 +8,7 @@ class Banner extends Component {
     return (
       <section id="banner" style={{backgroundImage: `url('${BannerImage}')`}}>
         <img alt='PHPConf Taiwan logo' title='PHPConf Taiwan' src={Logo} />
+        <h1>PHPConf Taiwan 2015</h1>
         <div className="mask"></div>
       </section>
     );

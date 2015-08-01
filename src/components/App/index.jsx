@@ -16,22 +16,17 @@ class App extends Component {
   componentDidMount() {
     let title = document.title;
     let $w = $(window);
-    let $g = $('nav');
     let $b = (window.opera) ?
       (document.compatMode === 'CSS1Compat' ? $('html') : $('body')) :
       $('html,body');
 
     $(function() {
-      $g.on('click', function() {
-        $(window).trigger('hashchange');
-      });
-
       $w.on('hashchange', function () {
-        let hash = window.location.hash || '#top-section',
-          $link = $('a[href="' + hash + '"]'),
-          pageId = hash.replace('-section', ''),
-          subTitle = $link.text() || '首頁',
-          top = $(pageId).offset().top || 0;
+        let hash = window.location.hash || '#top-section';
+        let $link = $('a[href="' + hash + '"]');
+        let pageId = hash.replace('-section', '');
+        let subTitle = $link.text() || '首頁';
+        let top = ($(pageId).offset() && $(pageId).offset().top) || 0;
 
         $('nav a').css('border-bottom', '0px');
         $link.css('border-bottom', '1px solid #fff');

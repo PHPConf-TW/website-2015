@@ -10,7 +10,7 @@ class About extends Component {
         <div className="row">
           <h3>關於</h3>
           <p>感謝以下工作人員的幫忙！</p>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><i className="icon-call"></i></div>
             <h4 className="work">總召<span className="leader">Johnpupu</span></h4>
             <div>
@@ -19,7 +19,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-legal"></i></div></div>
             <h4 className="work">法律顧問<span className="leader">強哥</span></h4>
             <div>
@@ -28,7 +28,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-support"></i></div></div>
             <h4 className="work">贊助 / 公關<span className="leader">Wake</span></h4>
             <div>
@@ -37,7 +37,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><i className="icon-record"></i></div>
             <h4 className="work">記錄<span className="leader">Daniel丹丹</span></h4>
             <div>
@@ -53,7 +53,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><i className="icon-schedule"></i></div>
             <h4 className="work">議程<span className="leader">Firch</span></h4>
             <div>
@@ -63,7 +63,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-general"></i></div></div>
             <h4 className="work">場務 / 採購 / 行政 / 票務<span className="leader">Oreo</span></h4>
             <div>
@@ -83,7 +83,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-line"></i></div></div>
             <h4 className="work">線路<span className="leader">Wake</span></h4>
             <div>
@@ -100,7 +100,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-design"></i></div></div>
             <h4 className="work">設計<span className="leader">Debby</span></h4>
             <div>
@@ -109,7 +109,7 @@ class About extends Component {
               </ul>
             </div>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-web"></i></div></div>
             <h4 className="work">網站製作<span className="leader">Jace Ju</span></h4>
             <div>
@@ -121,7 +121,6 @@ class About extends Component {
             </div>
           </div>
           <div className="about-info">
-            <div className="about-header"><span>連結</span></div>
             <ul>
               <li><span className="icon facebook-icon"></span> <a href="https://www.facebook.com/groups/551533458209944/" target="_blank">PHPConf Taiwan Facebook 社團</a></li>
             </ul>

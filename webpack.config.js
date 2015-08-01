@@ -22,7 +22,7 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx', '.yml']
   },
   module: {
     loaders: [{
@@ -30,9 +30,6 @@ module.exports = {
       loaders: ['react-hot', 'babel'],
       exclude: /node_modules/,
       include: path.join(__dirname, 'src')
-    }, {
-      test: /\.yaml$/,
-      loader: ['json!yaml']
     }, {
       test: /\.less$/,
       loader: ['style!css!less']

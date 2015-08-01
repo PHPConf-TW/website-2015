@@ -1,6 +1,6 @@
 import '!style!css!less!./Speaker.less';
 import React, { Component } from 'react';
-import SpeakerData from 'json!yaml!../../../data/speakers.yml';
+import SpeakerData from 'json!yaml!../../../data/speakers';
 
 class Speaker extends Component {
   render() {

@@ -1,7 +1,7 @@
 import '!style!css!less!./Sponsor.less';
 import React, { Component } from 'react';
 import SponsorList from './List';
-import SponsorData from 'json!yaml!../../../data/sponsors.yml';
+import SponsorData from 'json!yaml!../../../data/sponsors';
 
 class Sponsor extends Component {
 

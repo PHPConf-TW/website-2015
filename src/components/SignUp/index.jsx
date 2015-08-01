@@ -15,7 +15,7 @@ class SignUp extends Component {
             <div>2014年9月24日 20:00</div>
           </div>
           <div className="pure-u-1 text-center signup-btn">
-            <a href="" className="pure-button btn" target="_blank">前往報名</a>
+            <a href="" className="pure-button btn" target="_blank">立即報名</a>
           </div>
         </div>
       </section>

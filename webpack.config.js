@@ -50,5 +50,6 @@ module.exports = {
       {test: /\.jsx?$/, loader: 'eslint', exclude: /build|data|node_modules/},
     ]
   },
-  eslint: {configFile: '.eslintrc'}
+  eslint: {configFile: '.eslintrc'},
+  port: port
 };

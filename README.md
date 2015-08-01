@@ -11,6 +11,14 @@ $ npm start
 
 open http://localhost:3000 in any browser.
 
+You can defined other port via the follwoing command
+
+```
+$ PORT=3005 npm start
+```
+
+open http://localhost:3005 in your browser.
+
 ## Style Guide
 
 Please refer the following JavaScript Style Guide.

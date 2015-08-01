@@ -7,13 +7,13 @@ class Schedule extends Component {
       <section id="schedule">
         <div className="row">
           <h3>議程</h3>
-          <table className="pure-table pure-table-horizontal active-two">
+          <table className="pure-table pure-table-horizontal">
             <thead>
               <tr>
                 <th>時間</th>
                 <th>
-                  <div className="pure-u-1 pure-u-md-1-2 one">國璽樓一 樓多功能國際會議廳</div>
-                  <div className="pure-u-1 pure-u-md-1-2 two">國璽樓二 樓國際會議廳</div>
+                  <div className="pure-u-1 pure-u-md-1-2 one">國璽樓一樓 多功能國際會議廳</div>
+                  <div className="pure-u-1 pure-u-md-1-2 two">國璽樓二樓 國際會議廳</div>
                 </th>
               </tr>
             </thead>
@@ -31,11 +31,11 @@ class Schedule extends Component {
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
                     <div className="author">Laruence</div>
-                    <h4>微博 LAMP 優化之路</h4>
+                    <h4 className="arrow_box">微博 LAMP 優化之路 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
                     <div className="author">Brian</div>
-                    <h4>Building High available and scalable website on PHP from Microsoft Azure</h4>
+                    <h4 className="arrow_box">Building High available and scalable website on PHP from Microsoft Azure <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                 </td>
               </tr>
@@ -67,11 +67,11 @@ class Schedule extends Component {
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
                     <div className="author">Laruence</div>
-                    <h4>創意與專案管理的冰與火之爭</h4>
+                    <h4 className="arrow_box">創意與專案管理的冰與火之爭 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
                     <div className="author">Kiang</div>
-                    <h4>選舉黃頁開發經驗分享</h4>
+                    <h4 className="arrow_box">選舉黃頁開發經驗分享 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                 </td>
               </tr>
@@ -103,11 +103,11 @@ class Schedule extends Component {
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
                     <div className="author">ReinySong</div>
-                    <h4>whoscall 的 MongoDB 使用經驗</h4>
+                    <h4 className="arrow_box">whoscall 的 MongoDB 使用經驗 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
                     <div className="author">蒼時弦也</div>
-                    <h4>Framework or Framework Less</h4>
+                    <h4 className="arrow_box">Framework or Framework Less <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                 </td>
               </tr>
@@ -139,11 +139,11 @@ class Schedule extends Component {
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
                     <div className="author">FirchTsai</div>
-                    <h4>PHP Extension 開發實務 - 補齊 PHP 遺失的 $_PUT 與 $_DELETE</h4>
+                    <h4 className="arrow_box">PHP Extension 開發實務 - 補齊 PHP 遺失的 $_PUT 與 $_DELETE <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
                     <div className="author">Jimmy Huang</div>
-                    <h4>Scalability in Mind - 當老軟體Drupal遇上大架構</h4>
+                    <h4 className="arrow_box">Scalability in Mind - 當老軟體Drupal遇上大架構 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                 </td>
               </tr>
@@ -175,11 +175,11 @@ class Schedule extends Component {
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
                     <div className="author">SDpower</div>
-                    <h4>Phalcon 進行式</h4>
+                    <h4 className="arrow_box">Phalcon 進行式 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
                     <div className="author">Fntsrlike</div>
-                    <h4>運用 Docker 部署PHP專案</h4>
+                    <h4 className="arrow_box">運用 Docker 部署PHP專案 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                 </td>
               </tr>
@@ -211,11 +211,11 @@ class Schedule extends Component {
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
                     <div className="author">c9s</div>
-                    <h4>Building Powerful command-line application with PHP</h4>
+                    <h4 className="arrow_box">Building Powerful command-line application with PHP <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
                     <div className="author">Ninja</div>
-                    <h4>HTTP accelerator - Varnish 應用</h4>
+                    <h4 className="arrow_box">HTTP accelerator - Varnish 應用 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                 </td>
               </tr>
@@ -247,11 +247,11 @@ class Schedule extends Component {
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
                     <div className="author">Ricky</div>
-                    <h4>實戰 HHVM Extension</h4>
+                    <h4 className="arrow_box">實戰 HHVM Extension <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
                     <div className="author">Nekobe</div>
-                    <h4>MySQL 的效能救贖：Percona XtraDB Cluster</h4>
+                    <h4 className="arrow_box">MySQL 的效能救贖：Percona XtraDB Cluster <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
                   </div>
                 </td>
               </tr>

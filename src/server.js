@@ -13,10 +13,10 @@ new WebpackDevServer(webpack(config), {
     cached: false,
     cachedAssets: false
   }
-}).listen(3000, 'localhost', function (err, result) {
+}).listen(config.port, '0.0.0.0', function (err, result) {
   if (err) {
     console.log(err);
   }
 
-  console.log('Listening at localhost:3000');
+  console.log('Listening at 0.0.0.0:' + config.port);
 });

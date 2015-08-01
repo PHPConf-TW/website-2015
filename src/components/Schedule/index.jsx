@@ -7,13 +7,13 @@ class Schedule extends Component {
       <section id="schedule">
         <div className="row">
           <h3>議程</h3>
-          <table className="pure-table pure-table-horizontal">
+          <table className="pure-table pure-table-horizontal active-two">
             <thead>
               <tr>
-                <th width="150px">時間</th>
+                <th>時間</th>
                 <th>
-                  <div className="pure-u-1 pure-u-md-1-2">國璽樓一樓多功能國際會議廳</div>
-                  <div className="pure-u-1 pure-u-md-1-2">國璽樓二樓國際會議廳</div>
+                  <div className="pure-u-1 pure-u-md-1-2 one">國璽樓一 樓多功能國際會議廳</div>
+                  <div className="pure-u-1 pure-u-md-1-2 two">國璽樓二 樓國際會議廳</div>
                 </th>
               </tr>
             </thead>
@@ -281,7 +281,7 @@ class Schedule extends Component {
             </tbody>
             <tfoot>
               <tr>
-                <td colspan="2">若因不可預測之突發因素，主辦單位保留議程及講師的變更權利。</td>
+                <td colSpan="2">若因不可預測之突發因素，主辦單位保留議程及講師的變更權利。</td>
               </tr>
             </tfoot>
           </table>

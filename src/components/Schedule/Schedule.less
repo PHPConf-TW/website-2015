@@ -26,6 +26,7 @@
     border-bottom: none; 
   }
   td.time {
+    width: 150px;
     background-color: #EAEAEA;
   }
   tr.sub {
@@ -67,7 +68,7 @@
       background-color: #247FA4;
     }
     .author {
-      background-color: rgba(129, 143, 166, 0.75);
+      background-color: rgba(170, 178, 190, 1);
     }
   }
   .two {
@@ -75,7 +76,74 @@
       background-color: #AF3B54;
     }
     .author {
-      background-color: rgba(222, 113, 120, 0.75);
+      background-color: rgba(228, 143, 148, 1);
+    }
+  }
+  tr.main-title {
+    .one {
+      background-color: rgba(170, 178, 190, 1);
+    }
+    .two {
+      background-color: rgba(228, 143, 148, 1);
+    }
+  }
+  @media (max-width:767px) {
+    padding-bottom: 0;
+    .pure-table {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    th {
+      text-align: left;
+      padding: 0;
+      .one {
+        padding: 10px 15px;
+        border-left: 10px solid #247FA4;
+      }
+      .two {
+        padding: 10px 15px;
+        border-left: 10px solid #AF3B54;
+      }
+    }
+    th:first-child {
+      padding: 15px;
+      vertical-align: middle;
+      text-align: center;
+    }
+    td.content {
+      .author {
+        height: auto;
+      }
+    }
+    td.time {
+      width: 100px;
+    }
+    tr.main-content{
+      display: none;
+    }
+    tr.main-title{
+      td {
+        border-bottom: 1px solid #cbcbcb;
+      }
+    }
+    .one, .two {
+      height: auto;
+    }
+    .active-one {
+      .one {
+        display: block;
+      }
+      .two {
+        // display: none;
+      }
+    }
+    .active-two {
+      .one {
+        // display: none;
+      }
+      .two {
+        display: block;
+      }     
     }
   }
 }

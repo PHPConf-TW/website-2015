@@ -25,7 +25,7 @@ Before deploying to Github `gh-pages` branch, you can use the following example 
 
 ```
 $ NODE_ENV=production npm run build
-$ npm rub deploy
+$ npm run deploy
 ```
 
 ## Style Guide

@@ -21,7 +21,7 @@ open http://localhost:3005 in your browser.
 
 ## Deploy
 
-Before deploying to Github `gh-pages`, please generate the static file as following command.
+Before deploying to Github `gh-pages` branch, you can use the following example commands to generate static files.
 
 ```
 $ NODE_ENV=production npm run build

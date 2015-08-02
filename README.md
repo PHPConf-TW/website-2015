@@ -19,6 +19,15 @@ $ PORT=3005 npm start
 
 open http://localhost:3005 in your browser.
 
+## Deploy
+
+Before deploying to Github `gh-pages`, please generate the static file as following command.
+
+```
+$ NODE_ENV=production npm run build
+$ npm rub deploy
+```
+
 ## Style Guide
 
 Please refer the following JavaScript Style Guide.

@@ -1,33 +1,44 @@
 var path = require('path');
 var webpack = require('webpack');
 var port = process.env.PORT || 3000;
+var env = process.env.NODE_ENV || 'development';
+var plugins = [];
+var entries = ['./src/app'];
+var loaders = ['babel?stage=0'];
 
-module.exports = {
-  devtool: 'eval',
-  entry: [
-    'webpack-dev-server/client?http://0.0.0.0:' + port,
-    'webpack/hot/only-dev-server',
-    './src/app'
-  ],
-  output: {
-    path: path.join(__dirname, 'build/assets'),
-    filename: 'bundle.js',
-    publicPath: '/assets/'
-  },
-  plugins: [
+if (env === 'production') {
+  plugins = [
+    new webpack.optimize.UglifyJsPlugin()
+  ];
+} else if (env === 'development') {
+  plugins = [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     })
-  ],
+  ];
+
+  entries.push('webpack-dev-server/client?http://0.0.0.0:' + port, 'webpack/hot/only-dev-server');
+  loaders.unshift('react-hot');
+}
+
+module.exports = {
+  devtool: 'eval',
+  entry: entries,
+  output: {
+    path: path.join(__dirname, 'build/assets'),
+    filename: 'bundle.js',
+    publicPath: 'assets/'
+  },
+  plugins: plugins,
   resolve: {
     extensions: ['', '.js', '.jsx', '.yml']
   },
   module: {
     loaders: [{
       test: /\.jsx?$/,
-      loaders: ['react-hot', 'babel?stage=0'],
+      loaders: loaders,
       exclude: /node_modules/,
       include: path.join(__dirname, 'src')
     }, {

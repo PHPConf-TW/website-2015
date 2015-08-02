@@ -27,7 +27,7 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.jsx?$/,
-      loaders: ['react-hot', 'babel'],
+      loaders: ['react-hot', 'babel?stage=0'],
       exclude: /node_modules/,
       include: path.join(__dirname, 'src')
     }, {
@@ -45,6 +45,18 @@ module.exports = {
     }, {
       test: /\.svg/,
       loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
+    }, {
+      test: /\.woff$/,
+      loader: "url-loader?limit=10000&mimetype=application/font-woff"
+    }, {
+      test: /\.ttf$/,
+      loader: "url-loader?limit=10000&mimetype=application/octet-stream"
+    }, {
+      test: /\.eot$/,
+      loader: "file-loader"
+    }, {
+      test: /\.svg$/,
+      loader: "url-loader?limit=10000&mimetype=image/svg+xml"
     }],
     preLoaders: [
       {test: /\.jsx?$/, loader: 'eslint', exclude: /build|data|node_modules/},

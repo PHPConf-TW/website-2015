@@ -30,12 +30,14 @@ class Schedule extends Component {
                 <td className="time right">09:30 AM</td>
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
-                    <div className="author">Laruence</div>
-                    <h4 className="arrow_box">微博 LAMP 優化之路 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Laruence</div>
+                    <h4 className="arrow_box">微博 LAMP 優化之路</h4>
+                    <div className="author-mobile">Laruence <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
-                    <div className="author">Brian</div>
-                    <h4 className="arrow_box">Building High available and scalable website on PHP from Microsoft Azure <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Brian</div>
+                    <h4 className="arrow_box">Building High available and scalable website on PHP from Microsoft Azure</h4>
+                    <div className="author-mobile">Brian <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                 </td>
               </tr>
@@ -66,12 +68,14 @@ class Schedule extends Component {
                 <td className="time right">10:50 AM</td>
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
-                    <div className="author">Laruence</div>
-                    <h4 className="arrow_box">創意與專案管理的冰與火之爭 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Laruence</div>
+                    <h4 className="arrow_box">創意與專案管理的冰與火之爭</h4>
+                    <div className="author-mobile">Laruence <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
-                    <div className="author">Kiang</div>
-                    <h4 className="arrow_box">選舉黃頁開發經驗分享 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Kiang</div>
+                    <h4 className="arrow_box">選舉黃頁開發經驗分享</h4>
+                    <div className="author-mobile">Kiang <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                 </td>
               </tr>
@@ -102,12 +106,14 @@ class Schedule extends Component {
                 <td className="time right">12:30 PM</td>
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
-                    <div className="author">ReinySong</div>
-                    <h4 className="arrow_box">whoscall 的 MongoDB 使用經驗 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">ReinySong</div>
+                    <h4 className="arrow_box">whoscall 的 MongoDB 使用經驗</h4>
+                    <div className="author-mobile">ReinySong <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
-                    <div className="author">蒼時弦也</div>
-                    <h4 className="arrow_box">Framework or Framework Less <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">蒼時弦也</div>
+                    <h4 className="arrow_box">Framework or Framework Less</h4>
+                    <div className="author-mobile">蒼時弦也 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                 </td>
               </tr>
@@ -138,12 +144,14 @@ class Schedule extends Component {
                 <td className="time right">13:30 PM</td>
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
-                    <div className="author">FirchTsai</div>
-                    <h4 className="arrow_box">PHP Extension 開發實務 - 補齊 PHP 遺失的 $_PUT 與 $_DELETE <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">FirchTsai</div>
+                    <h4 className="arrow_box">PHP Extension 開發實務 - 補齊 PHP 遺失的 $_PUT 與 $_DELETE</h4>
+                    <div className="author-mobile">FirchTsai <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
-                    <div className="author">Jimmy Huang</div>
-                    <h4 className="arrow_box">Scalability in Mind - 當老軟體Drupal遇上大架構 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Jimmy Huang</div>
+                    <h4 className="arrow_box">Scalability in Mind - 當老軟體Drupal遇上大架構</h4>
+                    <div className="author-mobile">Jimmy Huang <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                 </td>
               </tr>
@@ -174,12 +182,14 @@ class Schedule extends Component {
                 <td className="time right">14:20 PM</td>
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
-                    <div className="author">SDpower</div>
-                    <h4 className="arrow_box">Phalcon 進行式 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">SDpower</div>
+                    <h4 className="arrow_box">Phalcon 進行式</h4>
+                    <div className="author-mobile">SDpower <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
-                    <div className="author">Fntsrlike</div>
-                    <h4 className="arrow_box">運用 Docker 部署PHP專案 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Fntsrlike</div>
+                    <h4 className="arrow_box">運用 Docker 部署PHP專案</h4>
+                    <div className="author-mobile">Fntsrlike <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                 </td>
               </tr>
@@ -210,12 +220,14 @@ class Schedule extends Component {
                 <td className="time right">15:30 PM</td>
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
-                    <div className="author">c9s</div>
-                    <h4 className="arrow_box">Building Powerful command-line application with PHP <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">c9s</div>
+                    <h4 className="arrow_box">Building Powerful command-line application with PHP</h4>
+                    <div className="author-mobile">c9s <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
-                    <div className="author">Ninja</div>
-                    <h4 className="arrow_box">HTTP accelerator - Varnish 應用 <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Ninja</div>
+                    <h4 className="arrow_box">HTTP accelerator - Varnish 應用</h4>
+                    <div className="author-mobile">Ninja <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                 </td>
               </tr>
@@ -246,12 +258,14 @@ class Schedule extends Component {
                 <td className="time right">16:10 PM</td>
                 <td className="content nonborder">
                   <div className="pure-u-1 pure-u-md-1-2 one">
-                    <div className="author">Ricky</div>
-                    <h4 className="arrow_box">實戰 HHVM Extension <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Ricky</div>
+                    <h4 className="arrow_box">實戰 HHVM Extension</h4>
+                    <div className="author-mobile">Ricky <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                   <div className="pure-u-1 pure-u-md-1-2 two">
-                    <div className="author">Nekobe</div>
-                    <h4 className="arrow_box">MySQL 的效能救贖：Percona XtraDB Cluster <span className="more">詳細 <i className="fa fa-caret-right"></i></span></h4>
+                    <div className="author-desktop">Nekobe</div>
+                    <h4 className="arrow_box">MySQL 的效能救贖：Percona XtraDB Cluster</h4>
+                    <div className="author-mobile">Nekobe <span className="more">詳細 <i className="fa fa-caret-right"></i></span></div>
                   </div>
                 </td>
               </tr>

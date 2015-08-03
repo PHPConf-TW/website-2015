@@ -10,7 +10,6 @@
   }
   ul {
     list-style: none;
-    text-align: center;
     margin-top: 10px;
     li {
       display: inline-block;
@@ -30,14 +29,17 @@
     height: 80px;
     line-height: 85px;
     border-radius: 100%;
-    text-align: center;
     color: #FFFFFF;
     margin: 0 auto 15px;
     background-color: rgba(36, 127, 164, 0.68);
+    text-align: center
+  }
+  .work-wrapper {
+    text-align: center;
   }
   .work {
-    text-align: center;
     margin: 0 20px;
+    padding-top: 6px;
   }
   .about-info {
     display: none;
@@ -50,6 +52,21 @@
     padding-bottom: 50px;
     .speaker {
       margin: 20px 0 50px;
+      min-height: initial;
+    }
+    .icon {
+      float: left;
+      font-size: 26px;
+      width: 60px;
+      height: 60px;
+      line-height: 65px;
+    }
+    .work-wrapper {
+      margin-left: 80px;
+      text-align: left;
+    }
+    .work {
+      margin: 0;
     }
   } 
 }

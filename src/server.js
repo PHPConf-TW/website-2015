@@ -5,7 +5,7 @@ var path = require('path');
 
 new WebpackDevServer(webpack(config), {
   contentBase: path.join(__dirname, 'public'),
-  publicPath: config.output.publicPath,
+  publicPath: '/' + config.output.publicPath,
   hot: true,
   historyApiFallback: true,
   stats: {

@@ -7,7 +7,7 @@ class Sponsor extends Component {
 
   render() {
     return (
-      <section id="sponsors">
+      <section id="sponsors" className="section-block">
         <div className="row">
           <h3>贊助</h3>
           <SponsorList data={SponsorData.sponsors} />

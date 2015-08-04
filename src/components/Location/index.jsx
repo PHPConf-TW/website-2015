@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Location extends Component {
   render() {
     return (
-      <section id="venue">
+      <section id="venue" className="section-block">
         <div className="row">
           <div className="pure-u-1 pure-u-md-1-2 venue-text">
             <h4>輔仁大學國璽樓</h4>

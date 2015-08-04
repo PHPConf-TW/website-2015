@@ -1,7 +1,5 @@
 import '!style!css!less!./About.less';
 import React, { Component } from 'react';
-import AndroidIcon from './android-icon.png';
-import AppleIcon from './apple-icon.png';
 
 class About extends Component {
   render() {
@@ -128,22 +126,20 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-web"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">網站製作<span className="leader">Jace Ju</span></h4>
+              <h4 className="work">網站製作<span className="leader">keany</span></h4>
               <div>
                 <ul>
-                  <li>KeaNy</li>
+                  <li>sakilu</li>
+                  <li>tinda</li>
+                  <li>hane</li>
                   <li>appleboy</li>
-                  <li>宅小哇</li>
+                  <li>kuanwei</li>
+                  <li>ryans</li>
+                  <li>wanchia</li>
+                  <li>peggy</li>
+                  <li>sues</li>
                 </ul>
               </div>
-            </div>
-          </div>
-          <div className="about-info">
-            <ul>
-              <li><span className="icon facebook-icon"></span> <a href="https://www.facebook.com/groups/551533458209944/" target="_blank">PHPConf Taiwan Facebook 社團</a></li>
-            </ul>
-            <div className="app-link">
-              <a href="https://play.google.com/store/apps/details?id=biz.mosil.phpconf2014" target="_blank"><img src={AndroidIcon} /></a><a href="https://itunes.apple.com/us/app/phpconf-taiwan-2014/id918190667" target="_blank"><img src={AppleIcon} /></a>
             </div>
           </div>
         </div>

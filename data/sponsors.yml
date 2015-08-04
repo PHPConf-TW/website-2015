@@ -6,6 +6,7 @@ sponsors:
     categoryname: '鑽石級贊助'
     iconclass: 'fa fa-star'
     logo: 'assets/images/sponsor/diamond/microsoft.jpg'
+    link: 'http://www.microsoft.com/zh-tw/'
   -
     name: 'KKBox'
     classname: 'kkbox'

@@ -14,7 +14,7 @@
     margin: 0 auto;
     h4 {
       font-size: 22px;
-      margin: 6px 0 12px;
+      margin: 6px 0;
       border-bottom: 2px solid rgba(77, 77, 77, 0.3);
       border-top: 2px solid rgba(77, 77, 77, 0.3);
       line-height: 1.8;
@@ -30,8 +30,28 @@
       font-size: 14px;
       text-align: left;
     }
-    h4 + p {
+    .links + p {
       display: block;
+    }
+    .links {
+      font-size: 14px;
+      margin-bottom: 10px;
+      margin-top: 8px;
+      li {
+        display: inline-block;
+      }
+      li + li {
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 1px solid #ccc;
+        line-height: 14px;
+      }
+      a {
+        color: #999;
+      }
+      a:hover, a:active {
+        color: 333;
+      }
     }
   }
   .speaker-links {
@@ -102,22 +122,7 @@
         margin: 0 0 5px;
       }
       .links {
-        font-size: 14px;
-        li {
-          display: inline-block;
-        }
-        li + li {
-          margin-left: 10px;
-          padding-left: 10px;
-          border-left: 1px solid #ccc;
-          line-height: 14px;
-        }
-        a {
-          color: #999;
-        }
-        a:hover, a:active {
-          color: 333;
-        }
+        margin: 0;
       }
     }
     .avatar {

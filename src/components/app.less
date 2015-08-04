@@ -166,7 +166,35 @@ section:nth-child(odd) {
   bottom: 0;
   left: 0;
   right: 0;
+  .close-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 64px;
+    height: 61px;
+    padding: 22px 20px;
+    cursor: pointer;
+    .layer {
+      background: rgba(116, 116, 116, 0.85);
+      margin-bottom: 5px;
+      border-radius: 2px;
+      width: 24px;
+      height: 2px;
+      opacity: 1;
+    }
+    .top {
+      -webkit-transform: translateY(250%) rotate(45deg) !important;
+      -ms-transform: translateY(250%) rotate(45deg) !important;
+      transform: translateY(250%) rotate(45deg) !important;
+    }
+    .bottom {
+      -webkit-transform: translateY(-100%) rotate(135deg) !important;
+      -ms-transform: translateY(-100%) rotate(135deg) !important;
+      transform: translateY(-100%) rotate(135deg) !important;
+    }
+  }
 }
+
 @media (max-width:767px) {
   .row {
     padding: 0;

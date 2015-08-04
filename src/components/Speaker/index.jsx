@@ -19,6 +19,12 @@ class Speaker extends Component {
             <div className="speaker-info">
               <h5>{this.props.speaker.title}</h5>
               <h4>{this.props.speaker.name}</h4>
+              <div className="links">
+                <ul>
+                  <li><a href="#" target="_blank">FB</a></li>
+                  <li><a href="#" target="_blank">相關連結</a></li>
+                </ul>
+              </div>
               {info}
             </div>
           </div>
@@ -45,6 +51,10 @@ class Speaker extends Component {
         return (
           <div className="shadow-box">
             <div className="speaker-box">
+              <div className="close-btn">
+                <div className="layer top"></div>
+                <div className="layer bottom"></div>
+              </div>
               <div className="box-wrapper">
                 <div className="speaker-info">
                   <div className="avatar">

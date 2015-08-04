@@ -61,6 +61,7 @@ class App extends Component {
         let subTitle = $link.text() || '首頁';
         let top = ($(pageId).offset() && $(pageId).offset().top) || 0;
 
+        $('nav a').removeClass('active');
         $link.addClass('active');
 
         $b.animate({

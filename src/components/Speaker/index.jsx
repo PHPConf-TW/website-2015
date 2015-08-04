@@ -49,7 +49,7 @@ class Speaker extends Component {
     let SpeakerBox = React.createClass({
       render() {
         return (
-          <div className="shadow-box">
+          <div className="shadow-box speaker-box-wrapper">
             <div className="speaker-box">
               <div className="close-btn">
                 <div className="layer top"></div>

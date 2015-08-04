@@ -27,7 +27,7 @@ class Prospect extends Component {
     let buttonClass = classnames('text-btn', {hide: !this.state.hide});
 
     return (
-      <section id="prospect">
+      <section id="prospect" className="section-block">
         <div className="row">
           <h3>展望</h3>
           <article className="clearfix">

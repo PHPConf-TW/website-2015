@@ -6,7 +6,7 @@ import AppleIcon from './apple-icon.png';
 class About extends Component {
   render() {
     return (
-      <section id="about">
+      <section id="about" className="section-block">
         <div className="row">
           <h3>關於</h3>
           <p>感謝以下工作人員的幫忙！</p>

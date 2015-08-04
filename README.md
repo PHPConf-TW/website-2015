@@ -1,6 +1,6 @@
 # PHPConf Website 2015
 
-Souce Code for PHPConf Taiwan 2015.
+Source Code for PHPConf Taiwan 2015.
 
 ## Usage
 
@@ -9,15 +9,15 @@ $ npm install
 $ npm start
 ```
 
-open http://localhost:3000 in any browser.
+Browse http://localhost:3000
 
-You can defined other port via the follwoing command
+Or you can define other port.
 
 ```
 $ PORT=3005 npm start
 ```
 
-open http://localhost:3005 in your browser.
+Browse http://localhost:3005
 
 ## Deploy
 

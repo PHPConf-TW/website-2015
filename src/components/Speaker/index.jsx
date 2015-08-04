@@ -41,7 +41,7 @@ class Speaker extends Component {
     });
 
     return (
-      <section id="speakers">
+      <section id="speakers" className="section-block">
         <div className="row">
           <h3>講師</h3>
           <Speakers speakers={SpeakerData} />

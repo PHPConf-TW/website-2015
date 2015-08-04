@@ -20,6 +20,39 @@ class App extends Component {
       (document.compatMode === 'CSS1Compat' ? $('html') : $('body')) :
       $('html,body');
 
+    let dispatch = $.event.dispatch || $.event.handle;
+    let special = $.event.special;
+    let uid = 'D' + (+new Date());
+
+    special.scrollstop = {
+      latency: 250,
+      setup: function(data) {
+        let _data = $.extend({
+          latency: special.scrollstop.latency
+        }, data);
+
+        let timer;
+        let handler = function(evt) {
+          let _args = arguments;
+
+          if (timer) {
+            clearTimeout(timer);
+          }
+
+          timer = setTimeout(() => {
+            timer = null;
+            evt.type = 'scrollstop';
+            dispatch.apply(this, _args);
+          }, _data.latency);
+        };
+
+        $(this).bind('scroll', handler).data(uid, handler);
+      },
+      teardown: function() {
+        $(this).unbind('scroll', $(this).data(uid));
+      }
+    };
+
     $(function() {
       $w.on('hashchange', function () {
         let hash = window.location.hash || '#top-section';
@@ -44,6 +77,20 @@ class App extends Component {
           'title': document.title
         });
       }).trigger('hashchange');
+
+      $w.on('scrollstop', function() {
+        let idx = 0;
+        let stop = $w.scrollTop();
+        $.each($('.section-block'), (i, sec) => {
+          let sectop = parseInt($(sec).offset().top);
+          if (stop >= sectop) {
+            idx = i + 1;
+          }
+        });
+
+        $('nav a').removeClass('active');
+        $('nav a').eq(idx).addClass('active');
+      }).trigger('scrollstop');
     });
   }
 

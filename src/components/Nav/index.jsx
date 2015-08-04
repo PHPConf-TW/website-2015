@@ -30,7 +30,7 @@ class Nav extends Component {
             <div className="layer mid"></div>
             <div className="layer bottom"></div>
           </div>
-          <div className="logo">PHPConf 2015</div>
+          <div className="logo">PHPConf Taiwan 2015</div>
           <ul>
             <li><a href='#top-section'><div>首頁</div></a></li>
             <li><a href='#signup-section'><div>報名</div></a></li>

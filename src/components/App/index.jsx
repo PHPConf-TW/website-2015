@@ -28,8 +28,8 @@ class App extends Component {
         let subTitle = $link.text() || '首頁';
         let top = ($(pageId).offset() && $(pageId).offset().top) || 0;
 
-        $('nav a').css('border-bottom', '0px');
-        $link.css('border-bottom', '1px solid #fff');
+        $('nav a').removeClass('active');
+        $link.addClass('active');
 
         $b.animate({
           scrollTop: top

@@ -6,6 +6,7 @@ class Nav extends Component {
     return (
       <nav>
         <div className="row">
+          <div className="logo">PHPConf 2015</div>
           <ul>
             <li><a href='#top-section'>首頁</a></li>
             <li><a href='#signup-section'>報名</a></li>

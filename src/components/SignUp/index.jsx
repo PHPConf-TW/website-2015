@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class SignUp extends Component {
   render() {
     return (
-      <section id="signup">
+      <section id="signup" className="section-block">
         <div className="row">
           <h3>報名</h3>
           <p className="text-center">PHPConf 2015 報名日期有兩個時段，注意時間趕快來報名唷 ^.^ ~ (我是假文案)</p>

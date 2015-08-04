@@ -44,17 +44,15 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><i className="icon-record"></i></div>
             <div className="work-wrapper">
-              <h4 className="work">記錄<span className="leader">Daniel丹丹</span></h4>
+              <h4 className="work">記錄<span className="leader">丹丹</span></h4>
               <div>
                 <ul>
                   <li>丞相</li>
-                  <li>othree</li>
+                  <li>牙牙</li>
                   <li>日京三子</li>
-                  <li>黃牙牙</li>
-                  <li>CJOKER</li>
-                  <li>Duncan</li>
-                  <li>大助</li>
-                  <li>HaWay</li>
+                  <li>cjoker</li>
+                  <li>Carol</li>
+                  <li>鐵人</li>
                 </ul>
               </div>
             </div>

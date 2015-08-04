@@ -18,6 +18,7 @@ nav {
     padding-right: 20px;
   }
   a {
+    display: inline-block;
     color: rgba(255, 255, 255, 0.85);
     padding-bottom: 6px;
   }
@@ -30,5 +31,135 @@ nav {
   .logo {
     float: left;
     color: rgba(255, 255, 255, 0.85);
+  }
+}
+@media (max-width:767px) {
+  nav.active {
+    height: 100%;
+    background: #383636;
+    ul {
+      display: block;
+    }
+    .logo {
+      border-bottom: 1px solid #383838;
+      box-shadow: 1px 0px 1px #BDBDBD;
+    }
+    .hamburger {
+      .top {
+        -webkit-transform: translateY(350%) rotate(45deg) !important;
+        -ms-transform: translateY(350%) rotate(45deg) !important;
+        transform: translateY(350%) rotate(45deg) !important;
+      }
+      .mid {
+        opacity: 0;
+      }
+      .bottom {
+        -webkit-transform: translateY(-350%) rotate(135deg) !important;
+        -ms-transform: translateY(-350%) rotate(135deg) !important;
+        transform: translateY(-350%) rotate(135deg) !important;
+      }
+    }
+  }
+  nav {
+    height: 60px;
+    padding: 0;
+    overflow: hidden;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    ul {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      top: 0px;
+      padding-top: 61px;
+      display: none;
+    }
+    li {
+      position: relative;
+      display: block;
+      text-align: center;
+      height: 12.5%;
+      padding: 0;
+      a {
+        position: relative;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 18px;
+        border-bottom: 1px solid #444;
+        div {
+          width: 100%;
+          position: absolute;
+          top: 50%;
+          margin-top: -11px;
+        }
+      }
+      a:hover {
+        background-color: #4A4848;
+        border-top: 2px solid #5C5C5C;
+        border-bottom: 2px solid #4A4A4A;
+      }
+      a:active, a.active {
+        background-color: #247FA4;
+        border-top: 2px solid #2882A6;
+        border-bottom: 2px solid #1D7091;
+      }
+    }
+    .row {
+      height: 100%;
+      margin: 0;
+    }
+    .logo {
+      float: initial;
+      padding: 20px;
+    }
+    .hamburger {
+      position: fixed;
+      right: 0px;
+      float: right;
+      width: 64px;
+      height: 61px;
+      padding: 22px 20px;
+      -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+      transition: transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+      z-index: 1002;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    .hamburger:hover {
+      .top {
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+      }
+      .bottom {
+        -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        transform: translateY(100%);
+      }
+    }
+    .layer {
+      background: rgba(255, 255, 255, 0.85);
+      margin-bottom: 5px;
+      border-radius: 2px;
+      width: 24px;
+      height: 2px;
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+      transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    }
   }
 }

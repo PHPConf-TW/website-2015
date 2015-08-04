@@ -27,13 +27,13 @@ class App extends Component {
     special.scrollstop = {
       latency: 250,
       setup: function(data) {
-        let _data = $.extend({
+        let options = $.extend({
           latency: special.scrollstop.latency
         }, data);
 
         let timer;
         let handler = function(evt) {
-          let _args = arguments;
+          let args = arguments;
 
           if (timer) {
             clearTimeout(timer);
@@ -42,8 +42,8 @@ class App extends Component {
           timer = setTimeout(() => {
             timer = null;
             evt.type = 'scrollstop';
-            dispatch.apply(this, _args);
-          }, _data.latency);
+            dispatch.apply(this, args);
+          }, options.latency);
         };
 
         $(this).bind('scroll', handler).data(uid, handler);

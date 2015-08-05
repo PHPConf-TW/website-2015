@@ -4,7 +4,7 @@ import Speaker from './Speaker';
 
 class List extends Component {
   render() {
-    let speakers = this.props.speakers.map((speaker) => {
+    const speakers = this.props.speakers.map((speaker) => {
       return <Speaker {...speaker} />;
     });
 
@@ -15,5 +15,9 @@ class List extends Component {
     );
   }
 }
+
+List.propTypes = {
+  speakers: React.PropTypes.array.isRequired,
+};
 
 export default List;

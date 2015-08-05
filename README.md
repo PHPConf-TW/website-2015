@@ -5,6 +5,7 @@ Source Code for PHPConf Taiwan 2015.
 ## Usage
 
 ```
+$ npm install -g babel
 $ npm install
 $ npm start
 ```

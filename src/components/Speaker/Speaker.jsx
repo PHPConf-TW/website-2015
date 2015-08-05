@@ -4,7 +4,7 @@ import SpeakerInfo from './Box';
 
 class Speaker extends Component {
   render() {
-    let info = this.props.info.map((content) => {
+    const info = this.props.info.map((content) => {
       return <p>{content}</p>;
     });
 
@@ -29,5 +29,12 @@ class Speaker extends Component {
     );
   }
 }
+
+Speaker.propTypes = {
+  avatar: React.PropTypes.string.isRequired,
+  title: React.PropTypes.string.isRequired,
+  name: React.PropTypes.string.isRequired,
+  info: React.PropTypes.array.isRequired,
+};
 
 export default Speaker;

@@ -14,26 +14,24 @@ import Sponsor from '../Sponsor';
 class App extends Component {
 
   componentDidMount() {
-    let title = document.title;
-    let $w = $(window);
-    let $b = (window.opera) ?
-      (document.compatMode === 'CSS1Compat' ? $('html') : $('body')) :
-      $('html,body');
+    const title = document.title;
+    const $w = $(window);
+    const $b = (window.opera) ? (document.compatMode === 'CSS1Compat' ? $('html') : $('body')) : $('html,body');
 
-    let dispatch = $.event.dispatch || $.event.handle;
-    let special = $.event.special;
-    let uid = 'D' + (+new Date());
+    const dispatch = $.event.dispatch || $.event.handle;
+    const special = $.event.special;
+    const uid = 'D' + (+new Date());
 
     special.scrollstop = {
       latency: 250,
-      setup: function(data) {
-        let options = $.extend({
-          latency: special.scrollstop.latency
+      setup: function setup(data) {
+        const options = $.extend({
+          latency: special.scrollstop.latency,
         }, data);
 
         let timer;
-        let handler = function(evt) {
-          let args = arguments;
+        const handler = function handler(evt) {
+          const args = arguments;
 
           if (timer) {
             clearTimeout(timer);
@@ -48,25 +46,25 @@ class App extends Component {
 
         $(this).bind('scroll', handler).data(uid, handler);
       },
-      teardown: function() {
+      teardown: () => {
         $(this).unbind('scroll', $(this).data(uid));
-      }
+      },
     };
 
-    $(function() {
-      $w.on('hashchange', function () {
-        let hash = window.location.hash || '#top-section';
-        let $link = $('a[href="' + hash + '"]');
-        let pageId = hash.replace('-section', '');
-        let subTitle = $link.text() || '首頁';
-        let top = ($(pageId).offset() && $(pageId).offset().top) || 0;
+    $(() => {
+      $w.on('hashchange', function hashchange() {
+        const hash = window.location.hash || '#top-section';
+        const $link = $('a[href="' + hash + '"]');
+        const pageId = hash.replace('-section', '');
+        const subTitle = $link.text() || '首頁';
+        const top = ($(pageId).offset() && $(pageId).offset().top) || 0;
 
         $('nav a').removeClass('active');
         $link.addClass('active');
 
         $b.animate({
-          scrollTop: top
-        }, 600, function () {
+          scrollTop: top,
+        }, 600, () => {
           $b.scrollTop(top);
         });
 
@@ -74,15 +72,15 @@ class App extends Component {
         document.title = subTitle + ' | ' + title;
         ga('send', 'pageview', {
           'page': 'index.html' + hash,
-          'title': document.title
+          'title': document.title,
         });
       }).trigger('hashchange');
 
-      $w.on('scrollstop', function() {
+      $w.on('scrollstop', () => {
         let idx = 0;
-        let stop = $w.scrollTop();
+        const stop = $w.scrollTop();
         $.each($('.section-block'), (i, sec) => {
-          let sectop = parseInt($(sec).offset().top);
+          const sectop = parseInt($(sec).offset().top, 10);
           if (stop >= sectop) {
             idx = i + 1;
           }

@@ -8,23 +8,23 @@ class Prospect extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      hide: true
+      hide: true,
     };
   }
 
   handleClick = () => {
     this.setState({
-      hide: false
+      hide: false,
     });
   }
 
   render() {
-    let hideClass = classnames({
+    const hideClass = classnames({
       hide: this.state.hide,
       animated: !this.state.hide,
-      fadeInLeft: !this.state.hide
+      fadeInLeft: !this.state.hide,
     });
-    let buttonClass = classnames('text-btn', {hide: !this.state.hide});
+    const buttonClass = classnames('text-btn', {hide: !this.state.hide});
 
     return (
       <section id="prospect" className="section-block">
@@ -33,7 +33,7 @@ class Prospect extends Component {
           <article className="clearfix">
             <div className="carousel">
               <div className="box">
-                <img alt='PHPConf Taiwan' title='PHPConf Taiwan' src={Img} />
+                <img alt="PHPConf Taiwan 2015" title="PHPConf Taiwan 2015" src={Img} />
               </div>
               <div className="carousel-btn">
                 <ul>

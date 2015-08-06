@@ -3,20 +3,23 @@ import React, { Component } from 'react';
 
 class Box extends Component {
   render() {
+    const style = {};
+    style.display = this.props.show ? 'inline' : 'none';
+
     return (
-      <div className="shadow-box speaker-box-wrapper">
+      <div className="shadow-box speaker-box-wrapper" style={style}>
         <div className="speaker-box">
-          <div className="close-btn">
+          <div className="close-btn" onClick={this.props.handleClick}>
             <div className="layer top"></div>
             <div className="layer bottom"></div>
           </div>
           <div className="box-wrapper">
             <div className="speaker-info">
               <div className="avatar">
-                <img src="http://fakeimg.pl/250x250" />
+                <img src={this.props.avatar} />
               </div>
-              <h5>SBACE.co 軟體開發總監</h5>
-              <h4>Brian</h4>
+              <h5>{this.props.title}</h5>
+              <h4>{this.props.name}</h4>
               <div className="links">
                 <ul>
                   <li><a href="#" target="_blank">FB</a></li>
@@ -25,9 +28,9 @@ class Box extends Component {
               </div>
             </div>
             <div className="descrip">
-              <p>
-              iOS/PHP Developer，目前為 SBACE.co 軟體開發總監。<br /><br />過去於 CyberLink 擔綱資深工程師，也曾是 5945.tw 技術長暨共同創辦人。<br /><br />寫過兩本 iOS 開發教學書籍，30歲以前熱愛參加軟體開發競賽和 Hack Day，得過兩次小獎，喜歡 Cafe，鋼琴樂和巧克力飲。
-              </p>
+              {_.map(this.props.info, (content) => {
+                return <p>{content}</p>;
+              })}
             </div>
           </div>
         </div>
@@ -36,4 +39,13 @@ class Box extends Component {
   }
 }
 
+Box.mixins = [React.addons.PureRenderMixin];
+Box.propTypes = {
+  avatar: React.PropTypes.string.isRequired,
+  title: React.PropTypes.string.isRequired,
+  name: React.PropTypes.string.isRequired,
+  info: React.PropTypes.array.isRequired,
+  show: React.PropTypes.bool.isRequired,
+  handleClick: React.PropTypes.func.isRequired,
+};
 export default Box;

@@ -103,8 +103,8 @@ class App extends Component {
         <Speaker />
         <Schedule />
         <Location />
-        <About />
         <Sponsor />
+        <About />
         <Footer />
       </div>
     );

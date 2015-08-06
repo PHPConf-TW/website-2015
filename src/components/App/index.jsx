@@ -16,7 +16,8 @@ class App extends Component {
   componentDidMount() {
     const title = document.title;
     const $w = $(window);
-    const $b = (window.opera) ? (document.compatMode === 'CSS1Compat' ? $('html') : $('body')) : $('html,body');
+    let $b = document.compatMode === 'CSS1Compat' ? $('html') : $('body');
+    $b = window.opera ? $b : $('html, body');
 
     const dispatch = $.event.dispatch || $.event.handle;
     const special = $.event.special;

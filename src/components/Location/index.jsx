@@ -16,7 +16,7 @@ class Location extends Component {
             </ul>
           </div>
           <div className="pure-u-1 pure-u-md-1-2 venue-map">
-              <a href="https://goo.gl/maps/4EjyR" target="_blank"><img src="http://maps.google.com/maps/api/staticmap?center=25.0385769,121.4314296&zoom=17&size=400x200&sensor=false&markers=color:red%7Clabel:E%7C25.0385769,121.4314296" /></a>
+              <a href="https://goo.gl/maps/4EjyR" target="_blank"><img src="http://maps.google.com/maps/api/staticmap?center=25.0385769,121.4314296&zoom=17&size=500x400&sensor=false&markers=color:red%7Clabel:E%7C25.0385769,121.4314296" /></a>
           </div>
         </div>
       </section>

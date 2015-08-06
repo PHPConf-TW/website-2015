@@ -2,6 +2,9 @@ import '!style!css!less!./Prospect.less';
 import React, { Component } from 'react';
 import classnames from 'classnames';
 import Img from './bg.jpg';
+import Img2 from './bg2.jpg';
+import Img3 from './bg3.jpg';
+
 
 class Prospect extends Component {
 
@@ -9,12 +12,20 @@ class Prospect extends Component {
     super(props);
     this.state = {
       hide: true,
+      active: 0,
+      img: [Img, Img2, Img3],
     };
   }
 
   handleClick = () => {
     this.setState({
       hide: false,
+    });
+  }
+
+  setTab = (index) => {
+    this.setState({
+      active: index,
     });
   }
 
@@ -25,7 +36,6 @@ class Prospect extends Component {
       fadeInLeft: !this.state.hide,
     });
     const buttonClass = classnames('text-btn', {hide: !this.state.hide});
-
     return (
       <section id="prospect" className="section-block">
         <div className="row">
@@ -33,13 +43,21 @@ class Prospect extends Component {
           <article className="clearfix">
             <div className="carousel">
               <div className="box">
-                <img alt="PHPConf Taiwan 2015" title="PHPConf Taiwan 2015" src={Img} />
+                {_.map(this.state.img, (content, index) => {
+                  const className = classnames({
+                    active: index === this.state.active,
+                  });
+                  return <img key={index} className={className} src={content} />;
+                })}
               </div>
               <div className="carousel-btn">
                 <ul>
-                  <li className="active"></li>
-                  <li></li>
-                  <li></li>
+                  {_.map(this.state.img, (content, index) => {
+                    const className = classnames({
+                      active: index === this.state.active,
+                    });
+                    return <li key={index} onClick={this.setTab.bind(null, index)} className={className}></li>;
+                  })}
                 </ul>
               </div>
             </div>

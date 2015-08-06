@@ -4,8 +4,8 @@ import Speaker from './Speaker';
 
 class List extends Component {
   render() {
-    const speakers = this.props.speakers.map((speaker) => {
-      return <Speaker {...speaker} />;
+    const speakers = this.props.speakers.map((speaker, index) => {
+      return <Speaker key={index} {...speaker} />;
     });
 
     return (

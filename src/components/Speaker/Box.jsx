@@ -29,8 +29,8 @@ class Box extends Component {
               </div>
             </div>
             <div className="descrip">
-              {_.map(this.props.info, (content) => {
-                return <p>{content}</p>;
+              {_.map(this.props.info, (content, index) => {
+                return <p key={index}>{content}</p>;
               })}
             </div>
           </div>

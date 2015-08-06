@@ -1,5 +1,6 @@
 import '!style!css!less!./Speaker.less';
 import React, { Component } from 'react';
+import _ from 'lodash';
 
 class Box extends Component {
   render() {

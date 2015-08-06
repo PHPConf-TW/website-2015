@@ -13,9 +13,9 @@ const Speaker = React.createClass({
           <div onClick={this.handleClick} className="avatar">
             <img src={this.props.avatar} />
           </div>
-          <div className="speaker-info">
+          <div onClick={this.handleClick} className="speaker-info">
             <h5>{this.props.title}</h5>
-            <h4 onClick={this.handleClick}>{this.props.name}</h4>
+            <h4>{this.props.name}</h4>
             <div className="links">
               <ul>
                 <li><a href="#" target="_blank">FB</a></li>

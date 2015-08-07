@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import Img from './bg.jpg';
 import Img2 from './bg2.jpg';
 import Img3 from './bg3.jpg';
-
+import _ from 'lodash';
 
 class Prospect extends Component {
 

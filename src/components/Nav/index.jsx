@@ -1,41 +1,35 @@
 import '!style!css!less!./Nav.less';
 import React, { Component } from 'react';
+import classnames from 'classnames';
 
 class Nav extends Component {
 
-  componentDidMount() {
-    $(() => {
-      const $nav = $('nav');
-      const $hamburger = $nav.find('.hamburger');
-      const $menu = $nav.find('ul');
+  constructor(props) {
+    super(props);
+    this.state = {
+      active: false,
+    };
+  }
 
-      $hamburger.on('click', () => {
-        if ($nav.hasClass('active')) {
-          $nav.removeClass('active');
-        } else {
-          $nav.addClass('active');
-        }
-      });
-
-      $menu.on('click', () => {
-        if ($nav.hasClass('active')) {
-          $nav.removeClass('active');
-        }
-      });
+  handleActive = () => {
+    this.setState({
+      active: !this.state.active,
     });
   }
 
   render() {
+    const navClass = classnames({active: this.state.active});
+
     return (
-      <nav>
+      <nav className={navClass}>
         <div className="row">
-          <div className="hamburger">
+          <div className="hamburger" onClick={this.handleActive}>
             <div className="layer top"></div>
             <div className="layer mid"></div>
             <div className="layer bottom"></div>
           </div>
           <div className="logo">PHPConf Taiwan 2015</div>
-          <ul>
+          <ul onClick={this.handleActive}>
             <li><a href="#top-section"><div>首頁</div></a></li>
             <li><a href="#signup-section"><div>報名</div></a></li>
             <li><a href="#prospect-section"><div>展望</div></a></li>

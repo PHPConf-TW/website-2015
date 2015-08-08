@@ -36,7 +36,9 @@ class About extends Component {
               <h4 className="work">贊助 / 公關<span className="leader">Wake</span></h4>
               <div>
                 <ul>
-                  <li>Herb</li>
+                  <li>周鴻明</li>
+                  <li>柯彥宇</li>
+                  <li>子彤</li>
                 </ul>
               </div>
             </div>
@@ -47,12 +49,12 @@ class About extends Component {
               <h4 className="work">記錄<span className="leader">丹丹</span></h4>
               <div>
                 <ul>
-                  <li>丞相</li>
-                  <li>牙牙</li>
                   <li>日京三子</li>
+                  <li>丞相</li>
                   <li>cjoker</li>
-                  <li>Carol</li>
+                  <li>牙牙</li>
                   <li>鐵人</li>
+                  <li>裕珊</li>
                 </ul>
               </div>
             </div>
@@ -60,11 +62,13 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><i className="icon-schedule"></i></div>
             <div className="work-wrapper">
-              <h4 className="work">議程<span className="leader">Firch</span></h4>
+              <h4 className="work">議程<span className="leader">Ricky</span></h4>
               <div>
                 <ul>
-                  <li>Vincent</li>
-                  <li>Rocky</li>
+                  <li>聖佑</li>
+                  <li>Sam</li>
+                  <li>正男</li>
+                  <li>黃虹諭</li>
                 </ul>
               </div>
             </div>
@@ -72,21 +76,16 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-general"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">場務 / 採購 / 行政 / 票務<span className="leader">Oreo</span></h4>
+              <h4 className="work">票務<span className="leader">Starlition</span></h4>
               <div>
                 <ul>
-                  <li>Stanley</li>
-                  <li>下午</li>
-                  <li>Lorraine</li>
-                  <li>Elvis</li>
-                  <li>Terry</li>
-                  <li>蛋糕</li>
-                  <li>Ricky</li>
-                  <li>CPH</li>
-                  <li>pythonet</li>
-                  <li>蝦蝦</li>
-                  <li>Mosil</li>
-                  <li>Bobo</li>
+                  <li>唐肇澧</li>
+                  <li>Lynn</li>
+                  <li>Melanie Huang</li>
+                  <li>鮪魚</li>
+                  <li>孫維鍇</li>
+                  <li>黃聖豪</li>
+                  <li>Xeriou</li>
                 </ul>
               </div>
             </div>
@@ -94,18 +93,17 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-line"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">線路<span className="leader">Wake</span></h4>
+              <h4 className="work">場務<span className="leader">Elvis</span></h4>
               <div>
                 <ul>
-                  <li>david</li>
-                  <li>莫風</li>
-                  <li>madarame</li>
-                  <li>波卡Poka</li>
-                  <li>Starlition</li>
-                  <li>胖胖</li>
-                  <li>Peter</li>
-                  <li>MouseMs</li>
-                  <li>小明</li>
+                  <li>魚丸</li>
+                  <li>丸子</li>
+                  <li>姿姿</li>
+                  <li>小康</li>
+                  <li>紙鈔</li>
+                  <li>CPH</li>
+                  <li>Eason</li>
+                  <li>MJ</li>
                 </ul>
               </div>
             </div>
@@ -113,10 +111,10 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-design"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">設計<span className="leader">Debby</span></h4>
+              <h4 className="work">設計<span className="leader">Anita Tsai</span></h4>
               <div>
                 <ul>
-                  <li>chu ching</li>
+                  <li>TAI HUA</li>
                 </ul>
               </div>
             </div>
@@ -124,7 +122,7 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-web"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">網站製作<span className="leader">keany</span></h4>
+              <h4 className="work">網站製作<span className="leader">KeaNy</span></h4>
               <div>
                 <ul>
                   <li>sakilu</li>

@@ -13,6 +13,7 @@ class Prospect extends Component {
     this.state = {
       hide: true,
       active: 0,
+      count: 0,
       img: [Img, Img2, Img3],
     };
   }
@@ -27,6 +28,22 @@ class Prospect extends Component {
     this.setState({
       active: index,
     });
+  }
+
+  changeTab = () => {
+    const count = this.state.count + 1;
+    this.setState({
+      count: count,
+      active: count % (this.state.img.length),
+    });
+  }
+
+  componentDidMount = () => {
+    this.timer = setInterval(this.changeTab, 2000);
+  }
+
+  componentWillUnmount = () => {
+    clearInterval(this.timer);
   }
 
   render() {

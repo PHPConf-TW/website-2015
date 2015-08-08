@@ -240,6 +240,29 @@ class Schedule extends Component {
             </tfoot>
           </table>
         </div>
+        <div className="shadow-box schedule-box-wrapper">
+          <div className="schedule-box">
+            <div className="close-btn">
+              <div className="layer top"></div>
+              <div className="layer bottom"></div>
+            </div>
+            <div className="box-wrapper">
+              <div className="schedule-info">
+                <h4>微博 LAMP 優化之路</h4>
+                <h5>Laruence</h5>
+                <div className="links">
+                  <ul>
+                    <li><a href="#" target="_blank">投影片</a></li>
+                    <li><a href="#" target="_blank">Youtube</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="descrip">
+                微博是目前中國最大的社交媒體平台，每天有近100億的訪問請求，2011年微博遭遇爆炸式增長，原有的架構遇到極大的性能挑戰。 兩年來，微博一直在做性能優化和系統改進工作，到目前為止，LAMP系統得到很大的性能提升，首屏時間從2012年初的3秒降低到現在的1.2秒，LAMP服務器數目卻一直在降低。 這其中的到底做了那些優化工作，作為領導這些優化的作者，將為大家一一道來。
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     );
   }

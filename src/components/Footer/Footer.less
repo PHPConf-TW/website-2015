@@ -16,6 +16,9 @@ footer {
     list-style: none;
     padding-bottom: 10px;
     padding-top: 5px;
+    a:hover, a:active {
+      color: #fff;
+    }
     li {
       display: inline-block;
     }
@@ -27,6 +30,51 @@ footer {
       border-left: 1px solid #353535;
       background-color: #FFFFFF;
       margin: 0 10px;
+    }
+  }
+  .social-wrapper {
+    li + li {
+      margin-left: 15px;
+    }
+    li + li:before {
+      border: none;
+      width: 0px;
+      margin: 0;
+    }
+    .fb, .mail {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 100%;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: .3s;
+      transition-duration: .3s;
+      a {
+        text-shadow: none;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .fb:active, .fb:hover, .mail:active, .mail:hover {
+      a {
+        color: #fff;
+      }
+    }
+    .fb {
+      background-color: #516EAD;
+    }
+    .fb:active, .fb:hover {
+      background-color: #4864A0;
+    }
+    .mail {
+      background-color: #247fa4;
+    }
+    .mail:active, .mail:hover {
+      background-color: #266E8B;
     }
   }
 }

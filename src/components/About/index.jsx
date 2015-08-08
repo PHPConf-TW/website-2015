@@ -134,7 +134,7 @@ class About extends Component {
                   <li>kuanwei</li>
                   <li>ryans</li>
                   <li>wanchia</li>
-                  <li>peggy</li>
+                  <li>bificoo</li>
                   <li>sues</li>
                 </ul>
               </div>

@@ -1,5 +1,7 @@
 # PHPConf Website 2015
 
+[![Build Status](https://travis-ci.org/PHPConf-TW/website-2015.svg)](https://travis-ci.org/PHPConf-TW/website-2015) [![Coverage Status](https://coveralls.io/repos/PHPConf-TW/website-2015/badge.svg?branch=master&service=github)](https://coveralls.io/github/PHPConf-TW/website-2015?branch=master)
+
 Source Code for PHPConf Taiwan 2015.
 
 ## Usage

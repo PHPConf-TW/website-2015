@@ -1,5 +1,6 @@
 import '!style!css!less!./Schedule.less';
 import React, { Component } from 'react';
+import _ from 'lodash';
 
 class Content extends Component {
   render() {

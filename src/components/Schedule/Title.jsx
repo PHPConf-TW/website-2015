@@ -15,14 +15,14 @@ class Title extends Component {
         <td className="content nonborder">
           <div className="pure-u-1 pure-u-md-1-2 one">
             <div className="author-desktop">{first.speaker}</div>
-            <h4 className="arrow_box">{first.title}</h4>
+            <h4 className="arrow_box" onClick={this.props.handleClick.bind(null, first)}>{first.title}</h4>
 
             <div className="author-mobile">{second.speaker}<span className="more">詳細 <i
               className="fa fa-caret-right"></i></span></div>
           </div>
           <div className="pure-u-1 pure-u-md-1-2 two">
             <div className="author-desktop">{second.speaker}</div>
-            <h4 className="arrow_box">{second.title}</h4>
+            <h4 className="arrow_box" onClick={this.props.handleClick.bind(null, second)}>{second.title}</h4>
 
             <div className="author-mobile">{second.speaker} <span className="more">詳細 <i
               className="fa fa-caret-right"></i></span></div>
@@ -36,6 +36,7 @@ class Title extends Component {
 Title.propTypes = {
   data: React.PropTypes.array.isRequired,
   time: React.PropTypes.string.isRequired,
+  handleClick: React.PropTypes.func.isRequired,
 };
 
 export default Title;

@@ -4,13 +4,26 @@ import ScheduleData from 'json!yaml!../../../data/schedule';
 import Title from './Title';
 import Content from './Content';
 import Freetime from './Freetime';
+import Box from './Box';
 import _ from 'lodash';
 
 
 class Schedule extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      toggle: false,
+      data: {},
+    };
+  }
+
+  handleClick = (data) => {
+    this.setState({toggle: !this.state.toggle, data: data});
+  }
+
   render() {
     const list = _.map(ScheduleData, (v, k) => {
-      return _.isArray(v) ? [<Title key={_.uniqueId()} time={k} data={v}/>,
+      return _.isArray(v) ? [<Title key={_.uniqueId()} handleClick={this.handleClick} time={k} data={v}/>,
         <Content key={_.uniqueId()} time={k} data={v}/>] :
         <Freetime key={_.uniqueId()} time={k} data={v}/>;
     });
@@ -42,6 +55,7 @@ class Schedule extends Component {
             </tfoot>
           </table>
         </div>
+        { this.state.toggle ? <Box handleClick={this.handleClick} data={this.state.data} /> : null }
       </section>
     );
   }

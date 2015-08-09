@@ -17,8 +17,8 @@ class Content extends Component {
             {_.map(first.content, (content, index) => {
               return <p key={index}>{content}</p>;
             })}
-            <p style={{display: (first.slide || first.youtube_url) ? 'inline' : 'none'}} className="slide">
-              <a style={{display: first.slide ? 'inline' : 'none'}} href={first.slide_url}>投影片</a>
+            <p style={{display: (first.slide_url || first.youtube_url) ? 'inline' : 'none'}} className="slide">
+              <a style={{display: first.slide_url ? 'inline' : 'none'}} href={first.slide_url}>投影片</a>
               <a style={{display: first.youtube_url ? 'inline' : 'none'}} href={first.youtube_url} target="_blank">Youtube</a>
             </p>
           </div>
@@ -26,8 +26,8 @@ class Content extends Component {
             {_.map(second.content, (content, index) => {
               return <p key={index}>{content}</p>;
             })}
-            <p style={{display: (second.slide || second.youtube_url) ? 'inline' : 'none'}} className="slide">
-              <a style={{display: second.slide ? 'inline' : 'none'}} href={second.slide_url}>投影片</a>
+            <p style={{display: (second.slide_url || second.youtube_url) ? 'inline' : 'none'}} className="slide">
+              <a style={{display: second.slide_url ? 'inline' : 'none'}} href={second.slide_url}>投影片</a>
               <a style={{display: second.youtube_url ? 'inline' : 'none'}} href={second.youtube_url} target="_blank">Youtube</a>
             </p>
           </div>

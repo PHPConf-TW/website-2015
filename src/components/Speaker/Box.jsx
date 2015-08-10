@@ -3,10 +3,15 @@ import React, { Component } from 'react';
 import _ from 'lodash';
 
 class Box extends Component {
+
+  cancelClick(e) {
+    e.stopPropagation();
+  }
+
   render() {
     return (
-      <div className="shadow-box speaker-box-wrapper">
-        <div className="speaker-box">
+      <div className="shadow-box speaker-box-wrapper" onClick={this.props.handleClick}>
+        <div className="speaker-box" onClick={this.cancelClick}>
           <div className="close-btn" onClick={this.props.handleClick}>
             <div className="layer top"></div>
             <div className="layer bottom"></div>

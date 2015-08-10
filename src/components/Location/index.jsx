@@ -15,8 +15,7 @@ class Location extends Component {
               <li>自輔大貴子門進入，右轉第一棟大樓即為國璽樓。(現場將有場務人員舉牌引導方向)</li>
             </ul>
           </div>
-          <div className="pure-u-1 pure-u-md-1-2 venue-map">
-              <a href="https://goo.gl/maps/4EjyR" target="_blank"><img src="http://maps.google.com/maps/api/staticmap?center=25.0385769,121.4314296&zoom=17&size=500x400&sensor=false&markers=color:red%7Clabel:E%7C25.0385769,121.4314296" /></a>
+          <div id="venue-map" className="pure-u-1 pure-u-md-1-2">
           </div>
         </div>
       </section>

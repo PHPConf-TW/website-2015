@@ -43,7 +43,6 @@ Box.propTypes = {
   title: React.PropTypes.string.isRequired,
   name: React.PropTypes.string.isRequired,
   info: React.PropTypes.array.isRequired,
-  show: React.PropTypes.bool.isRequired,
   handleClick: React.PropTypes.func.isRequired,
 };
 export default Box;

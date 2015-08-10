@@ -4,11 +4,8 @@ import _ from 'lodash';
 
 class Box extends Component {
   render() {
-    const style = {};
-    style.display = this.props.show ? 'inline' : 'none';
-
     return (
-      <div className="shadow-box speaker-box-wrapper" style={style}>
+      <div className="shadow-box speaker-box-wrapper">
         <div className="speaker-box">
           <div className="close-btn" onClick={this.props.handleClick}>
             <div className="layer top"></div>

@@ -38,6 +38,7 @@ class Box extends Component {
 }
 
 Box.mixins = [React.addons.PureRenderMixin];
+
 Box.propTypes = {
   avatar: React.PropTypes.string.isRequired,
   title: React.PropTypes.string.isRequired,
@@ -45,4 +46,5 @@ Box.propTypes = {
   info: React.PropTypes.array.isRequired,
   handleClick: React.PropTypes.func.isRequired,
 };
+
 export default Box;

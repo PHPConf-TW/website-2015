@@ -24,7 +24,7 @@ const Speaker = React.createClass({
             </div>
             <p onClick={this.handleClick}>{_.first(this.props.info)}</p>
           </div>
-          { this.state.toggle ? <SpeakerInfo {...this.props} show={this.state.toggle} handleClick={this.handleClick} /> : null }
+          { this.state.toggle ? <SpeakerInfo {...this.props} handleClick={this.handleClick} /> : null }
         </div>
     );
   },

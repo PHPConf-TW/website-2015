@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import _ from 'lodash';
 
 class Box extends Component {
+
+  cancelClick(e) {
+    e.stopPropagation();
+  }
+
   render() {
     return (
-      <div className="shadow-box schedule-box-wrapper">
-        <div className="schedule-box">
+      <div className="shadow-box schedule-box-wrapper" onClick={this.props.handleClick.bind(null, {})}>
+        <div className="schedule-box" onClick={this.cancelClick}>
           <div className="close-btn" onClick={this.props.handleClick.bind(null, {})}>
             <div className="layer top"></div>
             <div className="layer bottom"></div>
@@ -36,8 +41,10 @@ class Box extends Component {
     );
   }
 }
+
 Box.propTypes = {
   data: React.PropTypes.object.isRequired,
   handleClick: React.PropTypes.func.isRequired,
 };
+
 export default Box;

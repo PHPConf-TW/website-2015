@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - stable
+  - 'iojs-v2.5.0'
+
+install:
+  - npm install
+
+script:
+  - npm test
+
+# Send coverage data to Coveralls
+after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"

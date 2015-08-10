@@ -1,0 +1,128 @@
+# 報到css不一樣, 另外處理
+#'09:00 AM':
+#  title: '報到'
+
+'09:20 AM':
+  title: '開幕'
+
+'09:30 AM':
+  title: 'Rasmus'
+
+'10:40 AM':
+  title: '休息'
+
+'10:50 AM':
+-
+  speaker: 'c9s'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '國際會議廳'
+  content:
+    - '敬請期待'
+-
+  speaker: 'Ricky'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '蘇格拉底廳'
+  content:
+    - '敬請期待'
+
+'11:30 PM':
+  title: '午休'
+
+'12:30 AM':
+-
+  speaker: '林志傑 (fukuball)'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '國際會議廳'
+  content:
+    - '敬請期待'
+-
+  speaker: '江明宗 (Kiang)'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '蘇格拉底廳'
+  content:
+    - '敬請期待'
+
+'13:20 PM':
+  title: '休息'
+
+'13:30 AM':
+-
+  speaker: 'Ant'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '國際會議廳'
+  content:
+    - '以 EPV 實例帶領會眾瞭解 PHP Extension 的開發動機、架構與成果。並延伸探討 PHP Extension 應用於產品中的實務案例。'
+    - 'EPV : Extra Predefined Variables for PHP，用來補齊 PHP 遺失的 $_PUT 與 $_DELETE'
+
+-
+  speaker: '聖佑'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '蘇格拉底廳'
+  content:
+    - 'Drupal 本來僅針對 Single Server Hosting ，如何在現今擴展性的需求不斷提高下，逐步調適演進？'
+    - '本主題將由 Drupal 的演進陣痛，談談 PHP 專案開發時如何為 Scalibility 預做準備。'
+
+'14:10 PM':
+  title: '休息'
+
+'14:20 PM':
+-
+  speaker: '尤川豪'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '國際會議廳'
+  content:
+    - '使用phpalcon framework開發該如何上手以及架構與使用。'
+    - '內容包含使用方式ORM, Template Engine (Volt),DI ,Events Management ,Encryption ,HTTP Request ,Response ,Cookies。'
+-
+  speaker: 'SteveLo (SDpower)'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '蘇格拉底廳'
+  content:
+    - 'Docker是這一年來虛擬化環境的新秀，以LXC技術展現輕量型虛擬化，並且擁有自動建構、版本控制的特性，配合Docker hub平台，讓我們能夠快速部署伺服器環境與專案。'
+    - '而這個連Google、Red Hat都很是重視的LXC管理工具，該如何運用在PHP的專案上呢？就讓我們一探究竟吧！'
+
+'15:00 PM':
+  title: '下午茶'
+
+'15:30 PM':
+-
+  speaker: 'Fntsrlike'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '國際會議廳'
+  content:
+    - 'CLIFramework is a command-line application framework, for building flexiable, simple command-line applications.'
+-
+  speaker: '楊泓曆'
+  title: '講師努力生產中'
+  youtube_url: ''
+  slide_url: ''
+  location: '蘇格拉底廳'
+  content:
+    - '在大型網站上，透過 Varnish 機制加速網頁伺服器回應速度的實際應用場景，包含 cache 應用，多 domain 轉址及手機來源判斷機制等相關應用'
+
+'16:00 PM':
+  title: '休息'
+
+'16:10 PM':
+  title: 'Laruence'
+
+'16:50 PM':
+  title: '閉幕'

@@ -1,5 +1,19 @@
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/feng.jpg'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/楊泓曆.jpg'
+  name: '楊泓曆'
+  title: 'ProjectUp'
+  info:
+    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
+    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
+-
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/c9s.jpeg'
+  name: 'c9s'
+  title: 'ProjectUp'
+  info:
+    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
+    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
+-
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/Rasmus.jpg'
   name: 'Rasmus'
   title: 'SBACE.co 軟體開發總監'
   info:
@@ -7,7 +21,7 @@
     - '過去於 CyberLink 擔綱資深工程師，也曾是 5945.tw 技術長暨共同創辦人。'
     - '寫過兩本 iOS 開發教學書籍，30歲以前熱愛參加軟體開發競賽和 Hack Day，得過兩次小獎，喜歡 Cafe，鋼琴樂和巧克力飲。'
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/feng.jpg'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/Laurence.jpg'
   name: 'Laruence'
   title: 'SBACE.co 軟體開發總監'
   info:
@@ -15,22 +29,14 @@
     - '過去於 CyberLink 擔綱資深工程師，也曾是 5945.tw 技術長暨共同創辦人。'
     - '寫過兩本 iOS 開發教學書籍，30歲以前熱愛參加軟體開發競賽和 Hack Day，得過兩次小獎，喜歡 Cafe，鋼琴樂和巧克力飲。'
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/feng.jpg'
-  name: 'Brian'
-  title: 'SBACE.co 軟體開發總監'
-  info:
-    - 'iOS/PHP Developer，目前為 SBACE.co 軟體開發總監。'
-    - '過去於 CyberLink 擔綱資深工程師，也曾是 5945.tw 技術長暨共同創辦人。'
-    - '寫過兩本 iOS 開發教學書籍，30歲以前熱愛參加軟體開發競賽和 Hack Day，得過兩次小獎，喜歡 Cafe，鋼琴樂和巧克力飲。'
--
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/Kiang.jpg'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/Kiang.jpg'
   name: 'Kiang'
   title: '就這間電腦工作室'
   info:
     - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
     - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/FirchTsai.png'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/FirchTsai.png'
   name: 'FirchTsai 蔡易樵'
   title: 'Tronice 創時系統'
   info:
@@ -38,43 +44,43 @@
     - '偏好 C Family 語言，因此以 PHP 開發伺服器端。擁有多種底層到上層的工作經驗，包含 Embedded Linux、晶片卡/RFID、搜尋引擎、E-Mail、進銷存系統、購物網站 與 APP。'
     - '鑽研過從後端到前端的多種語言，包括 C/C++、Perl、PHP、SQL、Javascript 與 CSS。'
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/Joe.jpg'
-  name: 'c9s'
-  title: 'ProjectUp'
-  info:
-    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
-    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
--
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/Joe.jpg'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/Ricky.jpg'
   name: 'Ricky'
   title: 'ProjectUp'
   info:
     - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
     - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/Joe.jpg'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/fukuball.jpg'
   name: '林志傑 (fukuball)'
   title: 'ProjectUp'
   info:
     - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
     - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/Joe.jpg'
-  name: '江明宗 (Kiang)'
-  title: 'ProjectUp'
-  info:
-    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
-    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
--
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/Joe.jpg'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/ant.jpg'
   name: 'Ant'
   title: 'ProjectUp'
   info:
     - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
     - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
 -
-  avatar: 'http://phpconf.tw/2014/assets/images/speakers/Joe.jpg'
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/sy.jpg'
   name: '聖佑'
+  title: 'ProjectUp'
+  info:
+    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
+    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
+-
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/SDpower.jpg'
+  name: 'SDpower'
+  title: 'ProjectUp'
+  info:
+    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
+    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
+-
+  avatar: 'http://phpconf.tw/2015/assets/images/speakers/尤川豪.jpg'
+  name: '尤川豪'
   title: 'ProjectUp'
   info:
     - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'

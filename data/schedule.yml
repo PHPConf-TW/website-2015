@@ -111,12 +111,12 @@
     - 'CLIFramework is a command-line application framework, for building flexiable, simple command-line applications.'
 -
   speaker: '楊泓曆'
-  title: '講師努力生產中'
+  title: '讓買廉航機票不是件崩潰的事 - 台日航線篇'
   youtube_url: ''
   slide_url: ''
   location: '蘇格拉底廳'
   content:
-    - '在大型網站上，透過 Varnish 機制加速網頁伺服器回應速度的實際應用場景，包含 cache 應用，多 domain 轉址及手機來源判斷機制等相關應用'
+    - '廉航機票主要採浮動票價，越接近出發時間，票價會跟著變貴，這點大家應該都知道，但總會有一個時間點，過了該點後，票價就會明顯地開始往上飆。本講題主要以台日航線下的廉價航空為主，蒐集了從今年初開始的國際及日本國內線近二千萬筆票價資料並藉由數據分析過程，找出該點，藉以幫助消費者減少下手時的猶豫。'
 
 '16:00 PM':
   title: '休息'

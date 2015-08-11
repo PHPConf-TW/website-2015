@@ -23,7 +23,18 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-support"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">贊助 / 公關<span className="leader">Wake</span></h4>
+              <h4 className="work">贊助<span className="leader">Johnpupu</span></h4>
+              <div>
+                <ul>
+                  <li>Wake</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+            <div className="icon"><div><i className="icon-support"></i></div></div>
+            <div className="work-wrapper">
+              <h4 className="work">公關<span className="leader">Wake</span></h4>
               <div>
                 <ul>
                   <li>周鴻明</li>

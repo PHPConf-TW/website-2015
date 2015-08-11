@@ -1,7 +1,7 @@
 import '!style!css!less!./Location.less';
 import React, { Component } from 'react';
 import GoogleMap from 'google-map-react';
-import Logo from './logo.png';
+import Marker from './marker.png';
 
 class Location extends Component {
   render() {
@@ -9,8 +9,8 @@ class Location extends Component {
     const lng = 121.431245;
     const greatPlaceStyle = {
       position: 'absolute',
-      width: 30,
-      height: 30,
+      width: 40,
+      height: 40,
     };
     return (
       <section id="venue" className="section-block">
@@ -26,7 +26,7 @@ class Location extends Component {
           </div>
           <div id="venue-map" className="pure-u-1 pure-u-md-1-2">
               <GoogleMap center={[lat, lng]} zoom={14} >
-                <img src={Logo} lat={lat} lng={lng} style={greatPlaceStyle} />
+                <img src={Marker} lat={lat} lng={lng} style={greatPlaceStyle} />
               </GoogleMap>
           </div>
         </div>

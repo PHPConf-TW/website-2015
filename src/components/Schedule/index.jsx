@@ -17,7 +17,13 @@ class Schedule extends Component {
     };
   }
 
-  handleClick = (data) => {
+  handleClick = (data, e) => {
+    const windowSize = $(document).width();
+
+    if (windowSize > 768) {
+      return e.stopPropagation();
+    }
+
     this.setState({toggle: !this.state.toggle, data: data});
   }
 

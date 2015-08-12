@@ -4,7 +4,6 @@ import classnames from 'classnames';
 import Img from './bg.jpg';
 import Img2 from './bg2.jpg';
 import Img3 from './bg3.jpg';
-import _ from 'lodash';
 
 class Prospect extends Component {
 
@@ -60,7 +59,7 @@ class Prospect extends Component {
           <article className="clearfix">
             <div className="carousel">
               <div className="box">
-                {_.map(this.state.img, (content, index) => {
+                {this.state.img.map((content, index) => {
                   const className = classnames({
                     active: index === this.state.active,
                   });
@@ -69,7 +68,7 @@ class Prospect extends Component {
               </div>
               <div className="carousel-btn">
                 <ul>
-                  {_.map(this.state.img, (content, index) => {
+                  {this.state.img.map((content, index) => {
                     const className = classnames({
                       active: index === this.state.active,
                     });

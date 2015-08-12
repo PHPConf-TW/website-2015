@@ -1,7 +1,6 @@
 import '!style!css!less!./Speaker.less';
 import React, { Component } from 'react';
 import SpeakerInfo from './Box';
-import _ from 'lodash';
 
 class Speaker extends Component {
 
@@ -33,7 +32,7 @@ class Speaker extends Component {
                 <li><a href="#" target="_blank">相關連結</a></li>
               </ul>
             </div>
-            <p onClick={this.handleClick}>{_.first(this.props.info)}</p>
+            <p onClick={this.handleClick}>{this.props.info[0]}</p>
           </div>
           { this.state.toggle ? <SpeakerInfo {...this.props} handleClick={this.handleClick} /> : null }
         </div>

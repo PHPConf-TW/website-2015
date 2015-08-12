@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
 
 class Box extends Component {
 
@@ -31,8 +30,8 @@ class Box extends Component {
               </div>
             </div>
             <div className="descrip">
-              {_.map(this.props.data.content, (content, index) => {
-                return <p key={index}>{content}</p>;
+              {this.props.data.content.map((content, key) => {
+                return <p key={key}>{content}</p>;
               })}
             </div>
           </div>

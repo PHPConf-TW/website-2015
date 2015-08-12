@@ -1,12 +1,11 @@
 import '!style!css!less!./Schedule.less';
 import React, { Component } from 'react';
-import _ from 'lodash';
 
 class Content extends Component {
   render() {
     let first;
     let second;
-    _.forEach(this.props.data, (n) => {
+    this.props.data.map((n) => {
       n.location === '國際會議廳' ? first = n : second = n;
     });
     return (
@@ -14,8 +13,8 @@ class Content extends Component {
         <td className="time right"></td>
         <td className="content">
           <div className="pure-u-1 pure-u-md-1-2 two">
-            {_.map(first.content, (content, index) => {
-              return <p key={index}>{content}</p>;
+            {first.content.map((content, key) => {
+              return <p key={key}>{content}</p>;
             })}
             <p style={{display: (first.slide_url || first.youtube_url) ? 'inline' : 'none'}} className="slide">
               <a style={{display: first.slide_url ? 'inline' : 'none'}} href={first.slide_url}>投影片</a>
@@ -23,8 +22,8 @@ class Content extends Component {
             </p>
           </div>
           <div className="pure-u-1 pure-u-md-1-2 two">
-            {_.map(second.content, (content, index) => {
-              return <p key={index}>{content}</p>;
+            {second.content.map((content, key) => {
+              return <p key={key}>{content}</p>;
             })}
             <p style={{display: (second.slide_url || second.youtube_url) ? 'inline' : 'none'}} className="slide">
               <a style={{display: second.slide_url ? 'inline' : 'none'}} href={second.slide_url}>投影片</a>

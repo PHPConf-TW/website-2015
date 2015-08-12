@@ -1,6 +1,5 @@
 import '!style!css!less!./Speaker.less';
 import React, { Component } from 'react';
-import _ from 'lodash';
 
 class Box extends Component {
 
@@ -31,8 +30,8 @@ class Box extends Component {
               </div>
             </div>
             <div className="descrip">
-              {_.map(this.props.info, (content, index) => {
-                return <p key={index}>{content}</p>;
+              {this.props.info.map((content, key) => {
+                return <p key={key}>{content}</p>;
               })}
             </div>
           </div>

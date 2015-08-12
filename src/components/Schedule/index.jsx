@@ -7,8 +7,8 @@ import Freetime from './Freetime';
 import Box from './Box';
 import _ from 'lodash';
 
-
 class Schedule extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -23,9 +23,9 @@ class Schedule extends Component {
 
   render() {
     const list = _.map(ScheduleData, (v, k) => {
-      return _.isArray(v) ? [<Title key={_.uniqueId()} handleClick={this.handleClick} time={k} data={v}/>,
-        <Content key={_.uniqueId()} time={k} data={v}/>] :
-        <Freetime key={_.uniqueId()} time={k} data={v}/>;
+      return Array.isArray(v) ? [<Title handleClick={this.handleClick} time={k} data={v}/>,
+        <Content time={k} data={v}/>] :
+        <Freetime time={k} data={v}/>;
     });
     return (
       <section id="schedule" className="section-block">

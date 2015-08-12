@@ -1,12 +1,11 @@
 import '!style!css!less!./Schedule.less';
 import React, { Component } from 'react';
-import _ from 'lodash';
 
 class Title extends Component {
   render() {
     let first;
     let second;
-    _.forEach(this.props.data, (n) => {
+    this.props.data.map((n) => {
       n.location === '國際會議廳' ? first = n : second = n;
     });
     return (

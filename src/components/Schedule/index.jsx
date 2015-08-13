@@ -33,6 +33,13 @@ class Schedule extends Component {
         <Content time={k} data={v}/>] :
         <Freetime time={k} data={v}/>;
     });
+
+    if (this.state.toggle) {
+      $('body').addClass('noscroll');
+    } else {
+      $('body').removeClass('noscroll');
+    }
+
     return (
       <section id="schedule" className="section-block">
         <div className="row">

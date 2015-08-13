@@ -42,8 +42,8 @@ class Schedule extends Component {
             <tr>
               <th>時間</th>
               <th>
-                <div className="pure-u-1 pure-u-md-1-2 one">國際會議廳</div>
-                <div className="pure-u-1 pure-u-md-1-2 two">蘇格拉底廳</div>
+                <div className="pure-u-1 pure-u-md-1-2 one">一樓大會議廳</div>
+                <div className="pure-u-1 pure-u-md-1-2 two">二樓會議廳</div>
               </th>
             </tr>
             </thead>

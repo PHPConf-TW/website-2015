@@ -32,7 +32,7 @@ class Speaker extends Component {
                 <li><a href="#" target="_blank">相關連結</a></li>
               </ul>
             </div>
-            <p onClick={this.handleClick}>{this.props.info[0]}</p>
+            <p onClick={this.handleClick}>{this.props.briefInfo}</p>
           </div>
           { this.state.toggle ? <SpeakerInfo {...this.props} handleClick={this.handleClick} /> : null }
         </div>
@@ -45,6 +45,7 @@ Speaker.propTypes = {
   title: React.PropTypes.string.isRequired,
   name: React.PropTypes.string.isRequired,
   info: React.PropTypes.array.isRequired,
+  briefInfo: React.PropTypes.array.isRequired,
 };
 
 export default Speaker;

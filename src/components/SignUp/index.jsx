@@ -7,7 +7,10 @@ class SignUp extends Component {
       <section id="signup" className="section-block">
         <div className="row">
           <h3>報名</h3>
-          <p className="text-center">PHPConf Taiwan 2015 報名時間：2015/09/14 中午 12:00 (Taipei/Asia)</p>
+          <div className="text-center">
+            <div className="pure-u-1 pure-u-md-1-2 title">PHPConf Taiwan 2015 報名時間</div>
+            <div className="pure-u-1 pure-u-md-1-2 date"><span className="time">2015/09/14</span> 中午 12:00 (Taipei/Asia)</div>
+          </div>
           <div className="pure-u-1 text-center signup-btn">
             <a href="" className="pure-button btn" target="_blank">立即報名</a>
           </div>

@@ -2,6 +2,25 @@
   article > div {
     text-align: center;
   }
+  h3 + div {
+    font-size: 18px;
+    margin: 40px 0 20px;
+  }
+  .title {
+    text-align: right;
+  }
+  .title:after {
+    content: "：";
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .date {
+    text-align: left;
+    .time {
+      color: #AF3B54;
+      font-weight: bold;
+    }
+  }
   .f-date, .l-date {
     letter-spacing: 1px;
     margin: 0 0 12px;
@@ -44,6 +63,16 @@
   }
 
   @media (max-width: 768px) {
+    .title, .date {
+      text-align: center;
+      padding: 0;
+    }
+    .title {
+      margin-bottom: 10px;
+    }
+    .title:after {
+      content: "";
+    }
     .f-date, .l-date {
       text-align: center;
       padding: 0;

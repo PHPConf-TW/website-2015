@@ -2,8 +2,6 @@ import '!style!css!less!./Prospect.less';
 import React, { Component } from 'react';
 import classnames from 'classnames';
 import Img from './bg.jpg';
-import Img2 from './bg2.jpg';
-import Img3 from './bg3.jpg';
 import Img4 from './bg4.jpg';
 import Img5 from './bg5.jpg';
 
@@ -15,7 +13,7 @@ class Prospect extends Component {
       hide: true,
       active: 0,
       count: 0,
-      img: [Img, Img2, Img3, Img4, Img5],
+      img: [Img, Img4, Img5],
     };
   }
 
@@ -40,7 +38,7 @@ class Prospect extends Component {
   }
 
   componentDidMount = () => {
-    this.timer = setInterval(this.changeTab, 2000);
+    this.timer = setInterval(this.changeTab, 5000);
   }
 
   componentWillUnmount = () => {
@@ -65,7 +63,7 @@ class Prospect extends Component {
                   const className = classnames({
                     active: index === this.state.active,
                   });
-                  return <img key={index} className={className} src={content} height="150" />;
+                  return <div key={index} className={className} style={{backgroundImage: `url('${content}')`}}></div>;
                 })}
               </div>
               <div className="carousel-btn">

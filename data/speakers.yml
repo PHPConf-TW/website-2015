@@ -1,14 +1,14 @@
 -
   avatar: '../assets/images/speakers/Rasmus.jpg'
   name: 'Rasmus'
-  title: 'SBACE.co 軟體開發總監'
+  title: ''
   briefInfo: ''
   info:
     - ''
 -
   avatar: '../assets/images/speakers/Laurence.jpg'
   name: 'Laruence'
-  title: 'SBACE.co 軟體開發總監'
+  title: ''
   briefInfo: ''
   info:
     - ''
@@ -17,7 +17,7 @@
   name: 'c9s'
   title: ''
   briefInfo:
-    - 'Perl / PHP Hacker, 從 2009 年起於 GitHub 開始陸續發表多項開源專案， 牽涉技術從後端至前端。'
+    - 'Perl / PHP Hacker, 2009 年起於 GitHub 陸續發表多項開源專案，2013 年 GitHub Top 1 Contribution User。'
   info:
     - 'Perl / PHP Hacker, 從 2009 年起於 GitHub 開始陸續發表多項開源專案， 牽涉技術從後端至前端，包含 PHP, Go, Perl, JavaScript, VimL 等程式語言相關項目。2013 年 GitHub Top 1 Contribution User。'
     - '知名專案有 phpbrew, Pux, r3, Vimana ... 等等。為 Facebook HHVM Contributor 之一。With high activity on Github, Lin has 200+ open source projects on GitHub, programming language includes PHP, Go, Perl, JavaScript and VimL. he is the top 3 active user on GitHub by contributions. Specialties:PHP Framework Architecture, Software Architecture, PHP C Extension, Frontend Component Design, UX/UI Design. Familiar with Javascript, CSS, Perl, Go, Ajax, several known web app frameworks such as Plack, Jifty, Dancer. Experienced:Qt, X Window Programming, Window Manager, Gtk, Cairo, Java, .NET, C#, Visual Basic...Interested In:Programming Language Theory, Compiler Design and Virtual Machine.'
@@ -25,7 +25,7 @@
   avatar: '../assets/images/speakers/Ricky.png'
   name: 'Ricky'
   title: ''
-  briefInfo: ''
+  briefInfo: 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事。'
   info:
     - 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事。'
     - 'Symfony 愛好者，卻經常出現在 Laravel 台灣的活動裡；Laravel 台灣的固定班底，卻不會寫 Laravel(！)。每次舉辦活動除了當主辦人外還兼當固定攝影師。'
@@ -33,57 +33,65 @@
   avatar: '../assets/images/speakers/fukuball.jpg'
   name: '林志傑 (fukuball)'
   title: 'iNDIEVOX 技術長'
-  briefInfo:
-    - '使用 PHP 及 Python，最近對機器學習感到興趣，也是一個快樂的吉他手～'
+  briefInfo: 'iNDIEVOX 技術長，使用 PHP 及 Python，最近對機器學習感到興趣，也是一個快樂的吉他手～'
   info:
-    - 'iNDIEVOX 技術長，iNDIEVOX 是目前台灣最大的獨立音樂網路商店，販售高音質數位音樂下載及演唱會售票。我使用 PHP 及 Python，最近對機器學習感到興趣，所以空閒時會將 Python 有關機器學習的 Github Project 翻譯成 PHP 版本。 / 我也是一個快樂的吉他手～'
+    - 'iNDIEVOX 技術長，iNDIEVOX 是目前台灣最大的獨立音樂網路商店，販售高音質數位音樂下載及演唱會售票。我使用 PHP 及 Python，最近對機器學習感到興趣，所以空閒時會將 Python 有關機器學習的 Github Project 翻譯成 PHP 版本。'
+    - '我也是一個快樂的吉他手～'
 -
   avatar: '../assets/images/speakers/Kiang.jpg'
   name: 'Kiang'
-  title: '就這間電腦工作室'
-  breifInfo:
-    - '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展著靠一張嘴的程式技能'
+  title: '信雲國際負責人'
+  briefInfo: '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展靠一張嘴的程式技能。'
   info:
     - '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展著靠一張嘴的程式技能'
 -
   avatar: '../assets/images/speakers/Ant.jpg'
   name: 'Ant'
-  title: 'ProjectUp'
-  breifInfo:
+  title: 'MUZIK Online 總工程師'
+  briefInfo: '專於「程式設計」、「資訊安全」及「智慧財產權」領域，並集成為「合法的安全程式設計」。'
   info:
-    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
+    - '網路暱稱 ant 。專於「程式設計」、「資訊安全」及「智慧財產權」領域，並集成為「合法的安全程式設計」。'
+    - '閒暇時投入自由/開放源碼軟體的開發與研究，每有會意，便欣然忘食。平時雖愛胡思亂想、天馬行空，卻又不斷盡力將夢想成真。'
 -
   avatar: '../assets/images/speakers/sy.jpg'
   name: '聖佑'
-  title: 'ProjectUp'
-  briefInfo: ''
+  title: '得寬科技研究員'
+  briefInfo: '專長為數位媒體設計、網路應用程式開發，新技術導入及改善專案開發流程。以台灣Laravel 傳教士自居。'
   info:
-    - 'Perl / PHP Hacker, 從 2009 年起於 GitHub 開始陸續發表多項開源專案， 牽涉技術從後端至前端，包含 PHP, Go, Perl, JavaScript, VimL 等程式語言相關項目。 2013 年 GitHub Top 1 Contribution User。 知名專案有 phpbrew, Pux, r3, Vimana ... 等等。 為 Facebook HHVM Contributor 之一。With high activity on Github, Lin has 200+ open source projects on GitHub, programming language includes PHP, Go, Perl, JavaScript and VimL. he is the top 3 active user on GitHub by contributions. Specialties:PHP Framework Architecture, Software Architecture, PHP C Extension, Frontend Component Design, UX/UI Design. Familiar with Javascript, CSS, Perl, Go, Ajax, several known web app frameworks such as Plack, Jifty, Dancer. Experienced:Qt, X Window Programming, Window Manager, Gtk, Cairo, Java, .NET, C#, Visual Basic...Interested In:Programming Language Theory, Compiler Design and Virtual Machine.'
+    - '專長為數位媒體設計、網路應用程式開發，目前為得寬科技研究員，負責研究、評估各項新技術的導入及改善專案開發流程。'
+    - '得寬科技自從 2013 年末導入 Laravel 做為專案主力框架後，目前所有專案、產品皆以 Laravel 開發完成。'
+    - '導入 Laravel 框架成功後，范聖佑開始在 Facebook 上經營 Laravel 台灣 社團，並成立 Laravel Dojo 學習資源網站，以 Laravel 傳教士自居，努力在台灣推廣 Laravel 框架的使用，期能提升 PHP 開發者的職能及業界能見度。'
 -
   avatar: '../assets/images/speakers/尤川豪.jpg'
   name: '尤川豪'
-  title: 'ProjectUp'
-  briefInfo: ''
+  title: ''
+  briefInfo:
+    - '對新創公司、軟體架構、軟體測試很有興趣。'
+    - '經營部落格「轉個彎日誌」，分享開發經驗及想法。'
   info:
-    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
-    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
+    - '對新創公司、軟體架構、軟體測試很有興趣。'
+    - '工作之餘經營部落格「轉個彎日誌」，分享開發經驗及網路應用程式架構的想法。'
 -
   avatar: '../assets/images/speakers/SDPower.jpg'
   name: 'SDpower'
-  title: 'ProjectUp'
-  briefInfo: ''
+  title: '遠景科技 (Exosite) S.R PHP/ Performance Architect/ Systems Architect '
+  briefInfo:
+    - '15 year of PHP developer. '
   info:
-    - 'Joe Chang, PMP，識博管理顧問執行長，也是華人最大的專案部落格 -「專案管理生活思維」的站長。'
-    - 'Joe具備多年企業診斷、專案輔導、流程設計、及EPPM系統導入經驗。從專案成員、PM、PMO主管、CEO都擔任過，非常了解專案各階層角色的困境與心聲。 是台灣少數同時具備Oracle Primavera Portfolio Management Implementation及微軟Project Portfolio Management認證的資深顧問。近七年來連續不間斷的透過部落格，試圖讓專案管理的理念深化到每個人身上。'
+    - '15 year of PHP developer'
+    - 'http://blog.sd.idv.tw/'
+    - 'http://www.plurk.com/sdpower'
+    - 'https://github.com/SDpowerSDpower'
 -
   avatar: '../assets/images/speakers/Fntsrlike.png'
   name: 'Fntsrlike'
-  title: 'Tronice 創時系統'
-  briefInfo: ''
+  title: ''
+  briefInfo:
+    - '凌若虛，也被朋友稱為月湖。'
+    - '喜歡到各領域遊玩、學習，去年剛從歷史系畢業，現在則在軟工所進修。'
   info:
-    - '創時系統共同創辦人，喜好鑽研底層技術，並將效能與架構作到極致。'
-    - '偏好 C Family 語言，因此以 PHP 開發伺服器端。擁有多種底層到上層的工作經驗，包含 Embedded Linux、晶片卡/RFID、搜尋引擎、E-Mail、進銷存系統、購物網站 與 APP。'
-    - '鑽研過從後端到前端的多種語言，包括 C/C++、Perl、PHP、SQL、Javascript 與 CSS。'
+    - '凌若虛，也被朋友稱為月湖。'
+    - '喜歡到各領域遊玩、學習，去年剛從歷史系畢業，現在則在軟工所進修。'
 
 -
   avatar: '../assets/images/speakers/楊泓曆.jpg'

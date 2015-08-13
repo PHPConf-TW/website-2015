@@ -46,12 +46,12 @@
       position: relative;
       float: right;
       width: 300px;
-      height: 178px;
+      height: 210px;
       margin: 6px 25px 15px;
       padding-bottom: 24px;
       .box {
         background-color: #fff;
-        height: 148px;
+        height: 180px;
       }
       .box:before, .box:after {
         content: "";
@@ -73,13 +73,20 @@
         -webkit-transform: rotate(3deg);
         transform: rotate(3deg);
       }
-      img {
+      .box > div {
         width: 100%;
+        height: 180px;
         opacity: 0;
         position: absolute;
         top: 0;
+        background-size: cover;
+        background-position: center center;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: .6s;
+        transition-duration: .6s;
       }
-      img.active {
+      .box > div.active {
         opacity: 0.9;
       }
       .carousel-btn {
@@ -134,7 +141,6 @@
       .carousel {
         float: none;
         width: 100%;
-        height: auto;
         margin: 0 0 25px;
         .box {
           height: auto;
@@ -142,7 +148,7 @@
         .box:before, .box:after {
           width: 98%;
           left: 1%;
-          bottom: 43px;
+          bottom: 50px;
         }
         img {
           display: block;
@@ -163,7 +169,7 @@
     article {
       .carousel {
         .box:before, .box:after {
-          bottom: 35px;
+          bottom: 40px;
         }
       }
     }

@@ -40,7 +40,7 @@ class Prospect extends Component {
   }
 
   componentDidMount = () => {
-    this.timer = setInterval(this.changeTab, 2000);
+    this.timer = setInterval(this.changeTab, 5000);
   }
 
   componentWillUnmount = () => {
@@ -65,7 +65,7 @@ class Prospect extends Component {
                   const className = classnames({
                     active: index === this.state.active,
                   });
-                  return <img key={index} className={className} src={content} height="150" />;
+                  return <div key={index} className={className} style={{backgroundImage: `url('${content}')`}}></div>;
                 })}
               </div>
               <div className="carousel-btn">

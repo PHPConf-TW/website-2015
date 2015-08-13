@@ -14,41 +14,50 @@
 '10:50 AM':
 -
   speaker: 'c9s'
-  title: '講師努力生產中'
+  title: 'Code Generation'
   youtube_url: ''
   slide_url: ''
   location: '國際會議廳'
   content:
-    - '敬請期待'
+    - '直譯式語言的動態呼叫非常慢，像是 PHP 的 magic methods，他們沒有辦法被靜態分析或被 IDE 用作自動補齊的資訊，但為了達到程式的彈性，很多時候卻無法避免使用這樣的技巧。在 PHP 所開發完成的應用程式中，也有許多重複的條件檢查，其實可以在編譯時期被優化，來減少執行期間所產生的多餘消耗。如果我們能夠在執行程式之前，就知道這些執行所需的資訊（譬如 Model 的欄位, Controller actions, validation 的類型等等），我們就可以預先產生好這些程式碼，來減少執行期間的檢查與計算，透過同樣的技巧，也可以讓我們少寫更多程式碼。以上的技巧並不新，他們其實已經廣泛被使用在各個領域，如現代框架、物件關聯對映 (ORM) 等等，像是最近 Go 1.5 的 go generate 就是相當不錯的參考。這個 Talk 會探討如何用 PHP 做 Code Generation、如何無痛 Code generate 以及如何建置你自己的 DRY 工具組。'
+    - '- Compile PHP to PHP'
+    - '- Code generation'
+    - '-CodeGen and ClassTemplate'
+    - '- Generics in PHP'
+    - '- GenPHP & Construct'
 -
   speaker: 'Ricky'
-  title: '講師努力生產中'
+  title: '用 Async I/O 解放 PHP  Web 效能'
   youtube_url: ''
   slide_url: ''
   location: '蘇格拉底廳'
   content:
-    - '敬請期待'
-
+    - ' 以往遇到高併發的網頁時，會優先想到 node.js 或是 Go。 '
+    - ' 但是隨著 hhvm 以及 PHP7 在執行效能上的改善，搭配非同步 I/O 處理，也能獲得巨大的效能提昇。'
+    - ' 藉由本議程跟大家介紹，如何在 PHP 上透過事件驅動方式處理 Web Request。'
 '11:30 PM':
   title: '午休'
 
 '12:30 AM':
 -
   speaker: '林志傑 (fukuball)'
-  title: '講師努力生產中'
+  title:
+    - 'iNDIEVOX 踏入演唱會售票之後的快速蛻變'
+    - 'How we build a scalable PHP website for ticketing'
   youtube_url: ''
   slide_url: ''
   location: '國際會議廳'
   content:
-    - '敬請期待'
+    - 'iNDIEVOX 是目前台灣最大的獨立音樂網路商店，主要商業模式是販售高音質數位音樂下載及演唱會售票，除了提供給獨立音樂藝人及音樂廠牌一個完整的數位銷售平台之外，也讓喜歡獨立音樂的大眾可以便利地購買到喜歡的音樂及門票。'
+    - '我們將在這個議題分享 iNDIEVOX 如何在踏入演唱會售票領域之後開始快速蛻變，慢慢將一個無法 Scale 的 PHP 網站系統改造成如今可以 Scale Up / Scale Out 以承受線上同時上萬人搶票的 PHP 網站系統。'
 -
   speaker: '江明宗 (Kiang)'
-  title: '講師努力生產中'
+  title: '藥要看開發經驗分享'
   youtube_url: ''
   slide_url: ''
   location: '蘇格拉底廳'
   content:
-    - '敬請期待'
+    - '藥要看網站( http://drugs.olc.tw/ ) 是以 衛生福利部食品藥物管理署 開放的資料為基礎，提供資料的檢索與延伸加值服務，希望能夠分享開發過程遇到的問題與未來預期的挑戰'
 
 '13:20 PM':
   title: '休息'
@@ -56,23 +65,21 @@
 '13:30 AM':
 -
   speaker: 'Ant'
-  title: '講師努力生產中'
+  title: 'Enterprise Architecture Case in PHP'
   youtube_url: ''
   slide_url: ''
   location: '國際會議廳'
   content:
-    - '以 EPV 實例帶領會眾瞭解 PHP Extension 的開發動機、架構與成果。並延伸探討 PHP Extension 應用於產品中的實務案例。'
-    - 'EPV : Extra Predefined Variables for PHP，用來補齊 PHP 遺失的 $_PUT 與 $_DELETE'
+    - 'Architecture is the definition of your use cases or business. I will talk about why and what I implement in PHP ecosystem, and it''s real case.'
 
 -
   speaker: '聖佑'
-  title: '講師努力生產中'
+  title: '跟著 Laravel 5.1 一起成為更好的 PHP 開發者'
   youtube_url: ''
   slide_url: ''
   location: '蘇格拉底廳'
   content:
-    - 'Drupal 本來僅針對 Single Server Hosting ，如何在現今擴展性的需求不斷提高下，逐步調適演進？'
-    - '本主題將由 Drupal 的演進陣痛，談談 PHP 專案開發時如何為 Scalibility 預做準備。'
+    - 'Laravel 5.1 於 2015 年 6 月成為 Laravel 第一個 LTS 版本。自 Laravel 5.0 以降，官方讓 Laravel 陸續依循更多 PSR 標準規範、實作多項設計模式、整合更多前端特色，而針對高效能也推出 Lumen 輕量框架來滿足不同層面的開發需求。本講題將討論 Laravel 5.1 針對各項開發工作提出對應的解決方案，並鼓勵開發者從使用框架的過程中學習其精華，提升自我職能以成為更好的 PHP 開發者。'
 
 '14:10 PM':
   title: '休息'
@@ -80,22 +87,27 @@
 '14:20 PM':
 -
   speaker: '尤川豪'
-  title: '講師努力生產中'
+  title: '新創公司與軟體架構'
   youtube_url: ''
   slide_url: ''
   location: '國際會議廳'
   content:
-    - '使用phpalcon framework開發該如何上手以及架構與使用。'
-    - '內容包含使用方式ORM, Template Engine (Volt),DI ,Events Management ,Encryption ,HTTP Request ,Response ,Cookies。'
+    - '新創公司需要快速開發程式來探索商業模式，同時，程式的需求又長時間保持在模糊狀態。'
+    - '在追求開發速度之外，還需要兼顧程式的彈性。'
+    - '如何設計軟體架構來滿足這種需求呢？'
 -
   speaker: 'SteveLo (SDpower)'
-  title: '講師努力生產中'
+  title: 'ORM實戰效能'
   youtube_url: ''
   slide_url: ''
   location: '蘇格拉底廳'
   content:
-    - 'Docker是這一年來虛擬化環境的新秀，以LXC技術展現輕量型虛擬化，並且擁有自動建構、版本控制的特性，配合Docker hub平台，讓我們能夠快速部署伺服器環境與專案。'
-    - '而這個連Google、Red Hat都很是重視的LXC管理工具，該如何運用在PHP的專案上呢？就讓我們一探究竟吧！'
+      - '專案開發上使用O.R.M'
+      - '1.開發Model'
+      - '2.O.R.M 與測試'
+      - '3.O.R.M 與快取機制'
+      - '4.O.R.M 與資料優化'
+      - '5.O.R.M 與O.D.M'
 
 '15:00 PM':
   title: '下午茶'
@@ -103,12 +115,13 @@
 '15:30 PM':
 -
   speaker: 'Fntsrlike'
-  title: '講師努力生產中'
+  title: '當專案漸趕，當遷移也不再那麼難 Ship Your Projects with Docker EchoSystem'
   youtube_url: ''
   slide_url: ''
   location: '國際會議廳'
   content:
-    - 'CLIFramework is a command-line application framework, for building flexiable, simple command-line applications.'
+    - '距離去年講述「運用 Docker 部署 PHP 專案」已經過了一年，Docker 生態系逐漸成長，Machine、Compose、Swarm 皆趨於穩定、值得投入。本議程將承襲去年議程的概念，並講述如何投過這些工具利用 Docker 協助我們更方便的開發、測試、部署、遷移我們的 PHP 專案。'
+    - 'Ps. 本議程謹會概略提到 Docker 概念作為複習，不會針對指令一一教學、建議會眾在議程前，能先了解 Docker 基本使用方式。'
 -
   speaker: '楊泓曆'
   title: '讓買廉航機票不是件崩潰的事 - 台日航線篇'

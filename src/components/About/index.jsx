@@ -21,7 +21,7 @@ class About extends Component {
             </div>
           </div>
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
-            <div className="icon"><div><i className="icon-support"></i></div></div>
+            <div className="icon"><div><i className="icon-sponsor"></i></div></div>
             <div className="work-wrapper">
               <h4 className="work">贊助<span className="leader">Johnpupu</span></h4>
               <div>
@@ -45,7 +45,7 @@ class About extends Component {
             </div>
           </div>
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
-            <div className="icon"><i className="icon-record"></i></div>
+            <div className="icon"><i className="icon-camera"></i></div>
             <div className="work-wrapper">
               <h4 className="work">記錄<span className="leader">丹丹</span></h4>
               <div>

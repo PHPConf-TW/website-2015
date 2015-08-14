@@ -30,8 +30,8 @@ class Box extends Component {
             </div>
             <div className="descrip">
               <div className="pos red clearfix">
-                <span className="pull-left"><i className="fa fa-clock-o"></i>10:50 AM - 12:00 PM</span>
-                <span className="pull-right">國際會議廳</span>
+                <span className="pull-left"><i className="fa fa-clock-o"></i>{this.props.time}</span>
+                <span className="pull-right">{this.props.data.location}</span>
               </div>
               {this.props.data.content.map((content, key) => {
                 return <p key={key}>{content}</p>;
@@ -45,8 +45,9 @@ class Box extends Component {
 }
 
 Box.propTypes = {
-  data: React.PropTypes.object.isRequired,
   handleClick: React.PropTypes.func.isRequired,
+  time: React.PropTypes.string.isRequired,
+  data: React.PropTypes.object.isRequired,
 };
 
 export default Box;

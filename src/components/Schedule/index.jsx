@@ -13,18 +13,23 @@ class Schedule extends Component {
     super(props);
     this.state = {
       toggle: false,
+      time: '',
       data: {},
     };
   }
 
-  handleClick = (data, e) => {
+  handleClick = (data, time, e) => {
     const windowSize = $(document).width();
 
     if (windowSize > 768) {
       return e.stopPropagation();
     }
 
-    this.setState({toggle: !this.state.toggle, data: data});
+    this.setState({
+      toggle: !this.state.toggle,
+      time: time,
+      data: data,
+    });
   }
 
   render() {
@@ -68,7 +73,7 @@ class Schedule extends Component {
             </tfoot>
           </table>
         </div>
-        { this.state.toggle ? <Box handleClick={this.handleClick} data={this.state.data} /> : null }
+        { this.state.toggle ? <Box handleClick={this.handleClick} time={this.state.time} data={this.state.data} /> : null }
       </section>
     );
   }

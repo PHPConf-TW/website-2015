@@ -12,7 +12,7 @@ class Speaker extends Component {
           <Speakers speakers={SpeakerData} />
           <svg>
             <defs>
-              <clipPath id="clip-shape" data-clipPathUnits="objectBoundingBox">
+              <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
                 <polygon points="0.5 0, 1 0.25, 1 0.75, 0.5 1, 0 0.75, 0 0.25" />
               </clipPath>
             </defs>

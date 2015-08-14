@@ -1,21 +1,21 @@
 -
   avatar: '../assets/images/speakers/Rasmus.jpg'
   name: 'Rasmus'
-  title: ''
+  title: 'Secret'
   briefInfo: ''
   info:
     - ''
 -
   avatar: '../assets/images/speakers/Laurence.jpg'
   name: 'Laruence'
-  title: ''
+  title: 'Secret'
   briefInfo: ''
   info:
     - ''
 -
   avatar: '../assets/images/speakers/c9s.jpeg'
   name: 'c9s'
-  title: ''
+  title: 'Secret'
   briefInfo:
     - 'Perl / PHP Hacker, 2009 年起於 GitHub 陸續發表多項開源專案，2013 年 GitHub Top 1 Contribution User。'
   info:
@@ -24,7 +24,7 @@
 -
   avatar: '../assets/images/speakers/Ricky.png'
   name: 'Ricky'
-  title: ''
+  title: 'Secret'
   briefInfo: 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事。'
   info:
     - 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事。'
@@ -64,7 +64,7 @@
 -
   avatar: '../assets/images/speakers/尤川豪.jpg'
   name: '尤川豪'
-  title: ''
+  title: 'Secret'
   briefInfo:
     - '對新創公司、軟體架構、軟體測試很有興趣。'
     - '經營部落格「轉個彎日誌」，分享開發經驗及想法。'
@@ -74,7 +74,7 @@
 -
   avatar: '../assets/images/speakers/SDPower.jpg'
   name: 'SDpower'
-  title: '遠景科技 (Exosite) S.R PHP/ Performance Architect/ Systems Architect '
+  title: 'Exosite S.R PHP'
   briefInfo:
     - '15 year of PHP developer. '
   info:
@@ -85,7 +85,7 @@
 -
   avatar: '../assets/images/speakers/Fntsrlike.png'
   name: 'Fntsrlike'
-  title: ''
+  title: 'Secret'
   briefInfo:
     - '凌若虛，也被朋友稱為月湖。'
     - '喜歡到各領域遊玩、學習，去年剛從歷史系畢業，現在則在軟工所進修。'

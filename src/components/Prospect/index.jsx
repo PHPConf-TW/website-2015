@@ -49,7 +49,7 @@ class Prospect extends Component {
     const hideClass = classnames({
       hide: this.state.hide,
       animated: !this.state.hide,
-      fadeInLeft: !this.state.hide,
+      fadeIn: !this.state.hide,
     });
     const buttonClass = classnames('text-btn', {hide: !this.state.hide});
     return (

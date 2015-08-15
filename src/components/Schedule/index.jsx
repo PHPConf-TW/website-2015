@@ -60,8 +60,8 @@ class Schedule extends Component {
             <tr>
               <th>時間</th>
               <th>
-                <div className="pure-u-1 pure-u-md-1-2 one">一樓大會議廳</div>
-                <div className="pure-u-1 pure-u-md-1-2 two">二樓會議廳</div>
+                <div className="pure-u-1 pure-u-md-1-2 one">國璽樓 一樓多功能國際會議廳</div>
+                <div className="pure-u-1 pure-u-md-1-2 two">國璽樓 二樓國際會議廳</div>
               </th>
             </tr>
             </thead>

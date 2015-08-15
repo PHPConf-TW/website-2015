@@ -8,10 +8,11 @@
 '09:30 AM':
 -
   speaker: 'Rasmus Lerdorf'
-  location: '國際會議廳'
+  location: '一樓多功能國際會議廳'
   content:
     - ''
 -
+  speaker: ''
   content:
     - ''
 
@@ -24,7 +25,7 @@
   title: 'Code Generation'
   youtube_url: ''
   slide_url: ''
-  location: '國際會議廳'
+  location: '一樓多功能國際會議廳'
   content:
     - '直譯式語言的動態呼叫非常慢，像是 PHP 的 magic methods，他們沒有辦法被靜態分析或被 IDE 用作自動補齊的資訊，但為了達到程式的彈性，很多時候卻無法避免使用這樣的技巧。'
     - '在 PHP 所開發完成的應用程式中，也有許多重複的條件檢查，其實可以在編譯時期被優化，來減少執行期間所產生的多餘消耗。如果我們能夠在執行程式之前，就知道這些執行所需的資訊（譬如 Model 的欄位, Controller actions, validation 的類型等等），我們就可以預先產生好這些程式碼，來減少執行期間的檢查與計算，透過同樣的技巧，也可以讓我們少寫更多程式碼。以上的技巧並不新，他們其實已經廣泛被使用在各個領域，如現代框架、物件關聯對映 (ORM) 等等，像是最近 Go 1.5 的 go generate 就是相當不錯的參考。這個 Talk 會探討如何用 PHP 做 Code Generation、如何無痛 Code generate 以及如何建置你自己的 DRY 工具組。'
@@ -38,7 +39,7 @@
   title: '用 Async I/O 解放 PHP  Web 效能'
   youtube_url: ''
   slide_url: ''
-  location: '蘇格拉底廳'
+  location: '二樓國際會議廳'
   content:
     - ' 以往遇到高併發的網頁時，會優先想到 node.js 或是 Go。 '
     - ' 但是隨著 hhvm 以及 PHP7 在執行效能上的改善，搭配非同步 I/O 處理，也能獲得巨大的效能提昇。'
@@ -55,7 +56,7 @@
     - 'How we build a scalable PHP website for ticketing'
   youtube_url: ''
   slide_url: ''
-  location: '國際會議廳'
+  location: '一樓多功能國際會議廳'
   content:
     - 'iNDIEVOX 是目前台灣最大的獨立音樂網路商店，主要商業模式是販售高音質數位音樂下載及演唱會售票，除了提供給獨立音樂藝人及音樂廠牌一個完整的數位銷售平台之外，也讓喜歡獨立音樂的大眾可以便利地購買到喜歡的音樂及門票。'
     - '我們將在這個議題分享 iNDIEVOX 如何在踏入演唱會售票領域之後開始快速蛻變，慢慢將一個無法 Scale 的 PHP 網站系統改造成如今可以 Scale Up / Scale Out 以承受線上同時上萬人搶票的 PHP 網站系統。'
@@ -64,7 +65,7 @@
   title: '藥要看開發經驗分享'
   youtube_url: ''
   slide_url: ''
-  location: '蘇格拉底廳'
+  location: '二樓國際會議廳'
   content:
     - '藥要看網站( http://drugs.olc.tw/ ) 是以衛生福利部食品藥物管理署開放的資料為基礎'
     - '提供資料的檢索與延伸加值服務，希望能夠分享開發過程遇到的問題與未來預期的挑戰。'
@@ -78,7 +79,7 @@
   title: 'Enterprise Architecture Case in PHP'
   youtube_url: ''
   slide_url: ''
-  location: '國際會議廳'
+  location: '一樓多功能國際會議廳'
   content:
     - 'Architecture is the definition of your use cases or business.'
     - 'I will talk about why and what I implement in PHP ecosystem, and it''s real case.'
@@ -88,7 +89,7 @@
   title: '跟著 Laravel 5.1 一起成為更好的 PHP 開發者'
   youtube_url: ''
   slide_url: ''
-  location: '蘇格拉底廳'
+  location: '二樓國際會議廳'
   content:
     - 'Laravel 5.1 於 2015 年 6 月成為 Laravel 第一個 LTS 版本。'
     - '自 Laravel 5.0 以降，官方讓 Laravel 陸續依循更多 PSR 標準規範、實作多項設計模式、整合更多前端特色，而針對高效能也推出 Lumen 輕量框架來滿足不同層面的開發需求。本講題將討論 Laravel 5.1 針對各項開發工作提出對應的解決方案，並鼓勵開發者從使用框架的過程中學習其精華，提升自我職能以成為更好的 PHP 開發者。'
@@ -102,7 +103,7 @@
   title: '新創公司與軟體架構'
   youtube_url: ''
   slide_url: ''
-  location: '國際會議廳'
+  location: '一樓多功能國際會議廳'
   content:
     - '新創公司需要快速開發程式來探索商業模式，同時，程式的需求又長時間保持在模糊狀態。'
     - '在追求開發速度之外，還需要兼顧程式的彈性。'
@@ -112,7 +113,7 @@
   title: 'ORM實戰效能'
   youtube_url: ''
   slide_url: ''
-  location: '蘇格拉底廳'
+  location: '二樓國際會議廳'
   content:
       - '專案開發上使用O.R.M'
       - '1.開發Model'
@@ -130,7 +131,7 @@
   title: '當專案漸趕，當遷移也不再那麼難 Ship Your Projects with Docker EchoSystem'
   youtube_url: ''
   slide_url: ''
-  location: '國際會議廳'
+  location: '一樓多功能國際會議廳'
   content:
     - '距離去年講述「運用 Docker 部署 PHP 專案」已經過了一年，Docker 生態系逐漸成長，Machine、Compose、Swarm 皆趨於穩定、值得投入。本議程將承襲去年議程的概念，並講述如何投過這些工具利用 Docker 協助我們更方便的開發、測試、部署、遷移我們的 PHP 專案。'
     - 'Ps. 本議程謹會概略提到 Docker 概念作為複習，不會針對指令一一教學、建議會眾在議程前，能先了解 Docker 基本使用方式。'
@@ -139,7 +140,7 @@
   title: '讓買廉航機票不是件崩潰的事 - 台日航線篇'
   youtube_url: ''
   slide_url: ''
-  location: '蘇格拉底廳'
+  location: '二樓國際會議廳'
   content:
     - '廉航機票主要採浮動票價，越接近出發時間，票價會跟著變貴，這點大家應該都知道，但總會有一個時間點，過了該點後，票價就會明顯地開始往上飆。'
     - '本講題主要以台日航線下的廉價航空為主，蒐集了從今年初開始的國際及日本國內線近二千萬筆票價資料並藉由數據分析過程，找出該點，藉以幫助消費者減少下手時的猶豫。'
@@ -152,11 +153,12 @@
   speaker: 'Laruence'
   title:
     - '使用Ya系列項目搭建最高效的LAMP系統'
-  location: '國際會議廳'
+  location: '一樓多功能國際會議廳'
   content:
     - 'Ya系列PHP擴展項目都是為瞭解決實際項目中發現的問題而誕生的解決方案, 在微博得到了大量的應用'
     - '也因此形成了微博高性能LAMP框架.本次演講, 作為Ya系列的作者, 將為大家介紹如何使用Ya系列項目搭建在PHP7下的最高效的LAMP系統.'
 -
+  speaker: ''
   content:
     - ''
 

@@ -62,9 +62,6 @@
       cursor: pointer;
     }
   }
-  p {
-    text-indent: 30px;
-  }
   .one, .two {
     height: 100%;
     h4 {
@@ -93,6 +90,10 @@
     p:first-child {
       display: block;
     }
+  }
+  .one > div, .two > div {
+    width: 100%;
+    height: 100%;
   }
   .close:hover {
     cursor: pointer;
@@ -137,6 +138,39 @@
     .two {
       background-color: rgba(228, 143, 148, 1);
     }
+  }
+  .first-nonspeaker, .second-nonspeaker {
+    background-color: #A9A9A9;
+    color: #fff;
+    .author-desktop {
+      display: none !important;
+    }
+    .author-mobile {
+      display: none !important;
+    }
+    h4.arrow_box {
+      display: none !important;
+    }
+  }
+  .first-nonspeaker {
+    background-color: #247FA4;
+  }
+  .second-nonspeaker {
+    background-color: #AF3B54;
+  }
+  .first-nonspeaker:before, .second-nonspeaker:before {
+    content: "不開放";
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .first-nonspeaker:before {
+    content: "一樓不開放";
+  }
+  .second-nonspeaker:before {
+    content: "二樓不開放";
   }
   .schedule-box-wrapper {
     display: none;
@@ -200,6 +234,9 @@
     .more-btn {
       display: block;
       padding: 15px;
+    }
+    .nonspeaker {
+      height: 50px;
     }
     .schedule-box-wrapper {
       display: block;

@@ -8,7 +8,7 @@ class Content extends Component {
     let first;
     let second;
     this.props.data.map((n) => {
-      n.location === '國際會議廳' ? first = n : second = n;
+      n.location === '一樓多功能國際會議廳' ? first = n : second = n;
     });
     return (
       <tr className="main-content">

@@ -131,7 +131,7 @@ class About extends Component {
                   <li>hane</li>
                   <li>appleboy</li>
                   <li>kuanwei</li>
-                  <li>ryans</li>
+                  <li>ryans610</li>
                   <li>wanchia</li>
                   <li>bificoo</li>
                   <li>sues</li>

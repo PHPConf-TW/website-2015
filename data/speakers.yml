@@ -1,31 +1,31 @@
 -
   avatar: '../assets/images/speakers/Rasmus.jpg'
-  name: 'Rasmus'
-  title: 'Secret'
-  briefInfo: ''
+  name: 'Rasmus Lerdorf'
+  title: 'Distinguished Engineer'
+  briefInfo: 'Rasmus Lerdorf is a Greenlandic programmer with Canadian citizenship...'
   info:
-    - ''
+    - 'Rasmus Lerdorf is a Greenlandic programmer with Canadian citizenship. He created the PHP scripting language, authoring the first two versions of the language and participated in the development of later versions led by a group of developers including Jim Winstead (who later created blo.gs), Stig Bakken, Shane Caraveo, Andi Gutmans and Zeev Suraski. He continues to contribute to the project.'
 -
   avatar: '../assets/images/speakers/Laurence.jpg'
   name: 'Laruence'
-  title: 'Secret'
-  briefInfo: ''
+  title: '微博'
+  briefInfo: '惠新宸，中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend...'
   info:
-    - ''
+    - '惠新宸，中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend 公司外聘顧問, 曾供職於雅虎，百度。現在新浪微博任平台及數據部總架構師兼首席 PHP 顧問。 是 PHP NG 核心開發者，PHP5.4，5.5 的主要開發者。作為 PECL 開發者貢獻了 Yaf (Yet another framework)，Yar(Yet another RPC framework) 以及 Yac(Yet another Cache)、Taint 等多個優秀開源作品，同時也是 APC ，Opcache ，Msgpack 等項目的維護者。'
 -
   avatar: '../assets/images/speakers/c9s.jpeg'
   name: 'c9s'
-  title: 'Secret'
+  title: 'Perl / PHP Hacker'
   briefInfo:
-    - 'Perl / PHP Hacker, 2009 年起於 GitHub 陸續發表多項開源專案，2013 年 GitHub Top 1 Contribution User。'
+    - '2009 年起於 GitHub 陸續發表多項開源專案，2013 年 GitHub Top 1 Contribution User...'
   info:
-    - 'Perl / PHP Hacker, 從 2009 年起於 GitHub 開始陸續發表多項開源專案， 牽涉技術從後端至前端，包含 PHP, Go, Perl, JavaScript, VimL 等程式語言相關項目。2013 年 GitHub Top 1 Contribution User。'
+    - '從 2009 年起於 GitHub 開始陸續發表多項開源專案， 牽涉技術從後端至前端，包含 PHP, Go, Perl, JavaScript, VimL 等程式語言相關項目。2013 年 GitHub Top 1 Contribution User。'
     - '知名專案有 phpbrew, Pux, r3, Vimana ... 等等。為 Facebook HHVM Contributor 之一。With high activity on Github, Lin has 200+ open source projects on GitHub, programming language includes PHP, Go, Perl, JavaScript and VimL. he is the top 3 active user on GitHub by contributions. Specialties:PHP Framework Architecture, Software Architecture, PHP C Extension, Frontend Component Design, UX/UI Design. Familiar with Javascript, CSS, Perl, Go, Ajax, several known web app frameworks such as Plack, Jifty, Dancer. Experienced:Qt, X Window Programming, Window Manager, Gtk, Cairo, Java, .NET, C#, Visual Basic...Interested In:Programming Language Theory, Compiler Design and Virtual Machine.'
 -
   avatar: '../assets/images/speakers/Ricky.png'
   name: 'Ricky'
-  title: 'Secret'
-  briefInfo: 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事。'
+  title: 'Niceday.tw 雜工'
+  briefInfo: 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事...'
   info:
     - 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事。'
     - 'Symfony 愛好者，卻經常出現在 Laravel 台灣的活動裡；Laravel 台灣的固定班底，卻不會寫 Laravel(！)。每次舉辦活動除了當主辦人外還兼當固定攝影師。'
@@ -33,7 +33,7 @@
   avatar: '../assets/images/speakers/fukuball.jpg'
   name: '林志傑 (fukuball)'
   title: 'iNDIEVOX 技術長'
-  briefInfo: 'iNDIEVOX 技術長，使用 PHP 及 Python，最近對機器學習感到興趣，也是一個快樂的吉他手～'
+  briefInfo: 'iNDIEVOX 技術長，使用 PHP 及 Python，最近對機器學習感到興趣，也是一個快樂的吉他手～...'
   info:
     - 'iNDIEVOX 技術長，iNDIEVOX 是目前台灣最大的獨立音樂網路商店，販售高音質數位音樂下載及演唱會售票。我使用 PHP 及 Python，最近對機器學習感到興趣，所以空閒時會將 Python 有關機器學習的 Github Project 翻譯成 PHP 版本。'
     - '我也是一個快樂的吉他手～'
@@ -43,12 +43,12 @@
   title: '信雲國際負責人'
   briefInfo: '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展靠一張嘴的程式技能。'
   info:
-    - '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展著靠一張嘴的程式技能'
+    - '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展著靠一張嘴的程式技能。'
 -
   avatar: '../assets/images/speakers/Ant.jpg'
   name: 'Ant'
   title: 'MUZIK Online 總工程師'
-  briefInfo: '專於「程式設計」、「資訊安全」及「智慧財產權」領域，並集成為「合法的安全程式設計」。'
+  briefInfo: '專於「程式設計」、「資訊安全」及「智慧財產權」領域，並集成為「合法的安全程式設計」...'
   info:
     - '網路暱稱 ant 。專於「程式設計」、「資訊安全」及「智慧財產權」領域，並集成為「合法的安全程式設計」。'
     - '閒暇時投入自由/開放源碼軟體的開發與研究，每有會意，便欣然忘食。平時雖愛胡思亂想、天馬行空，卻又不斷盡力將夢想成真。'
@@ -56,7 +56,7 @@
   avatar: '../assets/images/speakers/sy.jpg'
   name: '聖佑'
   title: '得寬科技研究員'
-  briefInfo: '專長為數位媒體設計、網路應用程式開發，新技術導入及改善專案開發流程。以台灣Laravel 傳教士自居。'
+  briefInfo: '專長為數位媒體設計、網路應用程式開發，新技術導入及改善專案開發流程。以台灣Laravel 傳教士自居...'
   info:
     - '專長為數位媒體設計、網路應用程式開發，目前為得寬科技研究員，負責研究、評估各項新技術的導入及改善專案開發流程。'
     - '得寬科技自從 2013 年末導入 Laravel 做為專案主力框架後，目前所有專案、產品皆以 Laravel 開發完成。'
@@ -64,31 +64,27 @@
 -
   avatar: '../assets/images/speakers/尤川豪.jpg'
   name: '尤川豪'
-  title: 'Secret'
+  title: 'Web Developer at Wordcorp'
   briefInfo:
-    - '對新創公司、軟體架構、軟體測試很有興趣。'
-    - '經營部落格「轉個彎日誌」，分享開發經驗及想法。'
+    - '對新創公司、軟體架構、軟體測試很有興趣...'
   info:
     - '對新創公司、軟體架構、軟體測試很有興趣。'
+    - '經營部落格「轉個彎日誌」，分享開發經驗及想法。'
     - '工作之餘經營部落格「轉個彎日誌」，分享開發經驗及網路應用程式架構的想法。'
 -
   avatar: '../assets/images/speakers/SDPower.jpg'
   name: 'SDpower'
-  title: 'Exosite S.R PHP'
+  title: 'Exosite.com S.R PHP'
   briefInfo:
-    - '15 year of PHP developer. '
+    - 'PHP 10+ 經驗老古董,目前任職遠景科技 資深PHP開發工程師 一職。對系統與資料庫皆有涉獵...'
   info:
-    - '15 year of PHP developer'
-    - 'http://blog.sd.idv.tw/'
-    - 'http://www.plurk.com/sdpower'
-    - 'https://github.com/SDpowerSDpower'
+    - 'PHP 10+ 經驗老古董,目前任職遠景科技 資深PHP開發工程師 一職。對系統與資料庫皆有涉獵，偏門嗜好電子與Embedded system。'
 -
   avatar: '../assets/images/speakers/Fntsrlike.png'
   name: 'Fntsrlike'
-  title: 'Secret'
+  title: 'OOLab @ NCU、CHILDISH'
   briefInfo:
-    - '凌若虛，也被朋友稱為月湖。'
-    - '喜歡到各領域遊玩、學習，去年剛從歷史系畢業，現在則在軟工所進修。'
+    - '凌若虛，也被朋友稱為月湖...'
   info:
     - '凌若虛，也被朋友稱為月湖。'
     - '喜歡到各領域遊玩、學習，去年剛從歷史系畢業，現在則在軟工所進修。'
@@ -97,6 +93,6 @@
   avatar: '../assets/images/speakers/楊泓曆.jpg'
   name: '楊泓曆'
   title: 'ProjectUp'
-  briefInfo: ''
+  briefInfo: '本業是接案人生，副業話網拍、代買代購...'
   info:
-    - '本業是接案人生，副業話網拍、代買代購。。。等等。專長是寫網頁，興趣是寫網頁，偶爾還會去參加個路跑活動。也常常出沒在PTT日旅版上發表一些會誤人子弟的文章。總之，日常生活不是宅在家裡就是去路跑'
+    - '本業是接案人生，副業話網拍、代買代購...等等。專長是寫網頁，興趣是寫網頁，偶爾還會去參加個路跑活動。也常常出沒在PTT日旅版上發表一些會誤人子弟的文章。總之，日常生活不是宅在家裡就是去路跑'

@@ -22,12 +22,6 @@ class Box extends Component {
               </div>
               <h5>{this.props.title}</h5>
               <h4>{this.props.name}</h4>
-              <div className="links">
-                <ul>
-                  <li><a href="#" target="_blank">FB</a></li>
-                  <li><a href="#" target="_blank">相關連結</a></li>
-                </ul>
-              </div>
             </div>
             <div className="descrip">
               {this.props.info.map((content, key) => {

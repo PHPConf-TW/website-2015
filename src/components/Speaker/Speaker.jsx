@@ -27,10 +27,6 @@ class Speaker extends Component {
             <h5 onClick={this.handleClick}>{this.props.title}</h5>
             <h4 onClick={this.handleClick}>{this.props.name}</h4>
             <div className="links">
-              <ul>
-                <li><a href="#" target="_blank">FB</a></li>
-                <li><a href="#" target="_blank">相關連結</a></li>
-              </ul>
             </div>
             <p onClick={this.handleClick}>{this.props.briefInfo}</p>
           </div>

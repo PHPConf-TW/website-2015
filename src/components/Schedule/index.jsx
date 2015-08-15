@@ -25,6 +25,12 @@ class Schedule extends Component {
       return e.stopPropagation();
     }
 
+    if (data.title === undefined) {
+      if (e.stopPropagation !== undefined) {
+        return e.stopPropagation();
+      }
+    }
+
     this.setState({
       toggle: !this.state.toggle,
       time: time,

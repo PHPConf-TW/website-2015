@@ -129,7 +129,7 @@ class About extends Component {
                   <li>sakilu</li>
                   <li>tinda</li>
                   <li>hane</li>
-                  <li>appleboy</li>
+                  <li><a href="https://github.com/appleboy">appleboy</a></li>
                   <li>kuanwei</li>
                   <li>ryans610</li>
                   <li>wanchia</li>

@@ -18,8 +18,8 @@ gulp.task('clean', cb => {
 
 // Static files
 gulp.task('assets', () => {
-  src.assets = 'src/public/**';
-  return gulp.src(src.assets)
+  src.assets = ['src/public/**', '!src/public/assets/images/**/*'];
+  gulp.src(src.assets)
     .pipe($.changed('build'))
     .pipe(gulp.dest('build'))
     .pipe($.size({title: 'assets'}));
@@ -73,7 +73,18 @@ gulp.task('minify-html', cb => {
     .pipe(gulp.dest('build'));
 });
 
+// Optimize images
+gulp.task('images', () =>
+  gulp.src('src/public/assets/images/**/*')
+    .pipe($.imagemin({
+      progressive: true,
+      interlaced: true
+    }))
+    .pipe(gulp.dest('build/assets/images'))
+    .pipe($.size({title: 'images'}))
+);
+
 // Build the app from source code
 gulp.task('build', ['clean'], cb => {
-  runSequence(['assets', 'webpack'], ['revreplace'], ['minify-html'], cb);
+  runSequence(['assets', 'webpack', 'images'], ['revreplace'], ['minify-html'], cb);
 });

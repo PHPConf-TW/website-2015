@@ -30,7 +30,7 @@
     - '在 PHP 所開發完成的應用程式中，也有許多重複的條件檢查，其實可以在編譯時期被優化，來減少執行期間所產生的多餘消耗。如果我們能夠在執行程式之前，就知道這些執行所需的資訊（譬如 Model 的欄位, Controller actions, validation 的類型等等），我們就可以預先產生好這些程式碼，來減少執行期間的檢查與計算，透過同樣的技巧，也可以讓我們少寫更多程式碼。以上的技巧並不新，他們其實已經廣泛被使用在各個領域，如現代框架、物件關聯對映 (ORM) 等等，像是最近 Go 1.5 的 go generate 就是相當不錯的參考。這個 Talk 會探討如何用 PHP 做 Code Generation、如何無痛 Code generate 以及如何建置你自己的 DRY 工具組。'
     - '- Compile PHP to PHP'
     - '- Code generation'
-    - '-CodeGen and ClassTemplate'
+    - '- CodeGen and ClassTemplate'
     - '- Generics in PHP'
     - '- GenPHP & Construct'
 -
@@ -81,7 +81,7 @@
   location: '國際會議廳'
   content:
     - 'Architecture is the definition of your use cases or business.'
-    - ' I will talk about why and what I implement in PHP ecosystem, and it''s real case.'
+    - 'I will talk about why and what I implement in PHP ecosystem, and it''s real case.'
 
 -
   speaker: '范聖佑'

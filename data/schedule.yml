@@ -6,27 +6,28 @@
   title: '開幕'
 
 '09:30 AM':
-  title: 'Rasmus'
+  title: 'Rasmus Lerdorf'
 
 '10:40 AM':
   title: '休息'
 
 '10:50 AM':
 -
-  speaker: 'c9s'
+  speaker: '林佑安 (c9s)'
   title: 'Code Generation'
   youtube_url: ''
   slide_url: ''
   location: '國際會議廳'
   content:
-    - '直譯式語言的動態呼叫非常慢，像是 PHP 的 magic methods，他們沒有辦法被靜態分析或被 IDE 用作自動補齊的資訊，但為了達到程式的彈性，很多時候卻無法避免使用這樣的技巧。在 PHP 所開發完成的應用程式中，也有許多重複的條件檢查，其實可以在編譯時期被優化，來減少執行期間所產生的多餘消耗。如果我們能夠在執行程式之前，就知道這些執行所需的資訊（譬如 Model 的欄位, Controller actions, validation 的類型等等），我們就可以預先產生好這些程式碼，來減少執行期間的檢查與計算，透過同樣的技巧，也可以讓我們少寫更多程式碼。以上的技巧並不新，他們其實已經廣泛被使用在各個領域，如現代框架、物件關聯對映 (ORM) 等等，像是最近 Go 1.5 的 go generate 就是相當不錯的參考。這個 Talk 會探討如何用 PHP 做 Code Generation、如何無痛 Code generate 以及如何建置你自己的 DRY 工具組。'
+    - '直譯式語言的動態呼叫非常慢，像是 PHP 的 magic methods，他們沒有辦法被靜態分析或被 IDE 用作自動補齊的資訊，但為了達到程式的彈性，很多時候卻無法避免使用這樣的技巧。'
+    - '在 PHP 所開發完成的應用程式中，也有許多重複的條件檢查，其實可以在編譯時期被優化，來減少執行期間所產生的多餘消耗。如果我們能夠在執行程式之前，就知道這些執行所需的資訊（譬如 Model 的欄位, Controller actions, validation 的類型等等），我們就可以預先產生好這些程式碼，來減少執行期間的檢查與計算，透過同樣的技巧，也可以讓我們少寫更多程式碼。以上的技巧並不新，他們其實已經廣泛被使用在各個領域，如現代框架、物件關聯對映 (ORM) 等等，像是最近 Go 1.5 的 go generate 就是相當不錯的參考。這個 Talk 會探討如何用 PHP 做 Code Generation、如何無痛 Code generate 以及如何建置你自己的 DRY 工具組。'
     - '- Compile PHP to PHP'
     - '- Code generation'
     - '-CodeGen and ClassTemplate'
     - '- Generics in PHP'
     - '- GenPHP & Construct'
 -
-  speaker: 'Ricky'
+  speaker: '蘇士哲 (Ricky)'
   title: '用 Async I/O 解放 PHP  Web 效能'
   youtube_url: ''
   slide_url: ''
@@ -64,7 +65,7 @@
 
 '13:30 AM':
 -
-  speaker: 'Ant'
+  speaker: '曾義峰 (Ant)'
   title: 'Enterprise Architecture Case in PHP'
   youtube_url: ''
   slide_url: ''
@@ -73,7 +74,7 @@
     - 'Architecture is the definition of your use cases or business. I will talk about why and what I implement in PHP ecosystem, and it''s real case.'
 
 -
-  speaker: '聖佑'
+  speaker: '范聖佑'
   title: '跟著 Laravel 5.1 一起成為更好的 PHP 開發者'
   youtube_url: ''
   slide_url: ''
@@ -135,7 +136,11 @@
   title: '休息'
 
 '16:10 PM':
-  title: 'Laruence'
+  speaker: 'Laruence'
+  title:
+    - '使用Ya系列項目搭建最高效的LAMP系統'
+  content:
+    - 'Ya系列PHP擴展項目都是為瞭解決實際項目中發現的問題而誕生的解決方案, 在微博得到了大量的應用, 也因此形成了微博高性能LAMP框架.本次演講, 作為Ya系列的作者, 將為大家介紹如何使用Ya系列項目搭建在PHP7下的最高效的LAMP系統.'
 
 '16:50 PM':
   title: '閉幕'

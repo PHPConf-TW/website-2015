@@ -14,7 +14,7 @@
     - '惠新宸，中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend 公司外聘顧問, 曾供職於雅虎，百度。現在新浪微博任平台及數據部總架構師兼首席 PHP 顧問。 是 PHP NG 核心開發者，PHP5.4，5.5 的主要開發者。作為 PECL 開發者貢獻了 Yaf (Yet another framework)，Yar(Yet another RPC framework) 以及 Yac(Yet another Cache)、Taint 等多個優秀開源作品，同時也是 APC ，Opcache ，Msgpack 等項目的維護者。'
 -
   avatar: '../assets/images/speakers/c9s.jpeg'
-  name: 'c9s'
+  name: '林佑安 (c9s)'
   title: 'Perl / PHP Hacker'
   briefInfo:
     - '2009 年起於 GitHub 陸續發表多項開源專案，2013 年 GitHub Top 1 Contribution User...'
@@ -23,7 +23,7 @@
     - '知名專案有 phpbrew, Pux, r3, Vimana ... 等等。為 Facebook HHVM Contributor 之一。With high activity on Github, Lin has 200+ open source projects on GitHub, programming language includes PHP, Go, Perl, JavaScript and VimL. he is the top 3 active user on GitHub by contributions. Specialties:PHP Framework Architecture, Software Architecture, PHP C Extension, Frontend Component Design, UX/UI Design. Familiar with Javascript, CSS, Perl, Go, Ajax, several known web app frameworks such as Plack, Jifty, Dancer. Experienced:Qt, X Window Programming, Window Manager, Gtk, Cairo, Java, .NET, C#, Visual Basic...Interested In:Programming Language Theory, Compiler Design and Virtual Machine.'
 -
   avatar: '../assets/images/speakers/Ricky.png'
-  name: 'Ricky'
+  name: '蘇士哲 (Ricky)'
   title: 'Niceday.tw 雜工'
   briefInfo: 'PHP 也有 Day 主辦人，目前服務於 niceday.tw。資深 PHP 開發者，喜歡拿 PHP 做不正經的事...'
   info:
@@ -39,14 +39,14 @@
     - '我也是一個快樂的吉他手～'
 -
   avatar: '../assets/images/speakers/Kiang.jpg'
-  name: 'Kiang'
+  name: '江明宗 (Kiang)'
   title: '信雲國際負責人'
   briefInfo: '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展靠一張嘴的程式技能。'
   info:
     - '島內移民台南人，對 PHP 不離不棄好幾個年頭，現在靠過時的技術不務正業，努力發展著靠一張嘴的程式技能。'
 -
   avatar: '../assets/images/speakers/Ant.jpg'
-  name: 'Ant'
+  name: '曾義峰 (Ant)'
   title: 'MUZIK Online 總工程師'
   briefInfo: '專於「程式設計」、「資訊安全」及「智慧財產權」領域，並集成為「合法的安全程式設計」...'
   info:
@@ -54,7 +54,7 @@
     - '閒暇時投入自由/開放源碼軟體的開發與研究，每有會意，便欣然忘食。平時雖愛胡思亂想、天馬行空，卻又不斷盡力將夢想成真。'
 -
   avatar: '../assets/images/speakers/sy.jpg'
-  name: '聖佑'
+  name: '范聖佑'
   title: '得寬科技研究員'
   briefInfo: '專長為數位媒體設計、網路應用程式開發，新技術導入及改善專案開發流程。以台灣Laravel 傳教士自居...'
   info:
@@ -73,7 +73,7 @@
     - '工作之餘經營部落格「轉個彎日誌」，分享開發經驗及網路應用程式架構的想法。'
 -
   avatar: '../assets/images/speakers/SDPower.jpg'
-  name: 'SDpower'
+  name: 'SteveLo (SDpower)'
   title: 'Exosite.com S.R PHP'
   briefInfo:
     - 'PHP 10+ 經驗老古董,目前任職遠景科技 資深PHP開發工程師 一職。對系統與資料庫皆有涉獵...'

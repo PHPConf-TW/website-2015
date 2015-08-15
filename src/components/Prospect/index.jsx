@@ -1,9 +1,9 @@
 import '!style!css!less!./Prospect.less';
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import Img from './bg.jpg';
-import Img4 from './bg4.jpg';
-import Img5 from './bg5.jpg';
+import Img1 from './bg1.jpg';
+import Img2 from './bg2.jpg';
+import Img3 from './bg3.jpg';
 
 class Prospect extends Component {
 
@@ -13,7 +13,7 @@ class Prospect extends Component {
       hide: true,
       active: 0,
       count: 0,
-      img: [Img, Img4, Img5],
+      img: [Img1, Img2, Img3],
     };
   }
 

@@ -16,7 +16,7 @@ class Title extends Component {
             <div className="author-desktop">{first.speaker}</div>
             <h4 className="arrow_box">{first.title}</h4>
 
-            <div className="author-mobile">{second.speaker}<span className="more">詳細 <i
+            <div className="author-mobile">{first.speaker}<span className="more">詳細 <i
               className="fa fa-caret-right"></i></span></div>
           </div>
           <div className="pure-u-1 pure-u-md-1-2 two" onClick={this.props.handleClick.bind(null, second, this.props.time)}>

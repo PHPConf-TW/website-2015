@@ -6,7 +6,14 @@
   title: '開幕'
 
 '09:30 AM':
-  title: 'Rasmus Lerdorf'
+-
+  speaker: 'Rasmus Lerdorf'
+  location: '國際會議廳'
+  content:
+    - ''
+-
+  content:
+    - ''
 
 '10:40 AM':
   title: '休息'
@@ -152,5 +159,6 @@
 -
   content:
     - ''
+
 '16:50 PM':
   title: '閉幕'

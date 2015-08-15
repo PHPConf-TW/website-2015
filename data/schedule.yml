@@ -136,11 +136,12 @@
   title: '休息'
 
 '16:10 PM':
-  speaker: 'Laruence'
-  title:
-    - '使用Ya系列項目搭建最高效的LAMP系統'
-  content:
-    - 'Ya系列PHP擴展項目都是為瞭解決實際項目中發現的問題而誕生的解決方案, 在微博得到了大量的應用, 也因此形成了微博高性能LAMP框架.本次演講, 作為Ya系列的作者, 將為大家介紹如何使用Ya系列項目搭建在PHP7下的最高效的LAMP系統.'
+  title: 'Laruence'
+  # speaker: 'Laruence'
+  # title:
+  #   - '使用Ya系列項目搭建最高效的LAMP系統'
+  # content:
+  #   - 'Ya系列PHP擴展項目都是為瞭解決實際項目中發現的問題而誕生的解決方案, 在微博得到了大量的應用, 也因此形成了微博高性能LAMP框架.本次演講, 作為Ya系列的作者, 將為大家介紹如何使用Ya系列項目搭建在PHP7下的最高效的LAMP系統.'
 
 '16:50 PM':
   title: '閉幕'

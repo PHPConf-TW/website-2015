@@ -66,7 +66,14 @@ gulp.task('revreplace', ['revision'], cb => {
     .pipe(gulp.dest('build'));
 });
 
+gulp.task('minify-html', cb => {
+
+  return gulp.src('build/index.html')
+    .pipe($.minifyHtml())
+    .pipe(gulp.dest('build'));
+});
+
 // Build the app from source code
 gulp.task('build', ['clean'], cb => {
-  runSequence(['assets', 'webpack'], ['revreplace'], cb);
+  runSequence(['assets', 'webpack'], ['revreplace'], ['minify-html'], cb);
 });

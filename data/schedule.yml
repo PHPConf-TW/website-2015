@@ -14,6 +14,8 @@
   slide_url: ''
   content:
     - 'PHP is widely used in web application development since 1995. After 20 years development, the PHP 7 will be released this year. Rasmus will introduce the change and demonstrate about the attractive improvement of performance in PHP 7.'
+    - 'Bio:'
+    - 'Rasmus Lerdorf is known for having gotten the PHP project off the ground in 1995 and has contributed to a number of other open source projects over the years. He was an infrastructure architect at Yahoo! for more than 7 years and joined Etsy in 2012.'
 -
   speaker: ''
   content:

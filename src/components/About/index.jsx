@@ -123,13 +123,13 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-web"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">網站製作<span className="leader">KeaNy</span></h4>
+              <h4 className="work">網站製作<span className="leader"><a href="https://github.com/keanyc" target="_blank">KeaNy</a></span></h4>
               <div>
                 <ul>
-                  <li><a href="https://github.com/sakilu">sakilu</a></li>
+                  <li><a href="https://github.com/sakilu" target="_blank">sakilu</a></li>
                   <li>tinda</li>
                   <li>hane</li>
-                  <li><a href="https://github.com/appleboy">appleboy</a></li>
+                  <li><a href="https://github.com/appleboy" target="_blank">appleboy</a></li>
                   <li>kuanwei</li>
                   <li>ryans610</li>
                   <li>wanchia</li>

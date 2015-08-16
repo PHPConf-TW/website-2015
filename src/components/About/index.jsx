@@ -126,7 +126,7 @@ class About extends Component {
               <h4 className="work">網站製作<span className="leader">KeaNy</span></h4>
               <div>
                 <ul>
-                  <li>sakilu</li>
+                  <li><a href="https://github.com/sakilu">sakilu</a></li>
                   <li>tinda</li>
                   <li>hane</li>
                   <li><a href="https://github.com/appleboy">appleboy</a></li>

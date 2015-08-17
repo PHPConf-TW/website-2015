@@ -18,6 +18,12 @@ class Speaker extends Component {
   }
 
   render() {
+    if (this.state.toggle) {
+      $('body').addClass('noscroll');
+    } else {
+      $('body').removeClass('noscroll');
+    }
+
     return (
         <div className="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4 speaker">
           <div className="avatar" onClick={this.handleClick}>

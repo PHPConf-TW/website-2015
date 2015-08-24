@@ -81,11 +81,6 @@ class About extends Component {
               <div>
                 <ul>
                   <li>唐肇澧</li>
-                  <li>Lynn</li>
-                  <li>Melanie Huang</li>
-                  <li>鮪魚</li>
-                  <li>孫維鍇</li>
-                  <li>黃聖豪</li>
                   <li>Xeriou</li>
                 </ul>
               </div>
@@ -97,14 +92,32 @@ class About extends Component {
               <h4 className="work">場務<span className="leader">Elvis</span></h4>
               <div>
                 <ul>
+                  <li>姿姿</li>
+                  <li>Emma</li>
                   <li>魚丸</li>
                   <li>丸子</li>
-                  <li>姿姿</li>
-                  <li>小康</li>
                   <li>紙鈔</li>
                   <li>CPH</li>
                   <li>Eason</li>
-                  <li>MJ</li>
+                  <li>Lynn</li>
+                  <li>Melanie Huang</li>
+                  <li>鮪魚</li>
+                  <li>孫維鍇</li>
+                  <li>黃聖豪</li>
+                  <li>ws育慈</li>
+                  <li>小豬</li>
+                  <li>克莉絲汀（貓咪）</li>
+                  <li>大助</li>
+                  <li>下午</li>
+                  <li>小夢</li>
+                  <li>PN Wu (小平)</li>
+                  <li>阿貓</li>
+                  <li>Beauty</li>
+                  <li>雁子</li>
+                  <li>CrBoy</li>
+                  <li>Trista</li>
+                  <li>Wemy Ju</li>
+                  <li>刺蝟</li>
                 </ul>
               </div>
             </div>

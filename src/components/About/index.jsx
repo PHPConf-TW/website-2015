@@ -152,6 +152,12 @@ class About extends Component {
               </div>
             </div>
           </div>
+          <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
+            <div className="icon"><i className="icon-call"></i></div>
+            <div className="work-wrapper">
+              <h4 className="work">線路<span className="leader"><a href="http://cprteam.org" target="_blank">CPR Team</a></span></h4>
+            </div>
+          </div>
         </div>
       </section>
     );

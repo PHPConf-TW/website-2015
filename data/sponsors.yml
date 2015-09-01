@@ -55,3 +55,11 @@ sponsors:
     iconclass: ''
     logo: 'assets/images/sponsor/appreciate/imfju.png'
     link: 'http://www.im.fju.edu.tw/'
+  -
+    name: 'CPR Team'
+    classname: 'cprteam'
+    categoryclass: 'speicial'
+    categoryname: '特別感謝'
+    iconclass: ''
+    logo: 'assets/images/sponsor/appreciate/cprteam.png'
+    link: 'http://cprteam.org/'

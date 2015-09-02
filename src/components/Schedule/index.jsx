@@ -67,7 +67,7 @@ class Schedule extends Component {
             </thead>
             <tbody>
             <tr className="sub">
-              <td className="time right">09:00 AM</td>
+              <td className="time right">09:00</td>
               <td className="center border">報到</td>
             </tr>
             {list}

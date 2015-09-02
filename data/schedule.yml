@@ -1,4 +1,4 @@
-# 報到css不一樣, 另外處理
+﻿# 報到css不一樣, 另外處理
 #'09:00 AM':
 #  title: '報到'
 
@@ -49,10 +49,10 @@
     - ' 但是隨著 hhvm 以及 PHP7 在執行效能上的改善，搭配非同步 I/O 處理，也能獲得巨大的效能提昇。'
     - ' 藉由本議程跟大家介紹，如何在 PHP 上透過事件驅動方式處理 Web Request。'
 
-'11:30 PM':
+'11:30 AM':
   title: '午休'
 
-'12:30 AM':
+'12:30 PM':
 -
   speaker: '林志傑 (fukuball)'
   title:
@@ -77,7 +77,7 @@
 '13:20 PM':
   title: '休息'
 
-'13:30 AM':
+'13:30 PM':
 -
   speaker: '曾義峰 (Ant)'
   title: 'Enterprise Architecture Case in PHP'

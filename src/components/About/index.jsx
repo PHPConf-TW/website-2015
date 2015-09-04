@@ -39,7 +39,6 @@ class About extends Component {
                 <ul>
                   <li>周鴻明</li>
                   <li>柯彥宇</li>
-                  <li>子彤</li>
                 </ul>
               </div>
             </div>

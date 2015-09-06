@@ -86,7 +86,7 @@ class About extends Component {
             </div>
           </div>
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
-            <div className="icon"><div><i className="icon-line"></i></div></div>
+            <div className="icon"><div><i className="icon-runner"></i></div></div>
             <div className="work-wrapper">
               <h4 className="work">場務<span className="leader">Elvis</span></h4>
               <div>
@@ -135,7 +135,7 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-web"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">網站製作<span className="leader"><a href="https://github.com/keanyc" target="_blank">KeaNy</a></span></h4>
+              <h4 className="work">網站製作<span className="leader">KeaNy</span></h4>
               <div>
                 <ul>
                   <li><a href="https://github.com/sakilu" target="_blank">sakilu</a></li>
@@ -152,9 +152,9 @@ class About extends Component {
             </div>
           </div>
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
-            <div className="icon"><i className="icon-call"></i></div>
+            <div className="icon"><i className="icon-line"></i></div>
             <div className="work-wrapper">
-              <h4 className="work">線路<span className="leader"><a href="http://cprteam.org" target="_blank">CPR Team</a></span></h4>
+              <h4 className="work">線路<span className="leader">CPR Team</span></h4>
             </div>
           </div>
         </div>

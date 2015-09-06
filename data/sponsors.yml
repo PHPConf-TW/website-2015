@@ -71,6 +71,7 @@ sponsors:
     iconclass: ''
     logo: 'assets/images/sponsor/cooperate/inside.png'
     link: 'http://www.inside.com.tw/'
+    intro: 'INSIDE 成立於 2009年 11月，最早由一群熱愛網路的朋友成立之共筆部落格，目前已成為台灣科技圈主要的媒體之一，在Alexa 的台灣排名約在 150名左右。我們閱讀、觀察、思考並分享。針對新媒體的過去、現在與未來，分享新知、討論個案、研討技術。竭誠歡迎您跟我們一起關心、討論與分享。'
   -
     name: 'iThome'
     classname: 'ithome'
@@ -79,6 +80,7 @@ sponsors:
     iconclass: ''
     logo: 'assets/images/sponsor/cooperate/ithome.png'
     link: 'http://www.ithome.com.tw/'
+    intro: 'iThome身為專業IT媒體,以促進臺灣IT環境與IT應用的蓬勃發展為使命,對於報導臺灣IT 社群一向不遺餘力,希望進一步透過社群活動推廣計畫,與IT社群有更緊密的合作,讓臺 灣的IT社群更加蓬勃發展。'
   -
     name: 'PunNode'
     classname: 'punnode'
@@ -87,3 +89,4 @@ sponsors:
     iconclass: ''
     logo: 'assets/images/sponsor/cooperate/punnode.png'
     link: 'http://punnode.com/'
+    intro: 'PunNode 科技新創榜，聚焦亞洲與全球科技與創業。報導台灣與國際創業新訊，採訪超過 100 組創業團隊，特別關注中國、日本、韓國…等亞洲科技動態。期許做為國內重要的國際科技媒體代表，協助打造台灣良好的產業鏈與生態系，建立具有台灣特色的開發、創業、科技圈。'

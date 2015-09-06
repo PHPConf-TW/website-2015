@@ -135,7 +135,7 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><div><i className="icon-web"></i></div></div>
             <div className="work-wrapper">
-              <h4 className="work">網站製作<span className="leader">KeaNy</span></h4>
+              <h4 className="work">網站製作<a href="https://github.com/keanyc" target="_blank"><span className="leader">KeaNy</span></a></h4>
               <div>
                 <ul>
                   <li><a href="https://github.com/sakilu" target="_blank">sakilu</a></li>
@@ -154,7 +154,7 @@ class About extends Component {
           <div className="pure-u-2 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 speaker">
             <div className="icon"><i className="icon-line"></i></div>
             <div className="work-wrapper">
-              <h4 className="work">線路<span className="leader">CPR Team</span></h4>
+              <h4 className="work">線路<a href="http://cprteam.org" target="_blank"><span className="leader">CPR Team</span></a></h4>
             </div>
           </div>
         </div>

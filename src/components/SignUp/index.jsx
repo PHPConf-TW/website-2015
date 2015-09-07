@@ -13,7 +13,7 @@ class SignUp extends Component {
             <div className="pure-u-1 pure-u-md-1-2 date">報名時間 <span className="time">2015/09/14</span> 中午 12:00 (Asia/Taipei)</div>
           </div>
           <div className="pure-u-1 text-center signup-btn">
-            <a href="" className="pure-button btn" target="_blank">立即報名</a>
+            <a href="http://www.accupass.com/go/phpconf_taiwan_2015#anchor-tickets" className="pure-button btn" target="_blank">前往購票</a>
           </div>
         </div>
       </section>

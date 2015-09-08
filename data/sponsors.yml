@@ -90,3 +90,11 @@ sponsors:
     logo: 'assets/images/sponsor/cooperate/punnode.png'
     link: 'http://punnode.com/'
     intro: 'PunNode 科技新創榜，聚焦亞洲與全球科技與創業。報導台灣與國際創業新訊，採訪超過 100 組創業團隊，特別關注中國、日本、韓國…等亞洲科技動態。期許做為國內重要的國際科技媒體代表，協助打造台灣良好的產業鏈與生態系，建立具有台灣特色的開發、創業、科技圈。'
+  -
+    name: 'TechNews'
+    classname: 'technews'
+    categoryclass: 'cooperant'
+    categoryname: '合作媒體'
+    iconclass: ''
+    logo: 'assets/images/sponsor/cooperate/technews.png'
+    link: 'http://technews.tw/'

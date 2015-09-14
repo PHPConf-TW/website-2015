@@ -24,6 +24,14 @@ sponsors:
     logo: 'assets/images/sponsor/gold/pumo.png'
     link: 'http://www.pumo.com.tw'
   -
+    name: 'KKBOX'
+    classname: 'kkbox'
+    categoryclass: 'silver'
+    categoryname: '白銀級贊助'
+    iconclass: 'fa fa-star-o'
+    logo: 'assets/images/sponsor/silver/kkbox.png'
+    link: 'http://www.kkbox.com'
+  -
     name: 'JetBrains'
     classname: 'jetbrains'
     categoryclass: 'speicial'
@@ -63,6 +71,14 @@ sponsors:
     iconclass: ''
     logo: 'assets/images/sponsor/appreciate/cprteam.png'
     link: 'http://cprteam.org/'
+  -
+    name: 'friDay購物'
+    classname: 'friday'
+    categoryclass: 'speicial'
+    categoryname: '特別感謝'
+    iconclass: ''
+    logo: 'assets/images/sponsor/appreciate/friday.png'
+    link: 'http://shopping.friday.tw/'
   -
     name: 'Inside'
     classname: 'inside'

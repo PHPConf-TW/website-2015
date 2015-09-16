@@ -80,6 +80,14 @@ sponsors:
     logo: 'assets/images/sponsor/appreciate/friday.png'
     link: 'http://shopping.friday.tw/'
   -
+    name: '英加德科技'
+    classname: 'ingod'
+    categoryclass: 'speicial'
+    categoryname: '特別感謝'
+    iconclass: ''
+    logo: 'assets/images/sponsor/appreciate/ingod.gif'
+    link: 'http://www.ingod.com.tw/'
+  -
     name: 'Inside'
     classname: 'inside'
     categoryclass: 'cooperant'

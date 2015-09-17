@@ -11,7 +11,7 @@
   title: '微博'
   briefInfo: '惠新宸，中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend...'
   info:
-    - '惠新宸，中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend 公司外聘顧問, 曾供職於雅虎，百度。現在新浪微博任平台及數據部總架構師兼首席 PHP 顧問。 是 PHP NG 核心開發者，PHP5.4，5.5 的主要開發者。作為 PECL 開發者貢獻了 Yaf (Yet another framework)，Yar(Yet another RPC framework) 以及 Yac(Yet another Cache)、Taint 等多個優秀開源作品，同時也是 APC ，Opcache ，Msgpack 等項目的維護者。'
+    - '惠新宸，中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend 公司外聘顧問, 曾供職於雅虎，百度和新浪微博任平台及數據部總架構師兼首席 PHP 顧問。 是 PHP NG 核心開發者，PHP5.4，5.5 的主要開發者。作為 PECL 開發者貢獻了 Yaf (Yet another framework)，Yar(Yet another RPC framework) 以及 Yac(Yet another Cache)、Taint 等多個優秀開源作品，同時也是 APC ，Opcache ，Msgpack 等項目的維護者。'
 -
   avatar: '../assets/images/speakers/c9s.jpeg'
   name: '林佑安 (c9s)'

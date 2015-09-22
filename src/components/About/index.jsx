@@ -51,7 +51,7 @@ class About extends Component {
                 <ul>
                   <li>日京三子</li>
                   <li>丞相</li>
-                  <li>cjoker</li>
+                  <li>CJOKER</li>
                   <li>牙牙</li>
                   <li>鐵人</li>
                   <li>裕珊</li>

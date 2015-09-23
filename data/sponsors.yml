@@ -24,6 +24,14 @@ sponsors:
     logo: 'assets/images/sponsor/gold/pumo.png'
     link: 'http://www.pumo.com.tw'
   -
+    name: 'Sudo'
+    classname: 'sudo'
+    categoryclass: 'gold'
+    categoryname: '黃金級贊助'
+    iconclass: 'fa fa-star-o'
+    logo: 'assets/images/sponsor/gold/sudo.png'
+    link: 'http://www.sudo.com.tw'
+  -
     name: 'KKBOX'
     classname: 'kkbox'
     categoryclass: 'silver'

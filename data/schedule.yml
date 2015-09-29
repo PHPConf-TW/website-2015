@@ -133,7 +133,7 @@
   slide_url: ''
   location: '一樓多功能國際會議廳'
   content:
-    - '距離去年講述「運用 Docker 部署 PHP 專案」已經過了一年，Docker 生態系逐漸成長，Machine、Compose、Swarm 皆趨於穩定、值得投入。本議程將承襲去年議程的概念，並講述如何投過這些工具利用 Docker 協助我們更方便的開發、測試、部署、遷移我們的 PHP 專案。'
+    - '距離去年講述「運用 Docker 部署 PHP 專案」已經過了一年，Docker 生態系逐漸成長，Machine、Compose、Swarm 皆趨於穩定、值得投入。本議程將承襲去年議程的概念，並講述如何透過這些工具利用 Docker 協助我們更方便的開發、測試、部署、遷移我們的 PHP 專案。'
     - 'Ps. 本議程謹會概略提到 Docker 概念作為複習，不會針對指令一一教學、建議會眾在議程前，能先了解 Docker 基本使用方式。'
 -
   speaker: '楊泓曆'

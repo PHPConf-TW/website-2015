@@ -7,6 +7,7 @@ sponsors:
     iconclass: 'fa fa-star'
     logo: 'assets/images/sponsor/diamond/microsoft.jpg'
     link: 'https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-opensource/'
+    intro: '想要得到超實用羅技行動裝置藍芽鍵盤、高級雀巢膠囊咖啡機或等總價值高達6萬的獎品嗎 ? 只要活動當天留意 微軟 DＭ 上的 活動辦法 , 並完成指定任務，即可至微軟攤位拿取贈品並參抽大獎。只要事前先根據 http://aka.ms/AzureEnable 內容開通免費試用帳號，即可提升獲獎機率喔 ~'
   -
     name: '微軟'
     classname: 'apertus'

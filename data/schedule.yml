@@ -6,7 +6,7 @@
   speaker: 'Rasmus Lerdorf'
   title: '20 years of PHP and PHP 7'
   location: '一樓多功能國際會議廳'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/mh_mmQ1Uy8E'
   slide_url: ''
   content:
     - 'PHP is widely used in web application development since 1995. After 20 years development, the PHP 7 will be released this year.'
@@ -158,6 +158,8 @@
   title:
     - '使用Ya系列項目搭建最高效的LAMP系統'
   location: '一樓多功能國際會議廳'
+  youtube_url: 'https://youtu.be/TkG8IXQrst8'
+  slide_url: ''
   content:
     - 'Ya系列PHP擴展項目都是為瞭解決實際項目中發現的問題而誕生的解決方案, 在微博得到了大量的應用'
     - '也因此形成了微博高性能LAMP框架.本次演講, 作為Ya系列的作者, 將為大家介紹如何使用Ya系列項目搭建在PHP7下的最高效的LAMP系統.'

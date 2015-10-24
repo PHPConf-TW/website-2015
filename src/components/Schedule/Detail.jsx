@@ -26,11 +26,9 @@ class Detail extends Component {
         {this.props.data.content.map((content, key) => {
           return <p key={key} className={hideContent}>{content}</p>;
         })}
+        <a style={{display: this.props.data.slide_url ? 'inline' : 'none'}} href={this.props.data.slide_url}>投影片 <i className="fa fa-slideshare"></i>&nbsp;</a>
+        <a style={{display: this.props.data.youtube_url ? 'inline' : 'none'}} href={this.props.data.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i>&nbsp;</a>
         <a className={hideButton}>看更多 <i className="fa fa-caret-right"></i></a>
-        <p style={{display: (this.props.data.slide_url || this.props.data.youtube_url) ? 'inline' : 'none'}} className="slide">
-          <a style={{display: this.props.data.slide_url ? 'inline' : 'none'}} href={this.props.data.slide_url}>投影片</a>
-          <a style={{display: this.props.data.youtube_url ? 'inline' : 'none'}} href={this.props.data.youtube_url} target="_blank">Youtube</a>
-        </p>
       </div>
     );
   }

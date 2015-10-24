@@ -5,9 +5,9 @@
 -
   speaker: 'Rasmus Lerdorf'
   title: '20 years of PHP and PHP 7'
-  location: '一樓多功能國際會議廳'
   youtube_url: 'https://youtu.be/mh_mmQ1Uy8E'
   slide_url: ''
+  location: '一樓多功能國際會議廳'
   content:
     - 'PHP is widely used in web application development since 1995. After 20 years development, the PHP 7 will be released this year.'
     - 'Rasmus will introduce the change and demonstrate about the attractive improvement of performance in PHP 7.'

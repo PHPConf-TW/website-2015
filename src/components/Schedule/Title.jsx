@@ -24,11 +24,12 @@ class Title extends Component {
             <div className={firstClass}>
               <div className="author-desktop">{first.speaker}</div>
               <h4 className="arrow_box">{first.title}</h4>
-
-              <div className="author-mobile">{first.speaker}
-                <span style={{display: first.title ? 'inline' : 'none'}} className="more">詳細 <i className="fa fa-caret-right"></i></span>
+              <div className="author-mobile-data">
                 <a style={{display: first.slide_url ? 'inline' : 'none'}} href={first.slide_url}>投影片 <i className="fa fa-slideshare"></i></a>
                 <a style={{display: first.youtube_url ? 'inline' : 'none'}} href={first.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a>
+              </div>
+              <div className="author-mobile">{first.speaker}
+                <span style={{display: first.title ? 'inline' : 'none'}} className="more">詳細 <i className="fa fa-caret-right"></i></span>
               </div>
             </div>
           </div>
@@ -42,7 +43,10 @@ class Title extends Component {
                 <a style={{display: second.slide_url ? 'inline' : 'none'}} href={second.slide_url}>投影片 <i className="fa fa-slideshare"></i></a>
                 <a style={{display: second.youtube_url ? 'inline' : 'none'}} href={second.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a>
               </div>
-
+              <div className="author-mobile-data">
+                <a style={{display: second.slide_url ? 'inline' : 'none'}} href={second.slide_url}>投影片 <i className="fa fa-slideshare"></i></a>
+                <a style={{display: second.youtube_url ? 'inline' : 'none'}} href={second.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a>
+              </div>
             </div>
           </div>
         </td>

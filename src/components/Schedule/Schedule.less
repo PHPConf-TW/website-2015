@@ -61,6 +61,10 @@
       padding: 10px 15px;
       cursor: pointer;
     }
+
+    .author-mobile-data {
+      display: none;
+    }
   }
   .one, .two {
     height: 100%;
@@ -116,7 +120,7 @@
     .author-desktop {
       background-color: rgba(170, 178, 190, 1);
     }
-    .author-mobile {
+    .author-mobile, .author-mobile-data {
       background-color: #247FA4;
       color: #AAC6DA;
       a {
@@ -134,7 +138,7 @@
     .author-desktop {
       background-color: rgba(228, 143, 148, 1);
     }
-    .author-mobile {
+    .author-mobile, .author-mobile-data {
       background-color: #AF3B54;
       color: #F2AFBD;
       a {
@@ -156,7 +160,7 @@
     .author-desktop {
       display: none !important;
     }
-    .author-mobile {
+    .author-mobile, .author-mobile-data {
       display: none !important;
     }
     h4.arrow_box {
@@ -222,6 +226,14 @@
 
         a {
           float: right;
+          margin-right: 10px;
+        }
+      }
+      .author-mobile-data {
+        display: block;
+        text-align: right;
+        a {
+          display: block;
           margin-right: 10px;
         }
       }

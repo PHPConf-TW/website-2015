@@ -317,11 +317,13 @@
           li {
             display: inline-block;
           }
-          li + li {
+          li:after {
+            content: "|";
+            color: #ccc;
             margin-left: 10px;
-            padding-left: 10px;
-            border-left: 1px solid #ccc;
-            line-height: 14px;
+          }
+          li:last-child:after {
+            content: "";
           }
           a {
             color: #999;

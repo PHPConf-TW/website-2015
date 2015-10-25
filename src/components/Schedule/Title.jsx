@@ -37,13 +37,12 @@ class Title extends Component {
             <div className={secondClass}>
               <div className="author-desktop">{second.speaker}</div>
               <h4 className="arrow_box">{second.title}</h4>
-
-              <div className="author-mobile">{second.speaker}
-                <span style={{display: second.title ? 'inline' : 'none'}} className="more">詳細 <i className="fa fa-caret-right"></i></span>
+              <div className="author-mobile-data">
                 <a style={{display: second.slide_url ? 'inline' : 'none'}} href={second.slide_url}>投影片 <i className="fa fa-slideshare"></i></a>
                 <a style={{display: second.youtube_url ? 'inline' : 'none'}} href={second.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a>
               </div>
-              <div className="author-mobile-data">
+              <div className="author-mobile">{second.speaker}
+                <span style={{display: second.title ? 'inline' : 'none'}} className="more">詳細 <i className="fa fa-caret-right"></i></span>
                 <a style={{display: second.slide_url ? 'inline' : 'none'}} href={second.slide_url}>投影片 <i className="fa fa-slideshare"></i></a>
                 <a style={{display: second.youtube_url ? 'inline' : 'none'}} href={second.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a>
               </div>

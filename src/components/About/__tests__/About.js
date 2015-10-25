@@ -1,18 +1,17 @@
 jest.dontMock('../index');
 
 import React from 'react/addons';
-let TestUtils = React.addons.TestUtils;
+const TestUtils = React.addons.TestUtils;
 let About;
 
 describe('About Test', () => {
-
-  beforeEach(function() {
+  beforeEach(() => {
     About = require('../index');
   });
 
-  it('should exists', function() {
+  it('should exists', () => {
     // Render into document
-    let about = TestUtils.renderIntoDocument(<About />);
+    const about = TestUtils.renderIntoDocument(<About />);
     expect(TestUtils.isCompositeComponent(about)).toBeTruthy();
   });
 });

@@ -6,7 +6,7 @@
   speaker: 'Rasmus Lerdorf'
   title: '20 years of PHP and PHP 7'
   youtube_url: 'https://youtu.be/mh_mmQ1Uy8E'
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/Rasmus%20-%20Speeding%20up%20the%20web%20with%20PHP%207.pdf'
   location: '一樓多功能國際會議廳'
   content:
     - 'PHP is widely used in web application development since 1995. After 20 years development, the PHP 7 will be released this year.'
@@ -24,7 +24,7 @@
   speaker: '林佑安 (c9s)'
   title: 'Code Generation'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9E%97%E4%BD%91%E5%AE%89%20-%20Code%20Generation%20in%20PHP.pdf'
   location: '一樓多功能國際會議廳'
   content:
     - '在這個 Session 我們會探討 CodeGen 在 PHP 中的應用，從低階的 Machine code generation (JIT) 到高階的 PHP code generation (PHP code)。'
@@ -42,7 +42,7 @@
   speaker: '蘇士哲 (Ricky)'
   title: '用 Async I/O 解放 PHP  Web 效能'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E8%98%87%E5%A3%AB%E5%93%B2-%E7%94%A8%20Async%20I-O%20%E8%A7%A3%E6%94%BE%20PHP%20Web%20%E6%95%88%E8%83%BD.pdf'
   location: '二樓國際會議廳'
   content:
     - ' 以往遇到高併發的網頁時，會優先想到 node.js 或是 Go。 '
@@ -59,7 +59,7 @@
     - 'iNDIEVOX 踏入演唱會售票之後的快速蛻變'
     - 'How we build a scalable PHP website for ticketing'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9E%97%E5%BF%97%E5%82%91%20-%20iNDIEVOX%20%E8%B8%8F%E5%85%A5%E6%BC%94%E5%94%B1%E6%9C%83%E5%94%AE%E7%A5%A8%E4%B9%8B%E5%BE%8C%E7%9A%84%E5%BF%AB%E9%80%9F%E8%9B%BB%E8%AE%8A.pdf'
   location: '一樓多功能國際會議廳'
   content:
     - 'iNDIEVOX 是目前台灣最大的獨立音樂網路商店，主要商業模式是販售高音質數位音樂下載及演唱會售票，除了提供給獨立音樂藝人及音樂廠牌一個完整的數位銷售平台之外，也讓喜歡獨立音樂的大眾可以便利地購買到喜歡的音樂及門票。'
@@ -68,7 +68,7 @@
   speaker: '江明宗 (Kiang)'
   title: '藥要看開發經驗分享'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%B1%9F%E6%98%8E%E5%AE%97%20-%20%E8%97%A5%E8%A6%81%E7%9C%8B%E9%96%8B%E7%99%BC%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB.pptx'
   location: '二樓國際會議廳'
   content:
     - '藥要看網站( http://drugs.olc.tw/ ) 是以衛生福利部食品藥物管理署開放的資料為基礎'
@@ -82,7 +82,7 @@
   speaker: '曾義峰 (Ant)'
   title: 'Enterprise Architecture Case in PHP'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9B%BE%E7%BE%A9%E5%B3%B0%20-%20Enterprise%20Architecture%20Case%20in%20PHP.pdf'
   location: '一樓多功能國際會議廳'
   content:
     - 'Architecture is the definition of your use cases or business.'
@@ -92,7 +92,7 @@
   speaker: '范聖佑'
   title: '跟著 Laravel 5.1 一起成為更好的 PHP 開發者'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E8%8C%83%E8%81%96%E4%BD%91%20-%20%E8%B7%9F%E8%91%97%20Laravel%205.1%20%E4%B8%80%E8%B5%B7%E6%88%90%E7%82%BA%E6%9B%B4%E5%A5%BD%E7%9A%84%20PHP%20%E9%96%8B%E7%99%BC%E8%80%85.pdf'
   location: '二樓國際會議廳'
   content:
     - 'Laravel 5.1 於 2015 年 6 月成為 Laravel 第一個 LTS 版本。'
@@ -106,7 +106,7 @@
   speaker: '尤川豪'
   title: '新創公司與軟體架構'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E5%B0%A4%E5%B7%9D%E8%B1%AA%20-%20%E6%96%B0%E5%89%B5%E5%85%AC%E5%8F%B8%E8%88%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B.pdf'
   location: '一樓多功能國際會議廳'
   content:
     - '新創公司需要快速開發程式來探索商業模式，同時，程式的需求又長時間保持在模糊狀態。'
@@ -116,7 +116,7 @@
   speaker: 'SteveLo (SDpower)'
   title: 'ORM實戰效能'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E7%BE%85%E9%A1%AF%E7%81%9D-ORM%E5%AF%A6%E6%88%B0%E6%95%88%E8%83%BD.pdf'
   location: '二樓國際會議廳'
   content:
       - '專案開發上使用O.R.M'
@@ -134,7 +134,7 @@
   speaker: '若虛 (Fntsrlike)'
   title: '當專案漸趕，當遷移也不再那麼難 (Ship Your Projects with Docker EcoSystem)'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E5%87%8C%E8%8B%A5%E8%99%9B%20-%20%E7%95%B6%E5%B0%88%E6%A1%88%E6%BC%B8%E8%B6%95%EF%BC%8C%E7%95%B6%E9%81%B7%E7%A7%BB%E4%B9%9F%E4%B8%8D%E5%86%8D%E9%82%A3%E9%BA%BC%E9%9B%A3.pdf'
   location: '一樓多功能國際會議廳'
   content:
     - '距離去年講述「運用 Docker 部署 PHP 專案」已經過了一年，Docker 生態系逐漸成長，Machine、Compose、Swarm 皆趨於穩定、值得投入。本議程將承襲去年議程的概念，並講述如何透過這些工具利用 Docker 協助我們更方便的開發、測試、部署、遷移我們的 PHP 專案。'
@@ -143,7 +143,7 @@
   speaker: '楊泓曆'
   title: '讓買廉航機票不是件崩潰的事 - 台日航線篇'
   youtube_url: ''
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%A5%8A%E6%B3%93%E6%9B%86%20-%20%E8%AE%93%E8%B2%B7%E5%BB%89%E8%88%AA%E6%A9%9F%E7%A5%A8%E4%B8%8D%E6%98%AF%E4%BB%B6%E5%B4%A9%E6%BD%B0%E7%9A%84%E4%BA%8B.pptx'
   location: '二樓國際會議廳'
   content:
     - '廉航機票主要採浮動票價，越接近出發時間，票價會跟著變貴，這點大家應該都知道，但總會有一個時間點，過了該點後，票價就會明顯地開始往上飆。'
@@ -159,7 +159,7 @@
     - '使用Ya系列項目搭建最高效的LAMP系統'
   location: '一樓多功能國際會議廳'
   youtube_url: 'https://youtu.be/TkG8IXQrst8'
-  slide_url: ''
+  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/Laruence%20-%20%E4%BD%BF%E7%94%A8%20Yaf%20%E7%B3%BB%E5%88%97%E9%A0%85%E7%9B%AE%E6%90%AD%E5%BB%BA%E9%AB%98%E6%95%88%E7%9A%84%20LAMP%20%E7%B3%BB%E7%B5%B1.pdf'
   content:
     - 'Ya系列PHP擴展項目都是為瞭解決實際項目中發現的問題而誕生的解決方案, 在微博得到了大量的應用'
     - '也因此形成了微博高性能LAMP框架.本次演講, 作為Ya系列的作者, 將為大家介紹如何使用Ya系列項目搭建在PHP7下的最高效的LAMP系統.'

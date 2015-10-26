@@ -6,6 +6,10 @@ class Box extends Component {
     e.stopPropagation();
   }
 
+  handleClick(e) {
+    e.stopPropagation();
+  }
+
   render() {
     return (
       <div className="shadow-box schedule-box-wrapper" onClick={this.props.handleClick.bind(null, {})}>
@@ -22,9 +26,9 @@ class Box extends Component {
                    style={{display: (this.props.data.slide_url || this.props.data.youtube_url) ? 'inline' : 'none'}}>
                 <ul>
                   <li style={{display: this.props.data.slide_url ? 'inline' : 'none'}}><a
-                    href={this.props.data.slide_url} target="_blank">投影片 <i className="fa fa-slideshare"></i></a></li>
+                    onClick={this.handleClick} href={this.props.data.slide_url} target="_blank">投影片 <i className="fa fa-slideshare"></i></a></li>
                   <li style={{display: this.props.data.youtube_url ? 'inline' : 'none'}}><a
-                    href={this.props.data.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a></li>
+                    onClick={this.handleClick} href={this.props.data.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a></li>
                 </ul>
               </div>
             </div>

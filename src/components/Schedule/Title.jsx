@@ -59,8 +59,6 @@ class Title extends Component {
               </div>
               <div className="author-mobile">{second.speaker}
                 <span style={{display: second.title ? 'inline' : 'none'}} className="more">詳細 <i className="fa fa-caret-right"></i></span>
-                <a onClick={this.handleClick} style={{display: second.slide_url ? 'inline' : 'none'}} href={second.slide_url}>投影片 <i className="fa fa-slideshare"></i></a>
-                <a onClick={this.handleClick} style={{display: second.youtube_url ? 'inline' : 'none'}} href={second.youtube_url} target="_blank">Youtube <i className="fa fa-youtube-play"></i></a>
               </div>
             </div>
           </div>

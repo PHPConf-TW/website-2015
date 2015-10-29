@@ -23,7 +23,7 @@
 -
   speaker: '林佑安 (c9s)'
   title: 'Code Generation'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/Jvn39MSV1No'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9E%97%E4%BD%91%E5%AE%89%20-%20Code%20Generation%20in%20PHP.pdf'
   location: '一樓多功能國際會議廳'
   content:
@@ -41,7 +41,7 @@
 -
   speaker: '蘇士哲 (Ricky)'
   title: '用 Async I/O 解放 PHP  Web 效能'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/Vz-v-K-NtKk'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E8%98%87%E5%A3%AB%E5%93%B2-%E7%94%A8%20Async%20I-O%20%E8%A7%A3%E6%94%BE%20PHP%20Web%20%E6%95%88%E8%83%BD.pdf'
   location: '二樓國際會議廳'
   content:
@@ -58,7 +58,7 @@
   title:
     - 'iNDIEVOX 踏入演唱會售票之後的快速蛻變'
     - 'How we build a scalable PHP website for ticketing'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/Z-HXtS6oS7k'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9E%97%E5%BF%97%E5%82%91%20-%20iNDIEVOX%20%E8%B8%8F%E5%85%A5%E6%BC%94%E5%94%B1%E6%9C%83%E5%94%AE%E7%A5%A8%E4%B9%8B%E5%BE%8C%E7%9A%84%E5%BF%AB%E9%80%9F%E8%9B%BB%E8%AE%8A.pdf'
   location: '一樓多功能國際會議廳'
   content:
@@ -67,7 +67,7 @@
 -
   speaker: '江明宗 (Kiang)'
   title: '藥要看開發經驗分享'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/w4QF9R9EHpg'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%B1%9F%E6%98%8E%E5%AE%97%20-%20%E8%97%A5%E8%A6%81%E7%9C%8B%E9%96%8B%E7%99%BC%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB.pptx'
   location: '二樓國際會議廳'
   content:
@@ -91,7 +91,7 @@
 -
   speaker: '范聖佑'
   title: '跟著 Laravel 5.1 一起成為更好的 PHP 開發者'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/al2eCFvvM-s'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E8%8C%83%E8%81%96%E4%BD%91%20-%20%E8%B7%9F%E8%91%97%20Laravel%205.1%20%E4%B8%80%E8%B5%B7%E6%88%90%E7%82%BA%E6%9B%B4%E5%A5%BD%E7%9A%84%20PHP%20%E9%96%8B%E7%99%BC%E8%80%85.pdf'
   location: '二樓國際會議廳'
   content:
@@ -105,7 +105,7 @@
 -
   speaker: '尤川豪'
   title: '新創公司與軟體架構'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/JhRqrDEHDPo'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E5%B0%A4%E5%B7%9D%E8%B1%AA%20-%20%E6%96%B0%E5%89%B5%E5%85%AC%E5%8F%B8%E8%88%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B.pdf'
   location: '一樓多功能國際會議廳'
   content:
@@ -133,7 +133,7 @@
 -
   speaker: '若虛 (Fntsrlike)'
   title: '當專案漸趕，當遷移也不再那麼難 (Ship Your Projects with Docker EcoSystem)'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/B0Xw38EkFf8'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E5%87%8C%E8%8B%A5%E8%99%9B%20-%20%E7%95%B6%E5%B0%88%E6%A1%88%E6%BC%B8%E8%B6%95%EF%BC%8C%E7%95%B6%E9%81%B7%E7%A7%BB%E4%B9%9F%E4%B8%8D%E5%86%8D%E9%82%A3%E9%BA%BC%E9%9B%A3.pdf'
   location: '一樓多功能國際會議廳'
   content:
@@ -142,7 +142,7 @@
 -
   speaker: '楊泓曆'
   title: '讓買廉航機票不是件崩潰的事 - 台日航線篇'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/0-Vz0-U2KeY'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%A5%8A%E6%B3%93%E6%9B%86%20-%20%E8%AE%93%E8%B2%B7%E5%BB%89%E8%88%AA%E6%A9%9F%E7%A5%A8%E4%B8%8D%E6%98%AF%E4%BB%B6%E5%B4%A9%E6%BD%B0%E7%9A%84%E4%BA%8B.pptx'
   location: '二樓國際會議廳'
   content:

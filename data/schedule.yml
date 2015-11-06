@@ -81,7 +81,7 @@
 -
   speaker: '曾義峰 (Ant)'
   title: 'Enterprise Architecture Case in PHP'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/D6kfITlKmfI'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9B%BE%E7%BE%A9%E5%B3%B0%20-%20Enterprise%20Architecture%20Case%20in%20PHP.pdf'
   location: '一樓多功能國際會議廳'
   content:
@@ -115,7 +115,7 @@
 -
   speaker: 'SteveLo (SDpower)'
   title: 'ORM實戰效能'
-  youtube_url: ''
+  youtube_url: 'https://youtu.be/-r4veMVL6-Y'
   slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E7%BE%85%E9%A1%AF%E7%81%9D-ORM%E5%AF%A6%E6%88%B0%E6%95%88%E8%83%BD.pdf'
   location: '二樓國際會議廳'
   content:

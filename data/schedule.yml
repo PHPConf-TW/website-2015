@@ -6,7 +6,7 @@
   speaker: 'Rasmus Lerdorf'
   title: '20 years of PHP and PHP 7'
   youtube_url: 'https://youtu.be/mh_mmQ1Uy8E'
-  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/Rasmus%20-%20Speeding%20up%20the%20web%20with%20PHP%207.pdf'
+  slide_url: 'http://talks.php.net/taiwan15'
   location: '一樓多功能國際會議廳'
   content:
     - 'PHP is widely used in web application development since 1995. After 20 years development, the PHP 7 will be released this year.'
@@ -24,7 +24,7 @@
   speaker: '林佑安 (c9s)'
   title: 'Code Generation'
   youtube_url: 'https://youtu.be/Jvn39MSV1No'
-  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9E%97%E4%BD%91%E5%AE%89%20-%20Code%20Generation%20in%20PHP.pdf'
+  slide_url: 'http://www.slideshare.net/c9s/code-generation-in-php-phpconf-2015'
   location: '一樓多功能國際會議廳'
   content:
     - '在這個 Session 我們會探討 CodeGen 在 PHP 中的應用，從低階的 Machine code generation (JIT) 到高階的 PHP code generation (PHP code)。'
@@ -59,7 +59,7 @@
     - 'iNDIEVOX 踏入演唱會售票之後的快速蛻變'
     - 'How we build a scalable PHP website for ticketing'
   youtube_url: 'https://youtu.be/Z-HXtS6oS7k'
-  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9E%97%E5%BF%97%E5%82%91%20-%20iNDIEVOX%20%E8%B8%8F%E5%85%A5%E6%BC%94%E5%94%B1%E6%9C%83%E5%94%AE%E7%A5%A8%E4%B9%8B%E5%BE%8C%E7%9A%84%E5%BF%AB%E9%80%9F%E8%9B%BB%E8%AE%8A.pdf'
+  slide_url: 'http://bit.ly/indievox-phpconf-2015'
   location: '一樓多功能國際會議廳'
   content:
     - 'iNDIEVOX 是目前台灣最大的獨立音樂網路商店，主要商業模式是販售高音質數位音樂下載及演唱會售票，除了提供給獨立音樂藝人及音樂廠牌一個完整的數位銷售平台之外，也讓喜歡獨立音樂的大眾可以便利地購買到喜歡的音樂及門票。'
@@ -82,7 +82,7 @@
   speaker: '曾義峰 (Ant)'
   title: 'Enterprise Architecture Case in PHP'
   youtube_url: 'https://youtu.be/D6kfITlKmfI'
-  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E6%9B%BE%E7%BE%A9%E5%B3%B0%20-%20Enterprise%20Architecture%20Case%20in%20PHP.pdf'
+  slide_url: 'http://www.slideshare.net/yftzeng/enterprise-architecture-case-in-php-muzik-online'
   location: '一樓多功能國際會議廳'
   content:
     - 'Architecture is the definition of your use cases or business.'
@@ -92,7 +92,7 @@
   speaker: '范聖佑'
   title: '跟著 Laravel 5.1 一起成為更好的 PHP 開發者'
   youtube_url: 'https://youtu.be/al2eCFvvM-s'
-  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E8%8C%83%E8%81%96%E4%BD%91%20-%20%E8%B7%9F%E8%91%97%20Laravel%205.1%20%E4%B8%80%E8%B5%B7%E6%88%90%E7%82%BA%E6%9B%B4%E5%A5%BD%E7%9A%84%20PHP%20%E9%96%8B%E7%99%BC%E8%80%85.pdf'
+  slide_url: 'http://www.slideshare.net/shengyou/phpconf-taiwan-2015-laravel-51-php'
   location: '二樓國際會議廳'
   content:
     - 'Laravel 5.1 於 2015 年 6 月成為 Laravel 第一個 LTS 版本。'
@@ -134,7 +134,7 @@
   speaker: '若虛 (Fntsrlike)'
   title: '當專案漸趕，當遷移也不再那麼難 (Ship Your Projects with Docker EcoSystem)'
   youtube_url: 'https://youtu.be/B0Xw38EkFf8'
-  slide_url: 'https://github.com/PHPConf-TW/website-2015/raw/master/download/%E5%87%8C%E8%8B%A5%E8%99%9B%20-%20%E7%95%B6%E5%B0%88%E6%A1%88%E6%BC%B8%E8%B6%95%EF%BC%8C%E7%95%B6%E9%81%B7%E7%A7%BB%E4%B9%9F%E4%B8%8D%E5%86%8D%E9%82%A3%E9%BA%BC%E9%9B%A3.pdf'
+  slide_url: 'http://www.slideshare.net/ruoshiling/ship-your-projects-with-docker-ecosystem'
   location: '一樓多功能國際會議廳'
   content:
     - '距離去年講述「運用 Docker 部署 PHP 專案」已經過了一年，Docker 生態系逐漸成長，Machine、Compose、Swarm 皆趨於穩定、值得投入。本議程將承襲去年議程的概念，並講述如何透過這些工具利用 Docker 協助我們更方便的開發、測試、部署、遷移我們的 PHP 專案。'

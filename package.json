@@ -59,7 +59,7 @@
     "google-map-react": "^0.4.1",
     "lodash": "^3.10.1",
     "normalize.css": "^3.0.3",
-    "react": "^0.13.0"
+    "react": "^0.14.6"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/jest-script-preprocessor",

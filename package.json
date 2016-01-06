@@ -50,7 +50,7 @@
     "run-sequence": "^1.1.1",
     "style-loader": "^0.12.3",
     "url-loader": "^0.5.6",
-    "webpack": "^1.9.6",
+    "webpack": "^1.12.10",
     "webpack-dev-server": "^1.8.2",
     "yaml-loader": "^0.1.0"
   },

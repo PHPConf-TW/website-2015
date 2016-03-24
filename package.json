@@ -48,7 +48,7 @@
     "minimist": "^1.1.1",
     "react-hot-loader": "^1.2.7",
     "run-sequence": "^1.1.1",
-    "style-loader": "^0.12.3",
+    "style-loader": "^0.13.1",
     "url-loader": "^0.5.6",
     "webpack": "^1.12.10",
     "webpack-dev-server": "^1.8.2",

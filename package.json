@@ -28,7 +28,7 @@
     "coveralls": "^2.11.3",
     "css-loader": "^0.15.2",
     "del": "^2.2.1",
-    "eslint-config-airbnb": "9.0.1",
+    "eslint-config-airbnb": "10.0.0",
     "eslint-loader": "^1.0.0",
     "eslint-plugin-react": "^5.0.0",
     "file-loader": "^0.9.0",
